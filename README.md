@@ -17,19 +17,23 @@ The list of awesome mixup augmentation methods is summarized in chronological or
 - [Awesome-Mixup](#awesome-mixup)
   - [Introduction](#introduction)
   - [Table of Contents](#table-of-contents)
-  - [Fundermental Methods](#fundermental-methods)
-    - [Sample Mixup Methods](#sample-mixup-methods)
-      - [**Pre-defined Policies**](#pre-defined-policies)
-      - [**Adaptive Policies**](#adaptive-policies)
-    - [Label Mixup Methods](#label-mixup-methods)
-  - [Mixup for Self-supervised Learning](#mixup-for-self-supervised-learning)
-  - [Mixup for Semi-supervised Learning](#mixup-for-semi-supervised-learning)
-  - [Mixup for Regression](#mixup-for-regression)
-  - [Mixup for Robustness](#mixup-for-robustness)
-  - [Mixup for Multi-modality](#mixup-for-multi-modality)
-  - [Analysis of Mixup](#analysis-of-mixup)
-  - [Natural Language Processing](#natural-language-processing)
-  - [Graph Representation Learning](#graph-representation-learning)
+  - [Sample Mixup Policies in SL](#sample-mixup-methods)
+      - [**Static Linear**](#static-linear)
+      - [**Feature-based**](#feature-based)
+      - [**Cutting-based**](#cutting-based)
+      - [**K Samples Mixup**](#k-samples-mixup)
+      - [**Random Policies**](#random-policies)
+      - [**Style-based**](#style-based)
+      - [**Saliency-based**](#saliency-based)
+      - [**Attention-based**](#attention-based)
+      - [**Generating Samples**](#generating-samples)
+  - [Label Mixup Policies in SL](#label-mixup-methods)
+  - [Self-Supervised Learning](#mixup-for-self-supervised-learning)
+  - [Semi-Supervised Learning](#mixup-for-semi-supervised-learning)
+  - [CV Downstream Tasks](#cv-downstream-task)
+  - [Training Paradigms](#training-paradigms)
+  - [Beyond Vision](#beyond-vision)
+  - [Analysis and Theorem](#analysis-and-theorem)
   - [Survey](#survey)
   - [Benchmark](#benchmark)
   - [Contribution](#contribution)
@@ -42,7 +46,7 @@ The list of awesome mixup augmentation methods is summarized in chronological or
 
 ### Sample Mixup Methods
 
-#### **Pre-defined Policies**
+#### **Static Linear**
 
 * **mixup: Beyond Empirical Risk Minimization**<br>
 *Hongyi Zhang, Moustapha Cisse, Yann N. Dauphin, David Lopez-Paz*<br>
@@ -62,93 +66,12 @@ CVPR'2018 [[Paper](https://arxiv.org/abs/1711.10284)]
    <p align="center"><img width="70%" src="https://user-images.githubusercontent.com/44519745/204563476-15e638ad-6c25-4ab6-9bb6-4c5be74c625f.png" /></p>
    </details>
 
-* **MixUp as Locally Linear Out-Of-Manifold Regularization**<br>
-*Hongyu Guo, Yongyi Mao, Richong Zhang*<br>
-AAAI'2019 [[Paper](https://arxiv.org/abs/1809.02499)]
+* **Preventing Manifold Intrusion with Locality: Local Mixup**<br>
+*Raphael Baena, Lucas Drumetz, Vincent Gripon*<br>
+EUSIPCO'2022 [[Paper](https://arxiv.org/abs/2201.04368)]
    <details close>
-   <summary>AdaMixup Framework</summary>
-   <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/204563766-4a49b4d9-fb1e-46d7-8443-bff37a527ee1.png" /></p>
-   </details>
-
-* **CutMix: Regularization Strategy to Train Strong Classifiers with Localizable Features**<br>
-*Sangdoo Yun, Dongyoon Han, Seong Joon Oh, Sanghyuk Chun, Junsuk Choe, Youngjoon Yoo*<br>
-ICCV'2019 [[Paper](https://arxiv.org/abs/1905.04899)]
-[[Code](https://github.com/clovaai/CutMix-PyTorch)]
-   <details close>
-   <summary>CutMix Framework</summary>
-   <p align="center"><img width="75%" src="https://user-images.githubusercontent.com/44519745/204564166-49707535-43f9-4d15-af89-d1a5a302db24.png" /></p>
-   </details>
-
-* **Manifold Mixup: Better Representations by Interpolating Hidden States**<br>
-*Vikas Verma, Alex Lamb, Christopher Beckham, Amir Najafi, Ioannis Mitliagkas, David Lopez-Paz, Yoshua Bengio*<br>
-ICML'2019 [[Paper](https://arxiv.org/abs/1806.05236)]
-[[Code](https://github.com/vikasverma1077/manifold_mixup)]
-   <details close>
-   <summary>ManifoldMix Framework</summary>
-   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204565193-c5416185-ed98-4b86-bc7c-f5b6cc2f839b.png" /></p>
-   </details>
-
-* **Improved Mixed-Example Data Augmentation**<br>
-*Cecilia Summers, Michael J. Dinneen*<br>
-WACV'2019 [[Paper](https://arxiv.org/abs/1805.11272)]
-[[Code](https://github.com/ceciliaresearch/MixedExample)]
-   <details close>
-   <summary>MixedExamples Framework</summary>
-   <p align="center"><img width="70%" src="https://user-images.githubusercontent.com/44519745/232355479-8a53714f-5a6f-4c8e-b808-cc73f6d0f669.png" /></p>
-   </details>
-
-* **FMix: Enhancing Mixed Sample Data Augmentation**<br>
-*Ethan Harris, Antonia Marcu, Matthew Painter, Mahesan Niranjan, Adam Prügel-Bennett, Jonathon Hare*<br>
-Arixv'2020 [[Paper](https://arxiv.org/abs/2002.12047)]
-[[Code](https://github.com/ecs-vlc/FMix)]
-   <details close>
-   <summary>FMix Framework</summary>
-   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204564909-8d20a405-141d-4fe6-ae72-581fc24222f8.png" /></p>
-   </details>
-
-* **SmoothMix: a Simple Yet Effective Data Augmentation to Train Robust Classifiers**<br>
-*Jin-Ha Lee, Muhammad Zaigham Zaheer, Marcella Astrid, Seung-Ik Lee*<br>
-CVPRW'2020 [[Paper](https://openaccess.thecvf.com/content_CVPRW_2020/html/w45/Lee_SmoothMix_A_Simple_Yet_Effective_Data_Augmentation_to_Train_Robust_CVPRW_2020_paper.html)]
-[[Code](https://github.com/Westlake-AI/openmixup)]
-   <details close>
-   <summary>SmoothMix Framework</summary>
-   <p align="center"><img width="75%" src="https://user-images.githubusercontent.com/44519745/204565814-fd528402-2a57-482b-b608-1ee3096984b0.png" /></p>
-   </details>
-
-* **PatchUp: A Regularization Technique for Convolutional Neural Networks**<br>
-*Mojtaba Faramarzi, Mohammad Amini, Akilesh Badrinaaraayanan, Vikas Verma, Sarath Chandar*<br>
-Arxiv'2020 [[Paper](https://arxiv.org/abs/2006.07794)]
-[[Code](https://github.com/chandar-lab/PatchUp)]
-   <details close>
-   <summary>PatchUp Framework</summary>
-   <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/204566319-f2c67e8a-c10b-4ede-a57f-8c6ddf85e013.png" /></p>
-   </details>
-
-* **GridMix: Strong regularization through local context mapping**<br>
-*Kyungjune Baek, Duhyeon Bang, Hyunjung Shim*<br>
-Pattern Recognition'2021 [[Paper](https://www.sciencedirect.com/science/article/pii/S0031320320303976)]
-[[Code](https://github.com/IlyaDobrynin/GridMixup)]
-   <details close>
-   <summary>GridMixup Framework</summary>
-   <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/204566566-b345e409-da4a-4f3b-b1bd-43e7c767d26a.png" /></p>
-   </details>
-
-* **ResizeMix: Mixing Data with Preserved Object Information and True Labels**<br>
-*Jie Qin, Jiemin Fang, Qian Zhang, Wenyu Liu, Xingang Wang, Xinggang Wang*<br>
-Arixv'2020 [[Paper](https://arxiv.org/abs/2012.11101)]
-[[Code](https://github.com/Westlake-AI/openmixup)]
-   <details close>
-   <summary>ResizeMix Framework</summary>
-   <p align="center"><img width="55%" src="https://user-images.githubusercontent.com/44519745/204566840-69782b04-4645-41b3-a6eb-428977c63881.png" /></p>
-   </details>
-
-* **Where to Cut and Paste: Data Regularization with Selective Features**<br>
-*Jiyeon Kim, Ik-Hee Shin, Jong-Ryul, Lee, Yong-Ju Lee*<br>
-ICTC'2020 [[Paper](https://ieeexplore.ieee.org/abstract/document/9289404)]
-[[Code](https://github.com/google-research/augmix)]
-   <details close>
-   <summary>FocusMix Framework</summary>
-   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204567137-f71b0437-9267-4f99-b7dc-911ffa4f8b73.png" /></p>
+   <summary>LocalMixup Framework</summary>
+   <p align="center"><img width="70%" src="https://github.com/user-attachments/assets/ce8cd7a2-486c-4f6d-98d3-358c1ba42285" /></p>
    </details>
 
 * **AugMix: A Simple Data Processing Method to Improve Robustness and Uncertainty**<br>
@@ -177,6 +100,241 @@ Arxiv'2021 [[Paper](https://arxiv.org/abs/2112.05135)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204567828-b434c118-0be1-475d-a0f3-9834e39b4507.png" /></p>
    </details>
 
+* **IPMix: Label-Preserving Data Augmentation Method for Training Robust Classifiers**<br>
+*Zhenglin Huang, Xiaoan Bao, Na Zhang, Qingqi Zhang, Xiaomei Tu, Biao Wu, Xi Yang*<br>
+NIPS'2023 [[Paper](https://arxiv.org/abs/2310.04780)]
+[[Code](https://github.com/hzlsaber/IPMix)]
+   <details close>
+   <summary>IPMix Framework</summary>
+   <p align="center"><img width="90%" src="https://github.com/user-attachments/assets/55c1ce2d-5372-4821-a123-74723df7fc8d" /></p>
+   </details>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+ 
+#### **Feature-based**
+
+* **Manifold Mixup: Better Representations by Interpolating Hidden States**<br>
+*Vikas Verma, Alex Lamb, Christopher Beckham, Amir Najafi, Ioannis Mitliagkas, David Lopez-Paz, Yoshua Bengio*<br>
+ICML'2019 [[Paper](https://arxiv.org/abs/1806.05236)]
+[[Code](https://github.com/vikasverma1077/manifold_mixup)]
+   <details close>
+   <summary>ManifoldMix Framework</summary>
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204565193-c5416185-ed98-4b86-bc7c-f5b6cc2f839b.png" /></p>
+   </details>
+
+* **PatchUp: A Regularization Technique for Convolutional Neural Networks**<br>
+*Mojtaba Faramarzi, Mohammad Amini, Akilesh Badrinaaraayanan, Vikas Verma, Sarath Chandar*<br>
+Arxiv'2020 [[Paper](https://arxiv.org/abs/2006.07794)]
+[[Code](https://github.com/chandar-lab/PatchUp)]
+   <details close>
+   <summary>PatchUp Framework</summary>
+   <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/204566319-f2c67e8a-c10b-4ede-a57f-8c6ddf85e013.png" /></p>
+   </details>
+
+* **On Feature Normalization and Data Augmentation**<br>
+*Boyi Li, Felix Wu, Ser-Nam Lim, Serge Belongie, Kilian Q. Weinberger*<br>
+CVPR'2021 [[Paper](https://arxiv.org/abs/2002.11102)]
+[[Code](https://github.com/Boyiliee/MoEx)]
+   <details close>
+   <summary>MoEx Framework</summary>
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204569196-3641255a-56f3-407a-986a-209b5c7eeff6.png" /></p>
+   </details>
+
+* **Catch-Up Mix: Catch-Up Class for Struggling Filters in CNN**<br>
+*Minsoo Kang, Minkoo Kang, Suhyun Kim*<br>
+AAAI'2024 [[Paper](https://arxiv.org/abs/2401.13193)]
+   <details close>
+   <summary>Catch-Up-Mix Framework</summary>
+   <p align="center"><img width="85%" src="https://github.com/Westlake-AI/Awesome-Mixup/assets/44519745/459a5d2b-cc74-4bd0-8cd2-46313652a9b8" /></p>
+   </details>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+#### **Cutting-based**
+
+* **CutMix: Regularization Strategy to Train Strong Classifiers with Localizable Features**<br>
+*Sangdoo Yun, Dongyoon Han, Seong Joon Oh, Sanghyuk Chun, Junsuk Choe, Youngjoon Yoo*<br>
+ICCV'2019 [[Paper](https://arxiv.org/abs/1905.04899)]
+[[Code](https://github.com/clovaai/CutMix-PyTorch)]
+   <details close>
+   <summary>CutMix Framework</summary>
+   <p align="center"><img width="75%" src="https://user-images.githubusercontent.com/44519745/204564166-49707535-43f9-4d15-af89-d1a5a302db24.png" /></p>
+   </details>
+
+* **Improved Mixed-Example Data Augmentation**<br>
+*Cecilia Summers, Michael J. Dinneen*<br>
+WACV'2019 [[Paper](https://arxiv.org/abs/1805.11272)]
+[[Code](https://github.com/ceciliaresearch/MixedExample)]
+   <details close>
+   <summary>MixedExamples Framework</summary>
+   <p align="center"><img width="70%" src="https://user-images.githubusercontent.com/44519745/232355479-8a53714f-5a6f-4c8e-b808-cc73f6d0f669.png" /></p>
+   </details>
+
+* **Patch-level Neighborhood Interpolation: A General and Effective Graph-based Regularization Strategy**<br>
+*Ke Sun, Bing Yu, Zhouchen Lin, Zhanxing Zhu*<br>
+ArXiv'2019 [[Paper](https://arxiv.org/abs/1911.09307)]
+   <details close>
+   <summary>Pani VAT Framework</summary>
+   <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/204572993-8b3fa627-8c36-4763-a2a6-c9a90c5f0fc2.png" /></p>
+   </details>
+
+* **FMix: Enhancing Mixed Sample Data Augmentation**<br>
+*Ethan Harris, Antonia Marcu, Matthew Painter, Mahesan Niranjan, Adam Prügel-Bennett, Jonathon Hare*<br>
+Arixv'2020 [[Paper](https://arxiv.org/abs/2002.12047)]
+[[Code](https://github.com/ecs-vlc/FMix)]
+   <details close>
+   <summary>FMix Framework</summary>
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204564909-8d20a405-141d-4fe6-ae72-581fc24222f8.png" /></p>
+   </details>
+
+* **SmoothMix: a Simple Yet Effective Data Augmentation to Train Robust Classifiers**<br>
+*Jin-Ha Lee, Muhammad Zaigham Zaheer, Marcella Astrid, Seung-Ik Lee*<br>
+CVPRW'2020 [[Paper](https://openaccess.thecvf.com/content_CVPRW_2020/html/w45/Lee_SmoothMix_A_Simple_Yet_Effective_Data_Augmentation_to_Train_Robust_CVPRW_2020_paper.html)]
+[[Code](https://github.com/Westlake-AI/openmixup)]
+   <details close>
+   <summary>SmoothMix Framework</summary>
+   <p align="center"><img width="75%" src="https://user-images.githubusercontent.com/44519745/204565814-fd528402-2a57-482b-b608-1ee3096984b0.png" /></p>
+   </details>
+
+* **GridMix: Strong regularization through local context mapping**<br>
+*Kyungjune Baek, Duhyeon Bang, Hyunjung Shim*<br>
+Pattern Recognition'2021 [[Paper](https://www.sciencedirect.com/science/article/pii/S0031320320303976)]
+[[Code](https://github.com/IlyaDobrynin/GridMixup)]
+   <details close>
+   <summary>GridMixup Framework</summary>
+   <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/204566566-b345e409-da4a-4f3b-b1bd-43e7c767d26a.png" /></p>
+   </details>
+
+* **ResizeMix: Mixing Data with Preserved Object Information and True Labels**<br>
+*Jie Qin, Jiemin Fang, Qian Zhang, Wenyu Liu, Xingang Wang, Xinggang Wang*<br>
+Arixv'2020 [[Paper](https://arxiv.org/abs/2012.11101)]
+[[Code](https://github.com/Westlake-AI/openmixup)]
+   <details close>
+   <summary>ResizeMix Framework</summary>
+   <p align="center"><img width="55%" src="https://user-images.githubusercontent.com/44519745/204566840-69782b04-4645-41b3-a6eb-428977c63881.png" /></p>
+   </details>
+
+* **StackMix: A complementary Mix algorithm**<br>
+*John Chen, Samarth Sinha, Anastasios Kyrillidis*<br>
+UAI'2022 [[Paper](https://arxiv.org/abs/2011.12618)]
+   <details close>
+   <summary>StackMix Framework</summary>
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204574552-fb5e9865-86b0-4d51-977c-82a840d81a18.png" /></p>
+   </details>
+
+* **SuperpixelGridCut, SuperpixelGridMean and SuperpixelGridMix Data Augmentation**<br>
+*Karim Hammoudi, Adnane Cabani, Bouthaina Slika, Halim Benhabiles, Fadi Dornaika, Mahmoud Melkemi*<br>
+ArXiv'2022 [[Paper](https://arxiv.org/abs/2204.08458)]
+[[Code](https://github.com/hammoudiproject/SuperpixelGridMasks)]
+   <details close>
+   <summary>SuperpixelGridCut Framework</summary>
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204570617-090cc5a7-508c-49e7-9e5f-df7ec018f540.png" /></p>
+   </details>
+
+* **A Unified Analysis of Mixed Sample Data Augmentation: A Loss Function Perspective**<br>
+*Chanwoo Park, Sangdoo Yun, Sanghyuk Chun*<br>
+NIPS'2022 [[Paper](https://arxiv.org/abs/2208.09913)]
+[[Code](https://github.com/naver-ai/hmix-gmix)]
+   <details close>
+   <summary>MSDA Framework</summary>
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204571363-f0b1a960-54f9-4462-855d-59e90f284cfe.png" /></p>
+   </details>
+
+* **You Only Cut Once: Boosting Data Augmentation with a Single Cut**<br>
+*Junlin Han, Pengfei Fang, Weihao Li, Jie Hong, Mohammad Ali Armin, Ian Reid, Lars Petersson, Hongdong Li*<br>
+ICML'2022 [[Paper](https://arxiv.org/abs/2201.12078)]
+[[Code](https://github.com/JunlinHan/YOCO)]
+   <details close>
+   <summary>YOCO Framework</summary>
+   <p align="center"><img width="90%" src="https://github.com/user-attachments/assets/c7040d23-6dd5-4634-9022-d26529810307" /></p>
+   </details>
+
+* **StarLKNet: Star Mixup with Large Kernel Networks for Palm Vein Identification**<br>
+*Xin Jin, Hongyu Zhu, Mounîm A.El Yacoubi, Hongchao Liao, Huafeng Qin, Yun Jiang*<br>
+ArXiv'2024 [[Paper](https://arxiv.org/abs/2405.12721)]
+   <details close>
+   <summary>StarMix Framework</summary>
+   <p align="center"><img width="90%" src="https://github.com/user-attachments/assets/44dbc86b-f7cd-4836-a93e-835f78d21ec8" /></p>
+   </details>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+#### **K Samples Mixup**
+
+* **You Only Look Once: Unified, Real-Time Object Detection**<br>
+*Joseph Redmon, Santosh Divvala, Ross Girshick, Ali Farhadi*<br>
+CVPR'2016 [[Paper](https://arxiv.org/abs/1506.02640)]
+[[Code](https://pjreddie.com/darknet/yolo/#google_vignette)]
+   <details close>
+   <summary>Mosaic</summary>
+   <p align="center"><img width="50%" src="https://github.com/user-attachments/assets/11824bd1-befc-4edd-8d0d-d8199b123e4b" /></p>
+   </details>
+
+* **Data Augmentation using Random Image Cropping and Patching for Deep CNNs**<br>
+*Ryo Takahashi, Takashi Matsubara, Kuniaki Uehara*<br>
+IEEE TCSVT'2020 [[Paper](https://arxiv.org/abs/1811.09030)]
+   <details close>
+   <summary>RICAP</summary>
+   <p align="center"><img width="50%" src="https://github.com/user-attachments/assets/d8fae235-ae35-4fbe-9454-6a8f3b8fce12" /></p>
+   </details>
+
+* **k-Mixup Regularization for Deep Learning via Optimal Transport**<br>
+*Kristjan Greenewald, Anming Gu, Mikhail Yurochkin, Justin Solomon, Edward Chien*<br>
+ArXiv'2021 [[Paper](https://arxiv.org/abs/2106.02933)]
+   <details close>
+   <summary>k-Mixup Framework</summary>
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204569488-d4862400-3304-488d-ad24-06eff4e0c0b2.png" /></p>
+   </details>
+
+* **Observations on K-image Expansion of Image-Mixing Augmentation for Classification**<br>
+*Joonhyun Jeong, Sungmin Cha, Youngjoon Yoo, Sangdoo Yun, Taesup Moon, Jongwon Choi*<br>
+IEEE Access'2021 [[Paper](https://arxiv.org/abs/2110.04248)]
+[[Code](https://github.com/yjyoo3312/DCutMix-PyTorch)]
+   <details close>
+   <summary>DCutMix Framework</summary>
+   <p align="center"><img width="75%" src="https://user-images.githubusercontent.com/44519745/230492924-e9008de1-913f-44f5-ac2e-3d21f07d1b7f.png" /></p>
+   </details>
+
+* **MixMo: Mixing Multiple Inputs for Multiple Outputs via Deep Subnetworks**<br>
+*Alexandre Rame, Remy Sun, Matthieu Cord*<br>
+ICCV'2021 [[Paper](https://arxiv.org/abs/2103.06132)]
+   <details close>
+   <summary>MixMo Framework</summary>
+   <p align="center"><img width="75%" src="https://github.com/user-attachments/assets/37af64e6-ab18-49fe-84a6-5a5104a3f81a" /></p>
+   </details>
+
+* **Cut-Thumbnail: A Novel Data Augmentation for Convolutional Neural Network**<br>
+*Tianshu Xie, Xuan Cheng, Minghui Liu, Jiali Deng, Xiaomin Wang, Ming Liu*<br>
+ACM MM;2021 [[Paper](https://arxiv.org/abs/2103.05342)]
+   <details close>
+   <summary>Cut-Thumbnail</summary>
+   <p align="center"><img width="75%" src="https://github.com/user-attachments/assets/450da799-0fdd-47e7-bcc4-5fcc5f186462" /></p>
+   </details>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+#### **Random Policies**
+
+* **RandomMix: A mixed sample data augmentation method with multiple mixed modes**<br>
+*Xiaoliang Liu, Furao Shen, Jian Zhao, Changhai Nie*<br>
+ArXiv'2022 [[Paper](https://arxiv.org/abs/2205.08728)]
+   <details close>
+   <summary>RandomMix Framework</summary>
+   <p align="center"><img width="70%" src="https://user-images.githubusercontent.com/44519745/204570320-2785207c-aced-4d94-a33e-98acfcbbaa3f.png" /></p>
+   </details>
+
+* **AugRmixAT: A Data Processing and Training Method for Improving Multiple Robustness and Generalization Performance**<br>
+*Xiaoliang Liu, Furao Shen, Jian Zhao, Changhai Nie*<br>
+ICME'2022 [[Paper](https://arxiv.org/abs/2207.10290)]
+   <details close>
+   <summary>AugRmixAT Framework</summary>
+   <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/204571167-748828be-a1f6-46ac-bc13-37cccfa72515.png" /></p>
+   </details>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+#### **Style-based**
+
 * **StyleMix: Separating Content and Style for Enhanced Data Augmentation**<br>
 *Minui Hong, Jinwoo Choi, Gunhee Kim*<br>
 CVPR'2021 [[Paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Hong_StyleMix_Separating_Content_and_Style_for_Enhanced_Data_Augmentation_CVPR_2021_paper.pdf)]
@@ -195,104 +353,25 @@ ICLR'2021 [[Paper](https://openreview.net/forum?id=6xHJ37MVxxp)]
    <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/204568994-eb45528e-e83b-4ac5-bed9-642da987ec89.png" /></p>
    </details>
 
-* **On Feature Normalization and Data Augmentation**<br>
-*Boyi Li, Felix Wu, Ser-Nam Lim, Serge Belongie, Kilian Q. Weinberger*<br>
-CVPR'2021 [[Paper](https://arxiv.org/abs/2002.11102)]
-[[Code](https://github.com/Boyiliee/MoEx)]
+* **AlignMix: Improving representation by interpolating aligned features**<br>
+*Shashanka Venkataramanan, Ewa Kijak, Laurent Amsaleg, Yannis Avrithis*<br>
+CVPR'2022 [[Paper](https://arxiv.org/abs/2103.15375)]
+[[Code](https://github.com/shashankvkt/AlignMixup_CVPR22)]
    <details close>
-   <summary>MoEx Framework</summary>
-   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204569196-3641255a-56f3-407a-986a-209b5c7eeff6.png" /></p>
+   <summary>AlignMixup Framework</summary>
+   <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/204574666-fcb694b0-c6bf-438a-bbd0-020635fe4b51.png" /></p>
    </details>
 
-* **Guided Interpolation for Adversarial Training**<br>
-*Chen Chen, Jingfeng Zhang, Xilie Xu, Tianlei Hu, Gang Niu, Gang Chen, Masashi Sugiyama*<br>
-ArXiv'2021 [[Paper](https://arxiv.org/abs/2102.07327)]
+<!-- * **Teach me how to Interpolate a Myriad of Embeddings**<br> -->
+* **Embedding Space Interpolation Beyond Mini-Batch, Beyond Pairs and Beyond Examples**<br>
+*Shashanka Venkataramanan, Ewa Kijak, Laurent Amsaleg, Yannis Avrithis*<br>
+NIPS'2023 [[Paper](https://arxiv.org/abs/2206.14868)]
    <details close>
-   <summary>GIF Framework</summary>
-   <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/230494660-e99cf522-8fd7-4aa4-a4e4-d0385f82d032.png" /></p>
+   <summary>MultiMix Framework</summary>
+   <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/224786198-a85b76b9-0f8b-434d-be59-bbc41438aac9.png" /></p>
    </details>
 
-* **Observations on K-image Expansion of Image-Mixing Augmentation for Classification**<br>
-*Joonhyun Jeong, Sungmin Cha, Youngjoon Yoo, Sangdoo Yun, Taesup Moon, Jongwon Choi*<br>
-IEEE Access'2021 [[Paper](https://arxiv.org/abs/2110.04248)]
-[[Code](https://github.com/yjyoo3312/DCutMix-PyTorch)]
-   <details close>
-   <summary>DCutMix Framework</summary>
-   <p align="center"><img width="75%" src="https://user-images.githubusercontent.com/44519745/230492924-e9008de1-913f-44f5-ac2e-3d21f07d1b7f.png" /></p>
-   </details>
-
-* **Noisy Feature Mixup**<br>
-*Soon Hoe Lim, N. Benjamin Erichson, Francisco Utrera, Winnie Xu, Michael W. Mahoney*<br>
-ICLR'2022 [[Paper](https://arxiv.org/abs/2110.02180)]
-[[Code](https://github.com/erichson/NFM)]
-   <details close>
-   <summary>NFM Framework</summary>
-   <p align="center"><img width="45%" src="https://user-images.githubusercontent.com/44519745/204569704-7de07797-b607-4750-9a46-c4387a539ac0.png" /></p>
-   </details>
-
-* **Preventing Manifold Intrusion with Locality: Local Mixup**<br>
-*Raphael Baena, Lucas Drumetz, Vincent Gripon*<br>
-EUSIPCO'2022 [[Paper](https://arxiv.org/abs/2201.04368)]
-[[Code](https://github.com/raphael-baena/Local-Mixup)]
-   <details close>
-   <summary>LocalMix Framework</summary>
-   <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/204570088-fdf2e115-caee-4808-bf2b-709ac27f2251.png" /></p>
-   </details>
-
-* **RandomMix: A mixed sample data augmentation method with multiple mixed modes**<br>
-*Xiaoliang Liu, Furao Shen, Jian Zhao, Changhai Nie*<br>
-ArXiv'2022 [[Paper](https://arxiv.org/abs/2205.08728)]
-   <details close>
-   <summary>RandomMix Framework</summary>
-   <p align="center"><img width="70%" src="https://user-images.githubusercontent.com/44519745/204570320-2785207c-aced-4d94-a33e-98acfcbbaa3f.png" /></p>
-   </details>
-
-* **SuperpixelGridCut, SuperpixelGridMean and SuperpixelGridMix Data Augmentation**<br>
-*Karim Hammoudi, Adnane Cabani, Bouthaina Slika, Halim Benhabiles, Fadi Dornaika, Mahmoud Melkemi*<br>
-ArXiv'2022 [[Paper](https://arxiv.org/abs/2204.08458)]
-[[Code](https://github.com/hammoudiproject/SuperpixelGridMasks)]
-   <details close>
-   <summary>SuperpixelGridCut Framework</summary>
-   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204570617-090cc5a7-508c-49e7-9e5f-df7ec018f540.png" /></p>
-   </details>
-
-* **AugRmixAT: A Data Processing and Training Method for Improving Multiple Robustness and Generalization Performance**<br>
-*Xiaoliang Liu, Furao Shen, Jian Zhao, Changhai Nie*<br>
-ICME'2022 [[Paper](https://arxiv.org/abs/2207.10290)]
-   <details close>
-   <summary>AugRmixAT Framework</summary>
-   <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/204571167-748828be-a1f6-46ac-bc13-37cccfa72515.png" /></p>
-   </details>
-
-* **A Unified Analysis of Mixed Sample Data Augmentation: A Loss Function Perspective**<br>
-*Chanwoo Park, Sangdoo Yun, Sanghyuk Chun*<br>
-NIPS'2022 [[Paper](https://arxiv.org/abs/2208.09913)]
-[[Code](https://github.com/naver-ai/hmix-gmix)]
-   <details close>
-   <summary>MSDA Framework</summary>
-   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204571363-f0b1a960-54f9-4462-855d-59e90f284cfe.png" /></p>
-   </details>
-
-* **RegMixup: Mixup as a Regularizer Can Surprisingly Improve Accuracy and Out Distribution Robustness**<br>
-*Francesco Pinto, Harry Yang, Ser-Nam Lim, Philip H.S. Torr, Puneet K. Dokania*<br>
-NIPS'2022 [[Paper](https://arxiv.org/abs/2206.14502)]
-[[Code](https://github.com/FrancescoPinto/RegMixup)]
-   <details close>
-   <summary>RegMixup Framework</summary>
-   <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/204571630-e8407bd7-ca27-44de-baca-5d88ca2004a6.png" /></p>
-   </details>
-
-* **ContextMix: A context-aware data augmentation method for industrial visual inspection systems**<br>
-*Hyungmin Kim, Donghun Kim, Pyunghwan Ahn, Sungho Suh, Hansang Cho, Junmo Kim*<br>
-EAAI'2024 [[Paper](https://arxiv.org/abs/2401.10050)]
-   <details close>
-   <summary>ConvtextMix Framework</summary>
-   <p align="center"><img width="80%" src="https://github.com/Westlake-AI/Awesome-Mixup/assets/44519745/a2b50a9e-ca22-4c1f-9ba9-a3863b84a71a" /></p>
-   </details>
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-#### **Adaptive Policies**
+#### **Saliency-based**
 
 * **SaliencyMix: A Saliency Guided Data Augmentation Strategy for Better Regularization**<br>
 *A F M Shahab Uddin and Mst. Sirazam Monira and Wheemyung Shin and TaeChoong Chung and Sung-Ho Bae*<br>
@@ -329,29 +408,13 @@ VCIP'2020 [[Paper](https://arxiv.org/abs/2004.02684)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204573220-13a3b90e-73f8-4277-a997-67dddb15dd1c.png" /></p>
    </details>
 
-* **On Adversarial Mixup Resynthesis**<br>
-*Christopher Beckham, Sina Honari, Vikas Verma, Alex Lamb, Farnoosh Ghadiri, R Devon Hjelm, Yoshua Bengio, Christopher Pal*<br>
-NIPS'2019 [[Paper](https://arxiv.org/abs/1903.02709)]
-[[Code](https://github.com/christopher-beckham/amr)]
+* **Where to Cut and Paste: Data Regularization with Selective Features**<br>
+*Jiyeon Kim, Ik-Hee Shin, Jong-Ryul, Lee, Yong-Ju Lee*<br>
+ICTC'2020 [[Paper](https://ieeexplore.ieee.org/abstract/document/9289404)]
+[[Code](https://github.com/google-research/augmix)]
    <details close>
-   <summary>AMR Framework</summary>
-   <p align="center"><img width="70%" src="https://user-images.githubusercontent.com/44519745/232315897-2a5fb2c5-d0ce-4c01-b6cd-21ec54bd9e49.png" /></p>
-   </details>
-
-* **Patch-level Neighborhood Interpolation: A General and Effective Graph-based Regularization Strategy**<br>
-*Ke Sun, Bing Yu, Zhouchen Lin, Zhanxing Zhu*<br>
-ArXiv'2019 [[Paper](https://arxiv.org/abs/1911.09307)]
-   <details close>
-   <summary>Pani VAT Framework</summary>
-   <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/204572993-8b3fa627-8c36-4763-a2a6-c9a90c5f0fc2.png" /></p>
-   </details>
-
-* **AutoMix: Mixup Networks for Sample Interpolation via Cooperative Barycenter Learning**<br>
-*Jianchao Zhu, Liangliang Shi, Junchi Yan, Hongyuan Zha*<br>
-ECCV'2020 [[Paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123550630.pdf)]
-   <details close>
-   <summary>AutoMix Framework</summary>
-   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204572771-e09246ca-b88b-4755-8d8a-f99053244610.png" /></p>
+   <summary>FocusMix Framework</summary>
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204567137-f71b0437-9267-4f99-b7dc-911ffa4f8b73.png" /></p>
    </details>
 
 * **PuzzleMix: Exploiting Saliency and Local Statistics for Optimal Mixup**<br>
@@ -381,47 +444,6 @@ CVPR'2021 [[Paper](https://arxiv.org/abs/2003.05034)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204573912-47ae05f3-8d78-4ef7-b3a9-15d54bffa20a.png" /></p>
    </details>
 
-* **Evolving Image Compositions for Feature Representation Learning**<br>
-*Paola Cascante-Bonilla, Arshdeep Sekhon, Yanjun Qi, Vicente Ordonez*<br>
-BMVC'2021 [[Paper](https://arxiv.org/abs/2106.09011)]
-   <details close>
-   <summary>PatchMix Framework</summary>
-   <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/204574267-8e53783d-ea54-4399-8c32-86c8ac2520bd.png" /></p>
-   </details>
-
-* **StackMix: A complementary Mix algorithm**<br>
-*John Chen, Samarth Sinha, Anastasios Kyrillidis*<br>
-UAI'2022 [[Paper](https://arxiv.org/abs/2011.12618)]
-   <details close>
-   <summary>StackMix Framework</summary>
-   <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/204574552-fb5e9865-86b0-4d51-977c-82a840d81a18.png" /></p>
-   </details>
-
-* **SalfMix: A Novel Single Image-Based Data Augmentation Technique Using a Saliency Map**<br>
-*Jaehyeop Choi, Chaehyeon Lee, Donggyu Lee, Heechul Jung*<br>
-Sensor'2021 [[Paper](https://pdfs.semanticscholar.org/1db9/c80edeed50858783c69237aeba764750e8b7.pdf?_ga=2.182064935.1813772674.1674154381-1810295069.1625160008)]
-   <details close>
-   <summary>SalfMix Framework</summary>
-   <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/213535188-5255eb4c-83c8-40ca-86b9-44459b84d9a8.png" /></p>
-   </details>
-
-* **k-Mixup Regularization for Deep Learning via Optimal Transport**<br>
-*Kristjan Greenewald, Anming Gu, Mikhail Yurochkin, Justin Solomon, Edward Chien*<br>
-ArXiv'2021 [[Paper](https://arxiv.org/abs/2106.02933)]
-   <details close>
-   <summary>k-Mixup Framework</summary>
-   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204569488-d4862400-3304-488d-ad24-06eff4e0c0b2.png" /></p>
-   </details>
-
-* **AlignMix: Improving representation by interpolating aligned features**<br>
-*Shashanka Venkataramanan, Ewa Kijak, Laurent Amsaleg, Yannis Avrithis*<br>
-CVPR'2022 [[Paper](https://arxiv.org/abs/2103.15375)]
-[[Code](https://github.com/shashankvkt/AlignMixup_CVPR22)]
-   <details close>
-   <summary>AlignMix Framework</summary>
-   <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/204574666-fcb694b0-c6bf-438a-bbd0-020635fe4b51.png" /></p>
-   </details>
-
 * **AutoMix: Unveiling the Power of Mixup for Stronger Classifiers**<br>
 *Zicheng Liu, Siyuan Li, Di Wu, Zihan Liu, Zhiyuan Chen, Lirong Wu, Stan Z. Li*<br>
 ECCV'2022 [[Paper](https://arxiv.org/abs/2103.13027)]
@@ -440,14 +462,6 @@ Arxiv'2021 [[Paper](https://arxiv.org/abs/2111.15454)]
    <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/174272657-fb662377-b7c3-4faa-8d9b-ea6f1e08549e.png" /></p>
    </details>
 
-* **ScoreNet: Learning Non-Uniform Attention and Augmentation for Transformer-Based Histopathological Image Classification**<br>
-*Thomas Stegmüller, Behzad Bozorgtabar, Antoine Spahr, Jean-Philippe Thiran*<br>
-Arxiv'2022 [[Paper](https://arxiv.org/abs/2202.07570)]
-   <details close>
-   <summary>ScoreMix Framework</summary>
-   <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/204576297-e97ea9c4-ee17-4ec3-a672-3f088ededb72.png" /></p>
-   </details>
-
 * **RecursiveMix: Mixed Learning with History**<br>
 *Lingfeng Yang, Xiang Li, Borui Zhao, Renjie Song, Jian Yang*<br>
 NIPS'2022 [[Paper](https://arxiv.org/abs/2203.06844)]
@@ -455,14 +469,6 @@ NIPS'2022 [[Paper](https://arxiv.org/abs/2203.06844)]
    <details close>
    <summary>RecursiveMix Framework</summary>
    <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/204576092-5fd92410-c12a-4691-8f7b-01901445f2a4.png" /></p>
-   </details>
-
-* **Expeditious Saliency-guided Mix-up through Random Gradient Thresholding**<br>
-*Remy Sun, Clement Masson, Gilles Henaff, Nicolas Thome, Matthieu Cord.*<br>
-ICPR'2022 [[Paper](https://arxiv.org/abs/2205.10158)]
-   <details close>
-   <summary>SciMix Framework</summary>
-   <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/204575557-ddc6644e-a5e4-49ae-a95d-59856cc99a25.png" /></p>
    </details>
 
 * **TransformMix: Learning Transformation and Mixing Strategies for Sample-mixing Data Augmentation**<br>
@@ -479,6 +485,204 @@ AAAI'2023 [[Paper](https://arxiv.org/abs/2306.16612)]
    <details close>
    <summary>GuidedMixup Framework</summary>
    <p align="center"><img width="95%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/250170540-97434afd-790c-4148-81dc-ff7129ca3f7c.png" /></p>
+   </details>
+
+* **GradSalMix: Gradient Saliency-Based Mix for Image Data Augmentation**<br>
+*Tao Hong, Ya Wang, Xingwu Sun, Fengzong Lian, Zhanhui Kang, Jinwen Ma*<br>
+ICME'2023 [[Paper](https://ieeexplore.ieee.org/abstract/document/10219625)]
+   <details close>
+   <summary>GradSalMix Framework</summary>
+   <p align="center"><img width="75%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/264142659-b8e2eef2-f6ea-4b03-bc03-0d2c08212f3a.png" /></p>
+   </details>
+
+* **LGCOAMix: Local and Global Context-and-Object-Part-Aware Superpixel-Based Data Augmentation for Deep Visual Recognition**<br>
+*Fadi Dornaika, Danyang Sun*<br>
+TIP'2023 [[Paper](https://ieeexplore.ieee.org/document/10348509)]
+[[Code](https://github.com/DanielaPlusPlus/LGCOAMix)]
+   <details close>
+   <summary>LGCOAMix Framework</summary>
+   <p align="center"><img width="95%" src="https://github.com/Westlake-AI/Awesome-Mixup/assets/44519745/802bdd05-dd5d-4d84-a66a-18d0fe9f2fa9" /></p>
+   </details>
+
+* **Adversarial AutoMixup**<br>
+*Huafeng Qin, Xin Jin, Yun Jiang, Mounim A. El-Yacoubi, Xinbo Gao*<br>
+ICLR'2024 [[Paper](https://arxiv.org/abs/2312.11954)]
+[[Code](https://github.com/jinxins/adversarial-automixup)]
+   <details close>
+   <summary>AdAutoMix Framework</summary>
+   <p align="center"><img width="85%" src="https://github.com/Westlake-AI/openmixup/assets/44519745/cdf24e60-e262-4d69-88a6-d1544e625679" /></p>
+   </details>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+#### **Attention-based**'
+
+* **TokenMix: Rethinking Image Mixing for Data Augmentation in Vision Transformers**<br>
+*Jihao Liu, Boxiao Liu, Hang Zhou, Hongsheng Li, Yu Liu*<br>
+ECCV'2022 [[Paper](https://arxiv.org/abs/2207.08409)]
+[[Code](https://github.com/Sense-X/TokenMix)]
+   <details close>
+   <summary>TokenMix Framework</summary>
+   <p align="center"><img width="70%" src="https://user-images.githubusercontent.com/44519745/204578736-7b2dd349-7214-4d49-ade8-30b1caa2f1ea.png" /></p>
+   </details>
+
+* **TokenMixup: Efficient Attention-guided Token-level Data Augmentation for Transformers**<br>
+*Hyeong Kyu Choi, Joonmyung Choi, Hyunwoo J. Kim*<br>
+NIPS'2022 [[Paper](https://arxiv.org/abs/2210.07562)]
+[[Code](https://github.com/mlvlab/TokenMixup)]
+   <details close>
+   <summary>TokenMixup Framework</summary>
+   <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/204578884-b9d7d466-b26b-4e4b-8a23-22199a6dca26.png" /></p>
+   </details>
+
+* **ScoreNet: Learning Non-Uniform Attention and Augmentation for Transformer-Based Histopathological Image Classification**<br>
+*Thomas Stegmüller, Behzad Bozorgtabar, Antoine Spahr, Jean-Philippe Thiran*<br>
+WACV'2023  [[Paper](https://arxiv.org/abs/2202.07570)]
+   <details close>
+   <summary>ScoreMix Framework</summary>
+   <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/204576297-e97ea9c4-ee17-4ec3-a672-3f088ededb72.png" /></p>
+   </details>
+
+* **MixPro: Data Augmentation with MaskMix and Progressive Attention Labeling for Vision Transformer**<br>
+*Qihao Zhao, Yangyu Huang, Wei Hu, Fan Zhang, Jun Liu*<br>
+ICLR'2023 [[Paper](https://openreview.net/forum?id=dRjWsd3gwsm)]
+[[Code](https://github.com/fistyee/MixPro)]
+   <details close>
+   <summary>MixPro Framework</summary>
+   <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/224795935-afb936b2-fc77-4018-a681-72887f96fa59.png" /></p>
+   </details>
+
+* **SMMix: Self-Motivated Image Mixing for Vision Transformers**<br>
+*Mengzhao Chen, Mingbao Lin, ZhiHang Lin, Yuxin Zhang, Fei Chao, Rongrong Ji*<br>
+ICCV'2023 [[Paper](https://arxiv.org/abs/2212.12977)]
+[[Code](https://github.com/chenmnz/smmix)]
+   <details close>
+   <summary>SMMix Framework</summary>
+   <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/213537624-7359689e-b5af-4db1-a4ad-07876dd44089.png" /></p>
+   </details>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+#### **Generating Samples**'
+
+* **Data Augmentation via Latent Space Interpolation for Image Classification**<br>
+*Xiaofeng Liu, Yang Zou, Lingsheng Kong, Zhihui Diao, Junliang Yan, Jun Wang, Site Li, Ping Jia, Jane You<br>
+ICPR'2018 [[Paper](https://ieeexplore.ieee.org/abstract/document/8545506)]
+   <details close>
+   <summary>AEE Framework</summary>
+   <p align="center"><img width="70%" src="https://github.com/user-attachments/assets/378e9d22-3031-4874-9dd0-09544c2c8324" /></p>
+   </details>
+
+* **On Adversarial Mixup Resynthesis**<br>
+*Christopher Beckham, Sina Honari, Vikas Verma, Alex Lamb, Farnoosh Ghadiri, R Devon Hjelm, Yoshua Bengio, Christopher Pal*<br>
+NIPS'2019 [[Paper](https://arxiv.org/abs/1903.02709)]
+[[Code](https://github.com/christopher-beckham/amr)]
+   <details close>
+   <summary>AMR Framework</summary>
+   <p align="center"><img width="70%" src="https://user-images.githubusercontent.com/44519745/232315897-2a5fb2c5-d0ce-4c01-b6cd-21ec54bd9e49.png" /></p>
+   </details>
+
+* **AutoMix: Mixup Networks for Sample Interpolation via Cooperative Barycenter Learning**<br>
+*Jianchao Zhu, Liangliang Shi, Junchi Yan, Hongyuan Zha*<br>
+ECCV'2020 [[Paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123550630.pdf)]
+   <details close>
+   <summary>AutoMix Framework</summary>
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204572771-e09246ca-b88b-4755-8d8a-f99053244610.png" /></p>
+   </details>
+
+* **VarMixup: Exploiting the Latent Space for Robust Training and Inference**<br>
+*Puneet Mangla, Vedant Singh, Shreyas Jayant Havaldar, Vineeth N Balasubramanian*<br>
+CVPRW'2021 [[Paper](https://arxiv.org/abs/2003.06566v1)]
+   <details close>
+   <summary>VarMixup Framework</summary>
+   <p align="center"><img width="90%" src="https://github.com/user-attachments/assets/050d0000-16c9-4bf5-afd7-cb23fe4d6cd0" /></p>
+   </details>
+
+* **DiffuseMix: Label-Preserving Data Augmentation with Diffusion Models**<br>
+*Khawar Islam, Muhammad Zaigham Zaheer, Arif Mahmood, Karthik Nandakumar*<br>
+ECCV'2020 [[Paper](https://arxiv.org/abs/2405.14881)]
+[[Code](https://github.com/khawar-islam/diffuseMix)]
+   <details close>
+   <summary>DiffuseMix Framework</summary>
+   <p align="center"><img width="90%" src="https://github.com/user-attachments/assets/8478e528-a96f-45af-81dc-a3469a6f84bd" /></p>
+   </details>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+####################################################
+* **MixUp as Locally Linear Out-Of-Manifold Regularization**<br>
+*Hongyu Guo, Yongyi Mao, Richong Zhang*<br>
+AAAI'2019 [[Paper](https://arxiv.org/abs/1809.02499)]
+   <details close>
+   <summary>AdaMixup Framework</summary>
+   <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/204563766-4a49b4d9-fb1e-46d7-8443-bff37a527ee1.png" /></p>
+   </details>
+
+
+* **Guided Interpolation for Adversarial Training**<br>
+*Chen Chen, Jingfeng Zhang, Xilie Xu, Tianlei Hu, Gang Niu, Gang Chen, Masashi Sugiyama*<br>
+ArXiv'2021 [[Paper](https://arxiv.org/abs/2102.07327)]
+   <details close>
+   <summary>GIF Framework</summary>
+   <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/230494660-e99cf522-8fd7-4aa4-a4e4-d0385f82d032.png" /></p>
+   </details>
+
+* **Noisy Feature Mixup**<br>
+*Soon Hoe Lim, N. Benjamin Erichson, Francisco Utrera, Winnie Xu, Michael W. Mahoney*<br>
+ICLR'2022 [[Paper](https://arxiv.org/abs/2110.02180)]
+[[Code](https://github.com/erichson/NFM)]
+   <details close>
+   <summary>NFM Framework</summary>
+   <p align="center"><img width="45%" src="https://user-images.githubusercontent.com/44519745/204569704-7de07797-b607-4750-9a46-c4387a539ac0.png" /></p>
+   </details>
+
+* **RegMixup: Mixup as a Regularizer Can Surprisingly Improve Accuracy and Out Distribution Robustness**<br>
+*Francesco Pinto, Harry Yang, Ser-Nam Lim, Philip H.S. Torr, Puneet K. Dokania*<br>
+NIPS'2022 [[Paper](https://arxiv.org/abs/2206.14502)]
+[[Code](https://github.com/FrancescoPinto/RegMixup)]
+   <details close>
+   <summary>RegMixup Framework</summary>
+   <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/204571630-e8407bd7-ca27-44de-baca-5d88ca2004a6.png" /></p>
+   </details>
+
+* **ContextMix: A context-aware data augmentation method for industrial visual inspection systems**<br>
+*Hyungmin Kim, Donghun Kim, Pyunghwan Ahn, Sungho Suh, Hansang Cho, Junmo Kim*<br>
+EAAI'2024 [[Paper](https://arxiv.org/abs/2401.10050)]
+   <details close>
+   <summary>ConvtextMix Framework</summary>
+   <p align="center"><img width="80%" src="https://github.com/Westlake-AI/Awesome-Mixup/assets/44519745/a2b50a9e-ca22-4c1f-9ba9-a3863b84a71a" /></p>
+   </details>
+
+* **Evolving Image Compositions for Feature Representation Learning**<br>
+*Paola Cascante-Bonilla, Arshdeep Sekhon, Yanjun Qi, Vicente Ordonez*<br>
+BMVC'2021 [[Paper](https://arxiv.org/abs/2106.09011)]
+   <details close>
+   <summary>PatchMix Framework</summary>
+   <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/204574267-8e53783d-ea54-4399-8c32-86c8ac2520bd.png" /></p>
+   </details>
+
+* **SalfMix: A Novel Single Image-Based Data Augmentation Technique Using a Saliency Map**<br>
+*Jaehyeop Choi, Chaehyeon Lee, Donggyu Lee, Heechul Jung*<br>
+Sensor'2021 [[Paper](https://pdfs.semanticscholar.org/1db9/c80edeed50858783c69237aeba764750e8b7.pdf?_ga=2.182064935.1813772674.1674154381-1810295069.1625160008)]
+   <details close>
+   <summary>SalfMix Framework</summary>
+   <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/213535188-5255eb4c-83c8-40ca-86b9-44459b84d9a8.png" /></p>
+   </details>
+
+* **ScoreNet: Learning Non-Uniform Attention and Augmentation for Transformer-Based Histopathological Image Classification**<br>
+*Thomas Stegmüller, Behzad Bozorgtabar, Antoine Spahr, Jean-Philippe Thiran*<br>
+Arxiv'2022 [[Paper](https://arxiv.org/abs/2202.07570)]
+   <details close>
+   <summary>ScoreMix Framework</summary>
+   <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/204576297-e97ea9c4-ee17-4ec3-a672-3f088ededb72.png" /></p>
+   </details>
+
+* **Expeditious Saliency-guided Mix-up through Random Gradient Thresholding**<br>
+*Remy Sun, Clement Masson, Gilles Henaff, Nicolas Thome, Matthieu Cord.*<br>
+ICPR'2022 [[Paper](https://arxiv.org/abs/2205.10158)]
+   <details close>
+   <summary>SciMix Framework</summary>
+   <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/204575557-ddc6644e-a5e4-49ae-a95d-59856cc99a25.png" /></p>
    </details>
 
 * **MixPro: Data Augmentation with MaskMix and Progressive Attention Labeling for Vision Transformer**<br>
@@ -506,49 +710,6 @@ ICCV'2023 [[Paper](https://arxiv.org/abs/2212.12977)]
    <details close>
    <summary>SMMix Framework</summary>
    <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/213537624-7359689e-b5af-4db1-a4ad-07876dd44089.png" /></p>
-   </details>
-
-<!-- * **Teach me how to Interpolate a Myriad of Embeddings**<br> -->
-* **Embedding Space Interpolation Beyond Mini-Batch, Beyond Pairs and Beyond Examples**<br>
-*Shashanka Venkataramanan, Ewa Kijak, Laurent Amsaleg, Yannis Avrithis*<br>
-NeurIPS'2023 [[Paper](https://arxiv.org/abs/2206.14868)]
-   <details close>
-   <summary>MultiMix Framework</summary>
-   <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/224786198-a85b76b9-0f8b-434d-be59-bbc41438aac9.png" /></p>
-   </details>
-
-* **GradSalMix: Gradient Saliency-Based Mix for Image Data Augmentation**<br>
-*Tao Hong, Ya Wang, Xingwu Sun, Fengzong Lian, Zhanhui Kang, Jinwen Ma*<br>
-ICME'2023 [[Paper](https://ieeexplore.ieee.org/abstract/document/10219625)]
-   <details close>
-   <summary>GradSalMix Framework</summary>
-   <p align="center"><img width="75%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/264142659-b8e2eef2-f6ea-4b03-bc03-0d2c08212f3a.png" /></p>
-   </details>
-
-* **LGCOAMix: Local and Global Context-and-Object-Part-Aware Superpixel-Based Data Augmentation for Deep Visual Recognition**<br>
-*Fadi Dornaika, Danyang Sun*<br>
-TIP'2023 [[Paper](https://ieeexplore.ieee.org/document/10348509)]
-[[Code](https://github.com/DanielaPlusPlus/LGCOAMix)]
-   <details close>
-   <summary>LGCOAMix Framework</summary>
-   <p align="center"><img width="95%" src="https://github.com/Westlake-AI/Awesome-Mixup/assets/44519745/802bdd05-dd5d-4d84-a66a-18d0fe9f2fa9" /></p>
-   </details>
-
-* **Catch-Up Mix: Catch-Up Class for Struggling Filters in CNN**<br>
-*Minsoo Kang, Minkoo Kang, Suhyun Kim*<br>
-AAAI'2024 [[Paper](https://arxiv.org/abs/2401.13193)]
-   <details close>
-   <summary>Catch-Up-Mix Framework</summary>
-   <p align="center"><img width="85%" src="https://github.com/Westlake-AI/Awesome-Mixup/assets/44519745/459a5d2b-cc74-4bd0-8cd2-46313652a9b8" /></p>
-   </details>
-
-* **Adversarial AutoMixup**<br>
-*Huafeng Qin, Xin Jin, Yun Jiang, Mounim A. El-Yacoubi, Xinbo Gao*<br>
-ICLR'2024 [[Paper](https://arxiv.org/abs/2312.11954)]
-[[Code](https://github.com/jinxins/adversarial-automixup)]
-   <details close>
-   <summary>AdAutoMix Framework</summary>
-   <p align="center"><img width="85%" src="https://github.com/Westlake-AI/openmixup/assets/44519745/cdf24e60-e262-4d69-88a6-d1544e625679" /></p>
    </details>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
