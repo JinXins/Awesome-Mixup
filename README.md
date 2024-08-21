@@ -17,7 +17,7 @@ The list of awesome mixup augmentation methods is summarized in chronological or
 - [Awesome-Mixup](#awesome-mixup)
   - [Introduction](#introduction)
   - [Table of Contents](#table-of-contents)
-  - [Sample Mixup Policies in SL](#sample-mixup-methods)
+  - [Sample Mixup Policies in SL](#sample-mixup-policies-in-sl)
       - [**Static Linear**](#static-linear)
       - [**Feature-based**](#feature-based)
       - [**Cutting-based**](#cutting-based)
@@ -27,7 +27,7 @@ The list of awesome mixup augmentation methods is summarized in chronological or
       - [**Saliency-based**](#saliency-based)
       - [**Attention-based**](#attention-based)
       - [**Generating Samples**](#generating-samples)
-  - [Label Mixup Policies in SL](#label-mixup-methods)
+  - [Label Mixup Policies in SL](#label-mixup-policies-in-sl)
       - [**Optimizing Calibration**](#optimizing-calibration)
       - [**Area-based**](#area-based)
       - [**Loss Object**](#loss-object)
@@ -36,10 +36,10 @@ The list of awesome mixup augmentation methods is summarized in chronological or
       - [**Generating Label**](#generating-label)
       - [**Attention Score**](#attention-score)
       - [**Saliency Token**](#saliency-token)
-  - [Self-Supervised Learning](#mixup-for-self-supervised-learning)
+  - [Self-Supervised Learning](#self-supervised-learning)
       - [**Contrastive Learning**](#contrastive-learning)
       - [**Masked Image Modeling**](#masked-image-modeling)
-  - [Semi-Supervised Learning](#mixup-for-semi-supervised-learning)
+  - [Semi-Supervised Learning](#semi-supervised-learning)
   - [CV Downstream Tasks](#cv-downstream-task)
   - [Training Paradigms](#training-paradigms)
   - [Beyond Vision](#beyond-vision)
@@ -51,7 +51,7 @@ The list of awesome mixup augmentation methods is summarized in chronological or
   - [Acknowledgement](#acknowledgement)
   - [Related Project](#related-project)
 
-## Sample Mixup Policies in SL
+### Sample Mixup Policies in SL
 
 #### **Static Linear**
 
@@ -523,7 +523,7 @@ ICLR'2024 [[Paper](https://arxiv.org/abs/2312.11954)]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-#### **Attention-based**'
+#### **Attention-based**
 
 * **TokenMix: Rethinking Image Mixing for Data Augmentation in Vision Transformers**<br>
 *Jihao Liu, Boxiao Liu, Hang Zhou, Hongsheng Li, Yu Liu*<br>
@@ -571,7 +571,7 @@ ICCV'2023 [[Paper](https://arxiv.org/abs/2212.12977)]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-#### **Generating Samples**'
+#### **Generating Samples**
 
 * **Data Augmentation via Latent Space Interpolation for Image Classification**<br>
 *Xiaofeng Liu, Yang Zou, Lingsheng Kong, Zhihui Diao, Junliang Yan, Jun Wang, Site Li, Ping Jia, Jane You<br>
@@ -617,7 +617,7 @@ ECCV'2020 [[Paper](https://arxiv.org/abs/2405.14881)]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Label Mixup Policies in SL
+### Label Mixup Policies in SL
 
 ### **Optimizing Calibration**
 
