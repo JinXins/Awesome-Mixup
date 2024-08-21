@@ -981,12 +981,12 @@ ICML'2022 [[Paper](https://arxiv.org/abs/2110.02027)]
    <p align="center"><img width="70%" src="https://user-images.githubusercontent.com/44519745/204584450-e31a6c9f-0f1c-4342-b907-1b80cae547ab.png" /></p>
    </details>
 
-* **M-Mix: Generating Hard Negatives via Multi-sample Mixing for Contrastive Learning**<br>
+* **m-Mix: Generating Hard Negatives via Multi-sample Mixing for Contrastive Learning**<br>
 *Shaofeng Zhang, Meng Liu, Junchi Yan, Hengrui Zhang, Lingxiao Huang, Pinyan Lu, Xiaokang Yang*<br>
 KDD'2022 [[Paper](https://sherrylone.github.io/assets/KDD22_M-Mix.pdf)]
 [[Code](https://github.com/Sherrylone/m-mix)]
    <details close>
-   <summary>M-Mix Framework</summary>
+   <summary>m-Mix Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204582292-eef1f644-f39f-46ae-98ba-313501bdb515.png" /></p>
    </details>
 
@@ -1057,6 +1057,115 @@ CVPR'2023 [[Paper](https://arxiv.org/abs/2303.17152)]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+## Self-Supervised Learning
+
+* **MixMatch: A Holistic Approach to Semi-Supervised Learning**<br>
+*David Berthelot, Nicholas Carlini, Ian Goodfellow, Nicolas Papernot, Avital Oliver, Colin Raffel*<br>
+NIPS'2019 [[Paper](https://arxiv.org/abs/1905.02249)]
+[[Code](https://github.com/google-research/mixmatch)]
+   <details close>
+   <summary>MixMatch Framework</summary>
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204580441-1fd71bf7-63f3-4935-9332-287642e0bcc8.png" /></p>
+   </details>
+
+* **ReMixMatch: Semi-Supervised Learning with Distribution Matching and Augmentation Anchoring**<br>
+*David Berthelot, dberth@google.com, Nicholas Carlini, Ekin D. Cubuk, Alex Kurakin, Kihyuk Sohn, Han Zhang, Colin Raffel*<br>
+ICLR'2020 [[Paper](https://openreview.net/forum?id=HklkeR4KPB)]
+[[Code](https://github.com/google-research/remixmatch)]
+   <details close>
+   <summary>ReMixMatch Framework</summary>
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204579631-529bb505-a858-441f-9030-4a9b44273330.png" /></p>
+   </details>
+
+* **DivideMix: Learning with Noisy Labels as Semi-supervised Learning**<br>
+*Junnan Li, Richard Socher, Steven C.H. Hoi*<br>
+ICLR'2020 [[Paper](https://arxiv.org/abs/2002.07394)]
+[[Code](https://github.com/LiJunnan1992/DivideMix)]
+   <details close>
+   <summary>DivideMix Framework</summary>
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/230495626-f0f3f52e-9f8a-472d-8ff2-b33356993e09.png" /></p>
+   </details>
+
+* **Epsilon Consistent Mixup: Structural Regularization with an Adaptive Consistency-Interpolation Tradeoff**<br>
+*Vincent Pisztora, Yanglan Ou, Xiaolei Huang, Francesca Chiaromonte, Jia Li*<br>
+ArXiv'2021 [[Paper](https://arxiv.org/abs/2104.09452)]
+   <details close>
+   <summary>Epsilon Consistent Mixup (ϵmu) Framework</summary>
+   <p align="center"><img width="50%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/283528510-1f3b643c-0edd-416e-9979-110f3d2be6b6.png" /></p>
+   </details>
+
+* **Unleashing the Power of Contrastive Self-Supervised Visual Models via Contrast-Regularized Fine-Tuning**<br>
+*Yifan Zhang, Bryan Hooi, Dapeng Hu, Jian Liang, Jiashi Feng*<br>
+NIPS'2021 [[Paper](https://arxiv.org/abs/2102.06605)]
+[[Code](https://github.com/vanint/core-tuning)]
+   <details close>
+   <summary>Core-Tuning Framework</summary>
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204580135-ed6ba8b7-b69c-4683-90f0-9aa9cdd530bc.png" /></p>
+   </details>
+
+* **MUM: Mix Image Tiles and UnMix Feature Tiles for Semi-Supervised Object Detection**<br>
+*JongMok Kim, Jooyoung Jang, Seunghyeon Seo, Jisoo Jeong, Jongkeun Na, Nojun Kwak*<br>
+CVPR'2022 [[Paper](https://user-images.githubusercontent.com/44519745/225082975-4143e7f5-8873-433c-ab6f-6caa615f7120.png)]
+[[Code](https://github.com/jongmokkim/mix-unmix)]
+   <details close>
+   <summary>MUM Framework</summary>
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/225082975-4143e7f5-8873-433c-ab6f-6caa615f7120.png" /></p>
+   </details>
+
+* **Harnessing Hard Mixed Samples with Decoupled Regularizer**<br>
+*Zicheng Liu, Siyuan Li, Ge Wang, Cheng Tan, Lirong Wu, Stan Z. Li*<br>
+NIPS'2023 [[Paper](https://arxiv.org/abs/2203.10761)]
+[[Code](https://github.com/Westlake-AI/openmixup)]
+   <details close>
+   <summary>DFixMatch Framework</summary>
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204578387-4be9567c-963a-4d2d-8c1f-c7c5ade527b8.png" /></p>
+   </details>
+
+* **Manifold DivideMix: A Semi-Supervised Contrastive Learning Framework for Severe Label Noise**<br>
+*Fahimeh Fooladgar, Minh Nguyen Nhat To, Parvin Mousavi, Purang Abolmaesumi*<br>
+Arxiv'2023 [[Paper](https://arxiv.org/abs/2308.06861)]
+[[Code](https://github.com/Fahim-F/ManifoldDivideMix)]
+   <details close>
+   <summary>MixEMatch Framework</summary>
+   <p align="center"><img width="90%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/268411562-4263ccd5-a31c-4020-9281-ba4bc3d9fc54.png" /></p>
+   </details>
+
+* **LaserMix for Semi-Supervised LiDAR Semantic Segmentation**<br>
+*Lingdong Kong, Jiawei Ren, Liang Pan, Ziwei Liu*<br>
+CVPR'2023 [[Paper](https://arxiv.org/abs/2207.00026)]
+[[Code](https://github.com/ldkong1205/LaserMix)] [[project](https://ldkong.com/LaserMix)]
+   <details close>
+   <summary>LaserMix Framework</summary>
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/209255964-69cab84b-ae54-4e74-be4f-a23a836c665c.png" /></p>
+   </details>
+
+* **Dual-Decoder Consistency via Pseudo-Labels Guided Data Augmentation for Semi-Supervised Medical Image Segmentation**<br>
+*Yuanbin Chen, Tao Wang, Hui Tang, Longxuan Zhao, Ruige Zong, Tao Tan, Xinlin Zhang, Tong Tong*<br>
+ArXiv'2023 [[Paper](https://arxiv.org/abs/2308.16573)]
+   <details close>
+   <summary>DCPA Framework</summary>
+   <p align="center"><img width="90%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/268410560-a45c03d9-beb1-4b74-a34b-4d1ecd356de9.png" /></p>
+   </details>
+
+* **Mixed Pseudo Labels for Semi-Supervised Object Detection**<br>
+*Zeming Chen, Wenwei Zhang, Xinjiang Wang, Kai Chen, Zhi Wang*<br>
+ArXiv'2023 [[Paper](https://arxiv.org/abs/2312.07006)]
+[[Code](https://github.com/czm369/mixpl)]
+   <details close>
+   <summary>MixPL Framework</summary>
+   <p align="center"><img width="90%" src="https://github.com/Westlake-AI/Awesome-Mixup/assets/44519745/c1ac594f-18bb-465b-b0e7-e96249231e2c" /></p>
+   </details>
+
+* **PCLMix: Weakly Supervised Medical Image Segmentation via Pixel-Level Contrastive Learning and Dynamic Mix Augmentation**<br>
+*Yu Lei, Haolun Luo, Lituan Wang, Zhenwei Zhang, Lei Zhang*<br>
+ArXiv'2024 [[Paper](https://arxiv.org/abs/2405.06288)]
+[[Code](https://github.com/Torpedo2648/PCLMix)]
+   <details close>
+   <summary>PCLMix Framework</summary>
+   <p align="center"><img width="85%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/e41b7e65-962b-49fa-b1be-6e789e8b244e" /></p>
+   </details>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 ####################################################
 
 * **Guided Interpolation for Adversarial Training**<br>
@@ -1174,122 +1283,6 @@ ArXiv'2023 [[Paper](https://arxiv.org/abs/2312.02151)]
    </details>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-## Mixup for Semi-supervised Learning
-
-* **MixMatch: A Holistic Approach to Semi-Supervised Learning**<br>
-*David Berthelot, Nicholas Carlini, Ian Goodfellow, Nicolas Papernot, Avital Oliver, Colin Raffel*<br>
-NIPS'2019 [[Paper](https://arxiv.org/abs/1905.02249)]
-[[Code](https://github.com/google-research/mixmatch)]
-   <details close>
-   <summary>MixMatch Framework</summary>
-   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204580441-1fd71bf7-63f3-4935-9332-287642e0bcc8.png" /></p>
-   </details>
-
-* **Patch-level Neighborhood Interpolation: A General and Effective Graph-based Regularization Strategy**<br>
-*Ke Sun, Bing Yu, Zhouchen Lin, Zhanxing Zhu*<br>
-ArXiv'2019 [[Paper](https://arxiv.org/abs/1911.09307)]
-   <details close>
-   <summary>Pani VAT Framework</summary>
-   <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/204572993-8b3fa627-8c36-4763-a2a6-c9a90c5f0fc2.png" /></p>
-   </details>
-
-* **ReMixMatch: Semi-Supervised Learning with Distribution Matching and Augmentation Anchoring**<br>
-*David Berthelot, dberth@google.com, Nicholas Carlini, Ekin D. Cubuk, Alex Kurakin, Kihyuk Sohn, Han Zhang, Colin Raffel*<br>
-ICLR'2020 [[Paper](https://openreview.net/forum?id=HklkeR4KPB)]
-[[Code](https://github.com/google-research/remixmatch)]
-   <details close>
-   <summary>ReMixMatch Framework</summary>
-   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204579631-529bb505-a858-441f-9030-4a9b44273330.png" /></p>
-   </details>
-
-* **DivideMix: Learning with Noisy Labels as Semi-supervised Learning**<br>
-*Junnan Li, Richard Socher, Steven C.H. Hoi*<br>
-ICLR'2020 [[Paper](https://arxiv.org/abs/2002.07394)]
-[[Code](https://github.com/LiJunnan1992/DivideMix)]
-   <details close>
-   <summary>DivideMix Framework</summary>
-   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/230495626-f0f3f52e-9f8a-472d-8ff2-b33356993e09.png" /></p>
-   </details>
-
-* **Epsilon Consistent Mixup: Structural Regularization with an Adaptive Consistency-Interpolation Tradeoff**<br>
-*Vincent Pisztora, Yanglan Ou, Xiaolei Huang, Francesca Chiaromonte, Jia Li*<br>
-ArXiv'2021 [[Paper](https://arxiv.org/abs/2104.09452)]
-   <details close>
-   <summary>Epsilon Consistent Mixup (ϵmu) Framework</summary>
-   <p align="center"><img width="50%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/283528510-1f3b643c-0edd-416e-9979-110f3d2be6b6.png" /></p>
-   </details>
-
-* **Unleashing the Power of Contrastive Self-Supervised Visual Models via Contrast-Regularized Fine-Tuning**<br>
-*Yifan Zhang, Bryan Hooi, Dapeng Hu, Jian Liang, Jiashi Feng*<br>
-NIPS'2021 [[Paper](https://arxiv.org/abs/2102.06605)]
-[[Code](https://github.com/vanint/core-tuning)]
-   <details close>
-   <summary>Core-Tuning Framework</summary>
-   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204580135-ed6ba8b7-b69c-4683-90f0-9aa9cdd530bc.png" /></p>
-   </details>
-
-* **MUM: Mix Image Tiles and UnMix Feature Tiles for Semi-Supervised Object Detection**<br>
-*JongMok Kim, Jooyoung Jang, Seunghyeon Seo, Jisoo Jeong, Jongkeun Na, Nojun Kwak*<br>
-CVPR'2022 [[Paper](https://user-images.githubusercontent.com/44519745/225082975-4143e7f5-8873-433c-ab6f-6caa615f7120.png)]
-[[Code](https://github.com/jongmokkim/mix-unmix)]
-   <details close>
-   <summary>MUM Framework</summary>
-   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/225082975-4143e7f5-8873-433c-ab6f-6caa615f7120.png" /></p>
-   </details>
-
-* **Harnessing Hard Mixed Samples with Decoupled Regularizer**<br>
-*Zicheng Liu, Siyuan Li, Ge Wang, Cheng Tan, Lirong Wu, Stan Z. Li*<br>
-NIPS'2023 [[Paper](https://arxiv.org/abs/2203.10761)]
-[[Code](https://github.com/Westlake-AI/openmixup)]
-   <details close>
-   <summary>DFixMatch Framework</summary>
-   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204578387-4be9567c-963a-4d2d-8c1f-c7c5ade527b8.png" /></p>
-   </details>
-
-* **Manifold DivideMix: A Semi-Supervised Contrastive Learning Framework for Severe Label Noise**<br>
-*Fahimeh Fooladgar, Minh Nguyen Nhat To, Parvin Mousavi, Purang Abolmaesumi*<br>
-Arxiv'2023 [[Paper](https://arxiv.org/abs/2308.06861)]
-[[Code](https://github.com/Fahim-F/ManifoldDivideMix)]
-   <details close>
-   <summary>MixEMatch Framework</summary>
-   <p align="center"><img width="90%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/268411562-4263ccd5-a31c-4020-9281-ba4bc3d9fc54.png" /></p>
-   </details>
-
-* **LaserMix for Semi-Supervised LiDAR Semantic Segmentation**<br>
-*Lingdong Kong, Jiawei Ren, Liang Pan, Ziwei Liu*<br>
-CVPR'2023 [[Paper](https://arxiv.org/abs/2207.00026)]
-[[Code](https://github.com/ldkong1205/LaserMix)] [[project](https://ldkong.com/LaserMix)]
-   <details close>
-   <summary>LaserMix Framework</summary>
-   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/209255964-69cab84b-ae54-4e74-be4f-a23a836c665c.png" /></p>
-   </details>
-
-* **Dual-Decoder Consistency via Pseudo-Labels Guided Data Augmentation for Semi-Supervised Medical Image Segmentation**<br>
-*Yuanbin Chen, Tao Wang, Hui Tang, Longxuan Zhao, Ruige Zong, Tao Tan, Xinlin Zhang, Tong Tong*<br>
-ArXiv'2023 [[Paper](https://arxiv.org/abs/2308.16573)]
-   <details close>
-   <summary>DCPA Framework</summary>
-   <p align="center"><img width="90%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/268410560-a45c03d9-beb1-4b74-a34b-4d1ecd356de9.png" /></p>
-   </details>
-
-* **Mixed Pseudo Labels for Semi-Supervised Object Detection**<br>
-*Zeming Chen, Wenwei Zhang, Xinjiang Wang, Kai Chen, Zhi Wang*<br>
-ArXiv'2023 [[Paper](https://arxiv.org/abs/2312.07006)]
-[[Code](https://github.com/czm369/mixpl)]
-   <details close>
-   <summary>MixPL Framework</summary>
-   <p align="center"><img width="90%" src="https://github.com/Westlake-AI/Awesome-Mixup/assets/44519745/c1ac594f-18bb-465b-b0e7-e96249231e2c" /></p>
-   </details>
-
-* **PCLMix: Weakly Supervised Medical Image Segmentation via Pixel-Level Contrastive Learning and Dynamic Mix Augmentation**<br>
-*Yu Lei, Haolun Luo, Lituan Wang, Zhenwei Zhang, Lei Zhang*<br>
-ArXiv'2024 [[Paper](https://arxiv.org/abs/2405.06288)]
-[[Code](https://github.com/Torpedo2648/PCLMix)]
-   <details close>
-   <summary>PCLMix Framework</summary>
-   <p align="center"><img width="85%" src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/e41b7e65-962b-49fa-b1be-6e789e8b244e" /></p>
-   </details>
 
 ## Mixup for Regression
 
