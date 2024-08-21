@@ -38,7 +38,7 @@ The list of awesome mixup augmentation methods is summarized in chronological or
       - [**Saliency Token**](#saliency-token)
   - [Self-Supervised Learning](#mixup-for-self-supervised-learning)
       - [**Contrastive Learning**](#contrastive-learning)
-      - [**Masked Image Modeling**]
+      - [**Masked Image Modeling**](#masked-image-modeling)
   - [Semi-Supervised Learning](#mixup-for-semi-supervised-learning)
   - [CV Downstream Tasks](#cv-downstream-task)
   - [Training Paradigms](#training-paradigms)
@@ -849,107 +849,9 @@ AAAI'2022 [[Paper](https://arxiv.org/abs/2112.08796)]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Mixup for Self-supervised Learning
+## Self-Supervised Learning
 
-####################################################
-
-* **Guided Interpolation for Adversarial Training**<br>
-*Chen Chen, Jingfeng Zhang, Xilie Xu, Tianlei Hu, Gang Niu, Gang Chen, Masashi Sugiyama*<br>
-ArXiv'2021 [[Paper](https://arxiv.org/abs/2102.07327)]
-   <details close>
-   <summary>GIF Framework</summary>
-   <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/230494660-e99cf522-8fd7-4aa4-a4e4-d0385f82d032.png" /></p>
-   </details>
-
-* **Noisy Feature Mixup**<br>
-*Soon Hoe Lim, N. Benjamin Erichson, Francisco Utrera, Winnie Xu, Michael W. Mahoney*<br>
-ICLR'2022 [[Paper](https://arxiv.org/abs/2110.02180)]
-[[Code](https://github.com/erichson/NFM)]
-   <details close>
-   <summary>NFM Framework</summary>
-   <p align="center"><img width="45%" src="https://user-images.githubusercontent.com/44519745/204569704-7de07797-b607-4750-9a46-c4387a539ac0.png" /></p>
-   </details>
-
-* **RegMixup: Mixup as a Regularizer Can Surprisingly Improve Accuracy and Out Distribution Robustness**<br>
-*Francesco Pinto, Harry Yang, Ser-Nam Lim, Philip H.S. Torr, Puneet K. Dokania*<br>
-NIPS'2022 [[Paper](https://arxiv.org/abs/2206.14502)]
-[[Code](https://github.com/FrancescoPinto/RegMixup)]
-   <details close>
-   <summary>RegMixup Framework</summary>
-   <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/204571630-e8407bd7-ca27-44de-baca-5d88ca2004a6.png" /></p>
-   </details>
-
-* **ContextMix: A context-aware data augmentation method for industrial visual inspection systems**<br>
-*Hyungmin Kim, Donghun Kim, Pyunghwan Ahn, Sungho Suh, Hansang Cho, Junmo Kim*<br>
-EAAI'2024 [[Paper](https://arxiv.org/abs/2401.10050)]
-   <details close>
-   <summary>ConvtextMix Framework</summary>
-   <p align="center"><img width="80%" src="https://github.com/Westlake-AI/Awesome-Mixup/assets/44519745/a2b50a9e-ca22-4c1f-9ba9-a3863b84a71a" /></p>
-   </details>
-
-* **Evolving Image Compositions for Feature Representation Learning**<br>
-*Paola Cascante-Bonilla, Arshdeep Sekhon, Yanjun Qi, Vicente Ordonez*<br>
-BMVC'2021 [[Paper](https://arxiv.org/abs/2106.09011)]
-   <details close>
-   <summary>PatchMix Framework</summary>
-   <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/204574267-8e53783d-ea54-4399-8c32-86c8ac2520bd.png" /></p>
-   </details>
-
-* **SalfMix: A Novel Single Image-Based Data Augmentation Technique Using a Saliency Map**<br>
-*Jaehyeop Choi, Chaehyeon Lee, Donggyu Lee, Heechul Jung*<br>
-Sensor'2021 [[Paper](https://pdfs.semanticscholar.org/1db9/c80edeed50858783c69237aeba764750e8b7.pdf?_ga=2.182064935.1813772674.1674154381-1810295069.1625160008)]
-   <details close>
-   <summary>SalfMix Framework</summary>
-   <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/213535188-5255eb4c-83c8-40ca-86b9-44459b84d9a8.png" /></p>
-   </details>
-
-* **Expeditious Saliency-guided Mix-up through Random Gradient Thresholding**<br>
-*Remy Sun, Clement Masson, Gilles Henaff, Nicolas Thome, Matthieu Cord.*<br>
-ICPR'2022 [[Paper](https://arxiv.org/abs/2205.10158)]
-   <details close>
-   <summary>SciMix Framework</summary>
-   <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/204575557-ddc6644e-a5e4-49ae-a95d-59856cc99a25.png" /></p>
-   </details>
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-* **Infinite Class Mixup**<br>
-*Thomas Mensink, Pascal Mettes*<br>
-arXiv'2023 [[Paper](https://arxiv.org/abs/2305.10293)]
-   <details close>
-   <summary>IC-Mixup Framework</summary>
-   <p align="center"><img width="60%" src="https://github.com/Westlake-AI/openmixup/assets/44519745/5082d12b-8cb0-4a3e-8258-c0dbf78e3159" /></p>
-   </details>
-
-* **Semantic Equivariant Mixup**<br>
-*Zongbo Han, Tianchi Xie, Bingzhe Wu, Qinghua Hu, Changqing Zhang*<br>
-arXiv'2023 [[Paper](https://arxiv.org/abs/2308.06451)]
-   <details close>
-   <summary>SEM Framework</summary>
-   <p align="center"><img width="75%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/264147910-bbe70d79-b521-4de2-8c5e-251301cfc6ad.png" /></p>
-   </details>
-
-* **RankMixup: Ranking-Based Mixup Training for Network Calibration**<br>
-*Jongyoun Noh, Hyekang Park, Junghyup Lee, Bumsub Ham*<br>
-ICCV'2023 [[Paper](https://arxiv.org/abs/2308.11990)]
-[[Code](https://cvlab.yonsei.ac.kr/projects/RankMixup)]
-   <details close>
-   <summary>RankMixup Framework</summary>
-   <p align="center"><img width="60%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/264144742-051304d2-4f64-4bd7-9e70-12074c2215e4.png" /></p>
-   </details>
-
-* **G-Mix: A Generalized Mixup Learning Framework Towards Flat Minima**<br>
-*Xingyu Li, Bo Tang*<br>
-arXiv'2023 [[Paper](https://arxiv.org/abs/2308.03236)]
-   <details close>
-   <summary>G-Mix Framework</summary>
-   <p align="center"><img width="70%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/264155347-1a94f3d1-a9d8-46e1-bb32-bed0bfb449ca.png" /></p>
-   </details>
-
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-## Mixup for Self-supervised Learning
+### **Contrastive Learning**
 
 * **MixCo: Mix-up Contrastive Learning for Visual Representation**<br>
 *Sungnyun Kim, Gihun Lee, Sangmin Bae, Se-Young Yun*<br>
@@ -1123,6 +1025,10 @@ ArXiv'2022 [[Paper](https://arxiv.org/abs/2205.15955)]
    <p align="center"><img width="75%" src="https://user-images.githubusercontent.com/44519745/204585732-680295fe-4768-4199-af72-bda10edda644.png" /></p>
    </details>
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### **Masked Image Modeling**
+
 * **i-MAE: Are Latent Representations in Masked Autoencoders Linearly Separable**<br>
 *Kevin Zhang, Zhiqiang Shen*<br>
 ArXiv'2022 [[Paper](https://arxiv.org/abs/2210.11470)]
@@ -1148,6 +1054,106 @@ CVPR'2023 [[Paper](https://arxiv.org/abs/2303.17152)]
    <summary>MixedAE Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/229929023-1ea53237-ebfb-4203-8b93-dd761d937b27.png" /></p>
    </details>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+####################################################
+
+* **Guided Interpolation for Adversarial Training**<br>
+*Chen Chen, Jingfeng Zhang, Xilie Xu, Tianlei Hu, Gang Niu, Gang Chen, Masashi Sugiyama*<br>
+ArXiv'2021 [[Paper](https://arxiv.org/abs/2102.07327)]
+   <details close>
+   <summary>GIF Framework</summary>
+   <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/230494660-e99cf522-8fd7-4aa4-a4e4-d0385f82d032.png" /></p>
+   </details>
+
+* **Noisy Feature Mixup**<br>
+*Soon Hoe Lim, N. Benjamin Erichson, Francisco Utrera, Winnie Xu, Michael W. Mahoney*<br>
+ICLR'2022 [[Paper](https://arxiv.org/abs/2110.02180)]
+[[Code](https://github.com/erichson/NFM)]
+   <details close>
+   <summary>NFM Framework</summary>
+   <p align="center"><img width="45%" src="https://user-images.githubusercontent.com/44519745/204569704-7de07797-b607-4750-9a46-c4387a539ac0.png" /></p>
+   </details>
+
+* **RegMixup: Mixup as a Regularizer Can Surprisingly Improve Accuracy and Out Distribution Robustness**<br>
+*Francesco Pinto, Harry Yang, Ser-Nam Lim, Philip H.S. Torr, Puneet K. Dokania*<br>
+NIPS'2022 [[Paper](https://arxiv.org/abs/2206.14502)]
+[[Code](https://github.com/FrancescoPinto/RegMixup)]
+   <details close>
+   <summary>RegMixup Framework</summary>
+   <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/204571630-e8407bd7-ca27-44de-baca-5d88ca2004a6.png" /></p>
+   </details>
+
+* **ContextMix: A context-aware data augmentation method for industrial visual inspection systems**<br>
+*Hyungmin Kim, Donghun Kim, Pyunghwan Ahn, Sungho Suh, Hansang Cho, Junmo Kim*<br>
+EAAI'2024 [[Paper](https://arxiv.org/abs/2401.10050)]
+   <details close>
+   <summary>ConvtextMix Framework</summary>
+   <p align="center"><img width="80%" src="https://github.com/Westlake-AI/Awesome-Mixup/assets/44519745/a2b50a9e-ca22-4c1f-9ba9-a3863b84a71a" /></p>
+   </details>
+
+* **Evolving Image Compositions for Feature Representation Learning**<br>
+*Paola Cascante-Bonilla, Arshdeep Sekhon, Yanjun Qi, Vicente Ordonez*<br>
+BMVC'2021 [[Paper](https://arxiv.org/abs/2106.09011)]
+   <details close>
+   <summary>PatchMix Framework</summary>
+   <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/204574267-8e53783d-ea54-4399-8c32-86c8ac2520bd.png" /></p>
+   </details>
+
+* **SalfMix: A Novel Single Image-Based Data Augmentation Technique Using a Saliency Map**<br>
+*Jaehyeop Choi, Chaehyeon Lee, Donggyu Lee, Heechul Jung*<br>
+Sensor'2021 [[Paper](https://pdfs.semanticscholar.org/1db9/c80edeed50858783c69237aeba764750e8b7.pdf?_ga=2.182064935.1813772674.1674154381-1810295069.1625160008)]
+   <details close>
+   <summary>SalfMix Framework</summary>
+   <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/213535188-5255eb4c-83c8-40ca-86b9-44459b84d9a8.png" /></p>
+   </details>
+
+* **Expeditious Saliency-guided Mix-up through Random Gradient Thresholding**<br>
+*Remy Sun, Clement Masson, Gilles Henaff, Nicolas Thome, Matthieu Cord.*<br>
+ICPR'2022 [[Paper](https://arxiv.org/abs/2205.10158)]
+   <details close>
+   <summary>SciMix Framework</summary>
+   <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/204575557-ddc6644e-a5e4-49ae-a95d-59856cc99a25.png" /></p>
+   </details>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+* **Infinite Class Mixup**<br>
+*Thomas Mensink, Pascal Mettes*<br>
+arXiv'2023 [[Paper](https://arxiv.org/abs/2305.10293)]
+   <details close>
+   <summary>IC-Mixup Framework</summary>
+   <p align="center"><img width="60%" src="https://github.com/Westlake-AI/openmixup/assets/44519745/5082d12b-8cb0-4a3e-8258-c0dbf78e3159" /></p>
+   </details>
+
+* **Semantic Equivariant Mixup**<br>
+*Zongbo Han, Tianchi Xie, Bingzhe Wu, Qinghua Hu, Changqing Zhang*<br>
+arXiv'2023 [[Paper](https://arxiv.org/abs/2308.06451)]
+   <details close>
+   <summary>SEM Framework</summary>
+   <p align="center"><img width="75%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/264147910-bbe70d79-b521-4de2-8c5e-251301cfc6ad.png" /></p>
+   </details>
+
+* **RankMixup: Ranking-Based Mixup Training for Network Calibration**<br>
+*Jongyoun Noh, Hyekang Park, Junghyup Lee, Bumsub Ham*<br>
+ICCV'2023 [[Paper](https://arxiv.org/abs/2308.11990)]
+[[Code](https://cvlab.yonsei.ac.kr/projects/RankMixup)]
+   <details close>
+   <summary>RankMixup Framework</summary>
+   <p align="center"><img width="60%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/264144742-051304d2-4f64-4bd7-9e70-12074c2215e4.png" /></p>
+   </details>
+
+* **G-Mix: A Generalized Mixup Learning Framework Towards Flat Minima**<br>
+*Xingyu Li, Bo Tang*<br>
+arXiv'2023 [[Paper](https://arxiv.org/abs/2308.03236)]
+   <details close>
+   <summary>G-Mix Framework</summary>
+   <p align="center"><img width="70%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/264155347-1a94f3d1-a9d8-46e1-bb32-bed0bfb449ca.png" /></p>
+   </details>
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 * **Inter-Instance Similarity Modeling for Contrastive Learning**<br>
 *Chengchao Shen, Dawei Liu, Hao Tang, Zhe Qu, Jianxin Wang*<br>
