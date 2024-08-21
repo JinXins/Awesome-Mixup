@@ -1057,7 +1057,7 @@ CVPR'2023 [[Paper](https://arxiv.org/abs/2303.17152)]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Self-Supervised Learning
+### Semi-Supervised Learning
 
 * **MixMatch: A Holistic Approach to Semi-Supervised Learning**<br>
 *David Berthelot, Nicholas Carlini, Ian Goodfellow, Nicolas Papernot, Avital Oliver, Colin Raffel*<br>
