@@ -28,7 +28,17 @@ The list of awesome mixup augmentation methods is summarized in chronological or
       - [**Attention-based**](#attention-based)
       - [**Generating Samples**](#generating-samples)
   - [Label Mixup Policies in SL](#label-mixup-methods)
+      - [**Optimizing Calibration**](#optimizing-calibration)
+      - [**Area-based**](#area-based)
+      - [**Loss Object**](#loss-object)
+      - [**Random Label Policies**](#random-label-policies)
+      - [**Optimizing Mixing Ratio**](#optimizing-mixing-ratio)
+      - [**Generating Label**](#generating-label)
+      - [**Attention Score**](#attention-score)
+      - [**Saliency Token**](#saliency-token)
   - [Self-Supervised Learning](#mixup-for-self-supervised-learning)
+      - [**Contrastive Learning**](#contrastive-learning)
+      - [**Masked Image Modeling**]
   - [Semi-Supervised Learning](#mixup-for-semi-supervised-learning)
   - [CV Downstream Tasks](#cv-downstream-task)
   - [Training Paradigms](#training-paradigms)
@@ -41,10 +51,7 @@ The list of awesome mixup augmentation methods is summarized in chronological or
   - [Acknowledgement](#acknowledgement)
   - [Related Project](#related-project)
 
-
-## Fundermental Methods
-
-### Sample Mixup Methods
+## Sample Mixup Policies in SL
 
 #### **Static Linear**
 
@@ -472,7 +479,7 @@ NIPS'2022 [[Paper](https://arxiv.org/abs/2203.06844)]
    </details>
 
 * **TransformMix: Learning Transformation and Mixing Strategies for Sample-mixing Data Augmentation**<br>
-*Tsz-Him Cheung, Dit-Yan Yeung.*<\br> 
+*Tsz-Him Cheung, Dit-Yan Yeung*<br>
 OpenReview'2023 [[Paper](https://openreview.net/forum?id=-1vpxBUtP0B)]
    <details close>
    <summary>TransformMix Framework</summary>
@@ -482,6 +489,7 @@ OpenReview'2023 [[Paper](https://openreview.net/forum?id=-1vpxBUtP0B)]
 * **GuidedMixup: An Efficient Mixup Strategy Guided by Saliency Maps**<br>
 *Minsoo Kang, Suhyun Kim*<br>
 AAAI'2023 [[Paper](https://arxiv.org/abs/2306.16612)]
+[[Code](https://github.com/3neutronstar/GuidedMixup)]
    <details close>
    <summary>GuidedMixup Framework</summary>
    <p align="center"><img width="95%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/250170540-97434afd-790c-4148-81dc-ff7129ca3f7c.png" /></p>
@@ -609,7 +617,111 @@ ECCV'2020 [[Paper](https://arxiv.org/abs/2405.14881)]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-####################################################
+## Label Mixup Policies in SL
+
+### **Optimizing Calibration**
+
+* **Combining Ensembles and Data Augmentation can Harm your Calibration**<br>
+*Yeming Wen, Ghassen Jerfel, Rafael Muller, Michael W. Dusenberry, Jasper Snoek, Balaji Lakshminarayanan, Dustin Tran*<br>
+ICLR'2021 [[Paper](https://arxiv.org/abs/2010.09875)]
+[[Code](https://github.com/google/edward2/tree/main/experimental/marginalization_mixup)]
+   <details close>
+   <summary>CAMix Framework</summary>
+   <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/204577092-06b2c74a-47cc-44f5-8423-9f37b1d0cbdc.png" /></p>
+   </details>
+
+* **RankMixup: Ranking-Based Mixup Training for Network Calibration**<br>
+*Jongyoun Noh, Hyekang Park, Junghyup Lee, Bumsub Ham*<br>
+ICCV'2023 [[Paper](https://arxiv.org/abs/2308.11990)]
+[[Code](https://cvlab.yonsei.ac.kr/projects/RankMixup)]
+   <details close>
+   <summary>RankMixup Framework</summary>
+   <p align="center"><img width="60%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/264144742-051304d2-4f64-4bd7-9e70-12074c2215e4.png" /></p>
+   </details>
+
+* **SmoothMix: Training Confidence-calibrated Smoothed Classifiers for Certified Robustness**<br>
+*Jongheon Jeong, Sejun Park, Minkyu Kim, Heung-Chang Lee, Doguk Kim, Jinwoo Shin*<br>
+NIPS'2021 [[Paper](https://arxiv.org/abs/2111.09277)]
+[[Code](https://github.com/jh-jeong/smoothmix)]
+   <details close>
+   <summary>SmoothMixup Framework</summary>
+   <p align="center"><img width="60%" src="https://github.com/user-attachments/assets/ea280849-dda3-465c-959b-31d10a0cf54c" /></p>
+   </details>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### **Area-based**
+
+* **TransMix: Attend to Mix for Vision Transformers**<br>
+*Jie-Neng Chen, Shuyang Sun, Ju He, Philip Torr, Alan Yuille, Song Bai*<br>
+CVPR'2022 [[Paper](https://arxiv.org/abs/2111.09833)]
+[[Code](https://github.com/Beckschen/TransMix)]
+   <details close>
+   <summary>TransMix Framework</summary>
+   <p align="center"><img width="60%" src="https://user-images.githubusercontent.com/44519745/204577728-8d59ad5f-0204-4943-aae7-dca6c48022ce.png" /></p>
+   </details>
+
+* **Data Augmentation using Random Image Cropping and Patching for Deep CNNs**<br>
+*Ryo Takahashi, Takashi Matsubara, Kuniaki Uehara*<br>
+IEEE TCSVT'2020 [[Paper](https://arxiv.org/abs/1811.09030)]
+   <details close>
+   <summary>RICAP</summary>
+   <p align="center"><img width="50%" src="https://github.com/user-attachments/assets/d8fae235-ae35-4fbe-9454-6a8f3b8fce12" /></p>
+   </details>
+
+* **RecursiveMix: Mixed Learning with History**<br>
+*Lingfeng Yang, Xiang Li, Borui Zhao, Renjie Song, Jian Yang*<br>
+NIPS'2022 [[Paper](https://arxiv.org/abs/2203.06844)]
+[[Code](https://github.com/implus/RecursiveMix-pytorch)]
+   <details close>
+   <summary>RecursiveMix Framework</summary>
+   <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/204576092-5fd92410-c12a-4691-8f7b-01901445f2a4.png" /></p>
+   </details>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### **Loss Object**
+
+* **Harnessing Hard Mixed Samples with Decoupled Regularizer**<br>
+*Zicheng Liu, Siyuan Li, Ge Wang, Cheng Tan, Lirong Wu, Stan Z. Li*<br>
+NIPS'2023 [[Paper](https://arxiv.org/abs/2203.10761)]
+[[Code](https://github.com/Westlake-AI/openmixup)]
+   <details close>
+   <summary>DecoupledMix Framework</summary>
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204578387-4be9567c-963a-4d2d-8c1f-c7c5ade527b8.png" /></p>
+   </details>
+
+* **MixupE: Understanding and Improving Mixup from Directional Derivative Perspective**<br>
+*Vikas Verma, Sarthak Mittal, Wai Hoh Tang, Hieu Pham, Juho Kannala, Yoshua Bengio, Arno Solin, Kenji Kawaguchi*<br>
+UAI'2023 [[Paper](https://arxiv.org/abs/2212.13381)]
+[[Code](https://github.com/onehuster/mixupe)]
+   <details close>
+   <summary>MixupE Framework</summary>
+   <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/209991074-3dd41cdf-4e64-42e2-8bf4-ebc60e8212d0.png" /></p>
+   </details>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### **Random Label Policies**
+
+* **Mixup Without Hesitation**<br>
+*Hao Yu, Huanyu Wang, Jianxin Wu*<br>
+ICIG'2022 [[Paper](https://arxiv.org/abs/2101.04342)]
+[[Code](https://github.com/yuhao318/mwh)]
+
+* **RegMixup: Mixup as a Regularizer Can Surprisingly Improve Accuracy and Out Distribution Robustness**<br>
+*Francesco Pinto, Harry Yang, Ser-Nam Lim, Philip H.S. Torr, Puneet K. Dokania*<br>
+NIPS'2022 [[Paper](https://arxiv.org/abs/2206.14502)]
+[[Code](https://github.com/FrancescoPinto/RegMixup)]
+   <details close>
+   <summary>RegMixup Framework</summary>
+   <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/204571630-e8407bd7-ca27-44de-baca-5d88ca2004a6.png" /></p>
+   </details>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### **Optimizing Mixing Ratio**
+
 * **MixUp as Locally Linear Out-Of-Manifold Regularization**<br>
 *Hongyu Guo, Yongyi Mao, Richong Zhang*<br>
 AAAI'2019 [[Paper](https://arxiv.org/abs/1809.02499)]
@@ -618,6 +730,128 @@ AAAI'2019 [[Paper](https://arxiv.org/abs/1809.02499)]
    <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/204563766-4a49b4d9-fb1e-46d7-8443-bff37a527ee1.png" /></p>
    </details>
 
+* **RegMixup: Mixup as a Regularizer Can Surprisingly Improve Accuracy and Out Distribution Robustness**<br>
+*Francesco Pinto, Harry Yang, Ser-Nam Lim, Philip H.S. Torr, Puneet K. Dokania*<br>
+NIPS'2022 [[Paper](https://arxiv.org/abs/2206.14502)]
+[[Code](https://github.com/FrancescoPinto/RegMixup)]
+   <details close>
+   <summary>RegMixup Framework</summary>
+   <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/204571630-e8407bd7-ca27-44de-baca-5d88ca2004a6.png" /></p>
+   </details>
+
+* **Metamixup: Learning adaptive interpolation policy of mixup with metalearning**<br>
+*Zhijun Mai, Guosheng Hu, Dexiong Chen, Fumin Shen, Heng Tao Shen*<br>
+TNNLS'2021 [[Paper](https://arxiv.org/abs/1908.10059)]
+   <details close>
+   <summary>MetaMixup Framework</summary>
+   <p align="center"><img width="70%" src="https://user-images.githubusercontent.com/44519745/204576802-4aa83a66-61ac-40fd-8904-3b4f9eda62ef.png" /></p>
+   </details>
+
+* **LUMix: Improving Mixup by Better Modelling Label Uncertainty**<br>
+*Shuyang Sun, Jie-Neng Chen, Ruifei He, Alan Yuille, Philip Torr, Song Bai*<br>
+ICASSP'2024 [[Paper](https://arxiv.org/abs/2211.15846)]
+[[Code](https://github.com/kevin-ssy/LUMix)]
+   <details close>
+   <summary>LUMix Framework</summary>
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/205531445-dc4b7790-e0b7-4c41-b9d2-708efa5e4198.png" /></p>
+   </details>
+
+* **SUMix: Mixup with Semantic and Uncertain Information**<br>
+*Huafeng Qin, Xin Jin, Hongyu Zhu, Hongchao Liao, Mounîm A. El-Yacoubi, Xinbo Gao*<br>
+ECCV'2024 [[Paper](https://arxiv.org/abs/2407.07805)]
+[[Code](https://github.com/JinXins/SUMix)]
+   <details close>
+   <summary>SUMix Framework</summary>
+   <p align="center"><img width="90%" src="https://github.com/JinXins/SUMix/assets/124172716/1725dfb7-ab1e-4429-a34b-0dfdd3bc2a6f" /></p>
+   </details>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### **Generating Label**
+
+* **GenLabel: Mixup Relabeling using Generative Models**<br>
+*Jy-yong Sohn, Liang Shang, Hongxu Chen, Jaekyun Moon, Dimitris Papailiopoulos, Kangwook Lee*<br>
+ICML'2022  [[Paper](https://arxiv.org/abs/2201.02354)]
+   <details close>
+   <summary>GenLabel Framework</summary>
+   <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/204578083-3212ed98-6f1b-422b-8764-0276a65bce8e.png" /></p>
+   </details>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### **Attention Score**
+
+* **All Tokens Matter: Token Labeling for Training Better Vision Transformers**<br>
+*Zihang Jiang, Qibin Hou, Li Yuan, Daquan Zhou, Yujun Shi, Xiaojie Jin, Anran Wang, Jiashi Feng*<br>
+NIPS'2021 [[Paper](https://arxiv.org/abs/2104.10858)]
+[[Code](https://github.com/zihangJiang/TokenLabeling)]
+   <details close>
+   <summary>Token Labeling Framework</summary>
+   <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/204577372-f679ab10-a65f-4319-9a40-8393c20ad0fa.png" /></p>
+   </details>
+
+* **TokenMix: Rethinking Image Mixing for Data Augmentation in Vision Transformers**<br>
+*Jihao Liu, Boxiao Liu, Hang Zhou, Hongsheng Li, Yu Liu*<br>
+ECCV'2022 [[Paper](https://arxiv.org/abs/2207.08409)]
+[[Code](https://github.com/Sense-X/TokenMix)]
+   <details close>
+   <summary>TokenMix Framework</summary>
+   <p align="center"><img width="70%" src="https://user-images.githubusercontent.com/44519745/204578736-7b2dd349-7214-4d49-ade8-30b1caa2f1ea.png" /></p>
+   </details>
+
+* **TokenMixup: Efficient Attention-guided Token-level Data Augmentation for Transformers**<br>
+*Hyeong Kyu Choi, Joonmyung Choi, Hyunwoo J. Kim*<br>
+NIPS'2022 [[Paper](https://arxiv.org/abs/2210.07562)]
+[[Code](https://github.com/mlvlab/TokenMixup)]
+   <details close>
+   <summary>TokenMixup Framework</summary>
+   <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/204578884-b9d7d466-b26b-4e4b-8a23-22199a6dca26.png" /></p>
+   </details>
+
+* **MixPro: Data Augmentation with MaskMix and Progressive Attention Labeling for Vision Transformer**<br>
+*Qihao Zhao, Yangyu Huang, Wei Hu, Fan Zhang, Jun Liu*<br>
+ICLR'2023 [[Paper](https://openreview.net/forum?id=dRjWsd3gwsm)]
+[[Code](https://github.com/fistyee/MixPro)]
+   <details close>
+   <summary>MixPro Framework</summary>
+   <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/224795935-afb936b2-fc77-4018-a681-72887f96fa59.png" /></p>
+   </details>
+
+* **Token-Label Alignment for Vision Transformers**<br>
+*Han Xiao, Wenzhao Zheng, Zheng Zhu, Jie Zhou, Jiwen Lu*<br>
+ICCV'2023 [[Paper](https://arxiv.org/abs/2210.06455)]
+[[Code](https://github.com/Euphoria16/TL-Align)]
+   <details close>
+   <summary>TL-Align Framework</summary>
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204579080-3b7c9352-8fb3-49bd-99f5-ce4f72d722d8.png" /></p>
+   </details>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### **Saliency Token**
+
+* **SnapMix: Semantically Proportional Mixing for Augmenting Fine-grained Data**<br>
+*Shaoli Huang, Xinchao Wang, Dacheng Tao*<br>
+AAAI'2021 [[Paper](https://arxiv.org/abs/2012.04846)]
+[[Code](https://github.com/Shaoli-Huang/SnapMix)]
+   <details close>
+   <summary>SnapMix Framework</summary>
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204572296-2035c6b4-c477-4484-a8e6-7ad9ad415045.png" /></p>
+   </details>
+
+* **Saliency Grafting: Innocuous Attribution-Guided Mixup with Calibrated Label Mixing**<br>
+*Joonhyung Park, June Yong Yang, Jinwoo Shin, Sung Ju Hwang, Eunho Yang*<br>
+AAAI'2022 [[Paper](https://arxiv.org/abs/2112.08796)]
+   <details close>
+   <summary>Saliency Grafting Framework</summary>
+   <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/204577555-7ffe34ed-74c1-4dff-95e8-f5a9e385f50c.png" /></p>
+   </details>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Mixup for Self-supervised Learning
+
+####################################################
 
 * **Guided Interpolation for Adversarial Training**<br>
 *Chen Chen, Jingfeng Zhang, Xilie Xu, Tianlei Hu, Gang Niu, Gang Chen, Masashi Sugiyama*<br>
@@ -669,14 +903,6 @@ Sensor'2021 [[Paper](https://pdfs.semanticscholar.org/1db9/c80edeed50858783c6923
    <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/213535188-5255eb4c-83c8-40ca-86b9-44459b84d9a8.png" /></p>
    </details>
 
-* **ScoreNet: Learning Non-Uniform Attention and Augmentation for Transformer-Based Histopathological Image Classification**<br>
-*Thomas Stegmüller, Behzad Bozorgtabar, Antoine Spahr, Jean-Philippe Thiran*<br>
-Arxiv'2022 [[Paper](https://arxiv.org/abs/2202.07570)]
-   <details close>
-   <summary>ScoreMix Framework</summary>
-   <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/204576297-e97ea9c4-ee17-4ec3-a672-3f088ededb72.png" /></p>
-   </details>
-
 * **Expeditious Saliency-guided Mix-up through Random Gradient Thresholding**<br>
 *Remy Sun, Clement Masson, Gilles Henaff, Nicolas Thome, Matthieu Cord.*<br>
 ICPR'2022 [[Paper](https://arxiv.org/abs/2205.10158)]
@@ -685,160 +911,7 @@ ICPR'2022 [[Paper](https://arxiv.org/abs/2205.10158)]
    <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/204575557-ddc6644e-a5e4-49ae-a95d-59856cc99a25.png" /></p>
    </details>
 
-* **MixPro: Data Augmentation with MaskMix and Progressive Attention Labeling for Vision Transformer**<br>
-*Qihao Zhao, Yangyu Huang, Wei Hu, Fan Zhang, Jun Liu*<br>
-ICLR'2023 [[Paper](https://openreview.net/forum?id=dRjWsd3gwsm)]
-[[Code](https://github.com/fistyee/MixPro)]
-   <details close>
-   <summary>MixPro Framework</summary>
-   <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/224795935-afb936b2-fc77-4018-a681-72887f96fa59.png" /></p>
-   </details>
-
-* **Expeditious Saliency-guided Mix-up through Random Gradient Thresholding**<br>
-*Minh-Long Luu, Zeyi Huang, Eric P.Xing, Yong Jae Lee, Haohan Wang*<br>
-2nd Practical-DL Workshop @ AAAI'23 [[Paper](https://arxiv.org/abs/2212.04875)]
-[[Code](https://github.com/minhlong94/Random-Mixup)]
-   <details close>
-   <summary>R-Mix and R-LMix Framework</summary>
-   <p align="center"><img width="85%" src="https://raw.githubusercontent.com/minhlong94/Random-Mixup/main/assets/Mixups.png" /></p>
-   </details>
-
-* **SMMix: Self-Motivated Image Mixing for Vision Transformers**<br>
-*Mengzhao Chen, Mingbao Lin, ZhiHang Lin, Yuxin Zhang, Fei Chao, Rongrong Ji*<br>
-ICCV'2023 [[Paper](https://arxiv.org/abs/2212.12977)]
-[[Code](https://github.com/chenmnz/smmix)]
-   <details close>
-   <summary>SMMix Framework</summary>
-   <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/213537624-7359689e-b5af-4db1-a4ad-07876dd44089.png" /></p>
-   </details>
-
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-### Label Mixup Methods
-
-* **mixup: Beyond Empirical Risk Minimization**<br>
-*Hongyi Zhang, Moustapha Cisse, Yann N. Dauphin, David Lopez-Paz*<br>
-ICLR'2018 [[Paper](https://arxiv.org/abs/1710.09412)]
-[[Code](https://github.com/facebookresearch/mixup-cifar10)]
-
-* **CutMix: Regularization Strategy to Train Strong Classifiers with Localizable Features**<br>
-*Sangdoo Yun, Dongyoon Han, Seong Joon Oh, Sanghyuk Chun, Junsuk Choe, Youngjoon Yoo*<br>
-ICCV'2019 [[Paper](https://arxiv.org/abs/1905.04899)]
-[[Code](https://github.com/clovaai/CutMix-PyTorch)]
-
-* **Metamixup: Learning adaptive interpolation policy of mixup with metalearning**<br>
-*Zhijun Mai, Guosheng Hu, Dexiong Chen, Fumin Shen, Heng Tao Shen*<br>
-TNNLS'2021 [[Paper](https://arxiv.org/abs/1908.10059)]
-   <details close>
-   <summary>MetaMixup Framework</summary>
-   <p align="center"><img width="70%" src="https://user-images.githubusercontent.com/44519745/204576802-4aa83a66-61ac-40fd-8904-3b4f9eda62ef.png" /></p>
-   </details>
-
-* **Mixup Without Hesitation**<br>
-*Hao Yu, Huanyu Wang, Jianxin Wu*<br>
-ICIG'2022 [[Paper](https://arxiv.org/abs/2101.04342)]
-[[Code](https://github.com/yuhao318/mwh)]
-
-* **Combining Ensembles and Data Augmentation can Harm your Calibration**<br>
-*Yeming Wen, Ghassen Jerfel, Rafael Muller, Michael W. Dusenberry, Jasper Snoek, Balaji Lakshminarayanan, Dustin Tran*<br>
-ICLR'2021 [[Paper](https://arxiv.org/abs/2010.09875)]
-[[Code](https://github.com/google/edward2/tree/main/experimental/marginalization_mixup)]
-   <details close>
-   <summary>CAMixup Framework</summary>
-   <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/204577092-06b2c74a-47cc-44f5-8423-9f37b1d0cbdc.png" /></p>
-   </details>
-
-* **Combining Ensembles and Data Augmentation can Harm your Calibration**<br>
-*Zihang Jiang, Qibin Hou, Li Yuan, Daquan Zhou, Yujun Shi, Xiaojie Jin, Anran Wang, Jiashi Feng*<br>
-NIPS'2021 [[Paper](https://arxiv.org/abs/2104.10858)]
-[[Code](https://github.com/zihangJiang/TokenLabeling)]
-   <details close>
-   <summary>TokenLabeling Framework</summary>
-   <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/204577372-f679ab10-a65f-4319-9a40-8393c20ad0fa.png" /></p>
-   </details>
-
-* **Saliency Grafting: Innocuous Attribution-Guided Mixup with Calibrated Label Mixing**<br>
-*Joonhyung Park, June Yong Yang, Jinwoo Shin, Sung Ju Hwang, Eunho Yang*<br>
-AAAI'2022 [[Paper](https://arxiv.org/abs/2112.08796)]
-   <details close>
-   <summary>Saliency Grafting Framework</summary>
-   <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/204577555-7ffe34ed-74c1-4dff-95e8-f5a9e385f50c.png" /></p>
-   </details>
-
-* **TransMix: Attend to Mix for Vision Transformers**<br>
-*Jie-Neng Chen, Shuyang Sun, Ju He, Philip Torr, Alan Yuille, Song Bai*<br>
-CVPR'2022 [[Paper](https://arxiv.org/abs/2111.09833)]
-[[Code](https://github.com/Beckschen/TransMix)]
-   <details close>
-   <summary>TransMix Framework</summary>
-   <p align="center"><img width="60%" src="https://user-images.githubusercontent.com/44519745/204577728-8d59ad5f-0204-4943-aae7-dca6c48022ce.png" /></p>
-   </details>
-
-* **GenLabel: Mixup Relabeling using Generative Models**<br>
-*Jy-yong Sohn, Liang Shang, Hongxu Chen, Jaekyun Moon, Dimitris Papailiopoulos, Kangwook Lee*<br>
-ArXiv'2022 [[Paper](https://arxiv.org/abs/2201.02354)]
-   <details close>
-   <summary>GenLabel Framework</summary>
-   <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/204578083-3212ed98-6f1b-422b-8764-0276a65bce8e.png" /></p>
-   </details>
-
-* **Harnessing Hard Mixed Samples with Decoupled Regularizer**<br>
-*Zicheng Liu, Siyuan Li, Ge Wang, Cheng Tan, Lirong Wu, Stan Z. Li*<br>
-NIPS'2023 [[Paper](https://arxiv.org/abs/2203.10761)]
-[[Code](https://github.com/Westlake-AI/openmixup)]
-   <details close>
-   <summary>DecoupleMix Framework</summary>
-   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204578387-4be9567c-963a-4d2d-8c1f-c7c5ade527b8.png" /></p>
-   </details>
-
-* **TokenMix: Rethinking Image Mixing for Data Augmentation in Vision Transformers**<br>
-*Jihao Liu, Boxiao Liu, Hang Zhou, Hongsheng Li, Yu Liu*<br>
-ECCV'2022 [[Paper](https://arxiv.org/abs/2207.08409)]
-[[Code](https://github.com/Sense-X/TokenMix)]
-   <details close>
-   <summary>TokenMix Framework</summary>
-   <p align="center"><img width="70%" src="https://user-images.githubusercontent.com/44519745/204578736-7b2dd349-7214-4d49-ade8-30b1caa2f1ea.png" /></p>
-   </details>
-
-* **Optimizing Random Mixup with Gaussian Differential Privacy**<br>
-*Donghao Li, Yang Cao, Yuan Yao*<br>
-arXiv'2022 [[Paper](https://arxiv.org/abs/2202.06467)]
-
-* **TokenMixup: Efficient Attention-guided Token-level Data Augmentation for Transformers**<br>
-*Hyeong Kyu Choi, Joonmyung Choi, Hyunwoo J. Kim*<br>
-NIPS'2022 [[Paper](https://arxiv.org/abs/2210.07562)]
-[[Code](https://github.com/mlvlab/TokenMixup)]
-   <details close>
-   <summary>TokenMixup Framework</summary>
-   <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/204578884-b9d7d466-b26b-4e4b-8a23-22199a6dca26.png" /></p>
-   </details>
-
-* **Token-Label Alignment for Vision Transformers**<br>
-*Han Xiao, Wenzhao Zheng, Zheng Zhu, Jie Zhou, Jiwen Lu*<br>
-arXiv'2022 [[Paper](https://arxiv.org/abs/2210.06455)]
-[[Code](https://github.com/Euphoria16/TL-Align)]
-   <details close>
-   <summary>TL-Align Framework</summary>
-   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204579080-3b7c9352-8fb3-49bd-99f5-ce4f72d722d8.png" /></p>
-   </details>
-
-* **LUMix: Improving Mixup by Better Modelling Label Uncertainty**<br>
-*Shuyang Sun, Jie-Neng Chen, Ruifei He, Alan Yuille, Philip Torr, Song Bai*<br>
-arXiv'2022 [[Paper](https://arxiv.org/abs/2211.15846)]
-[[Code](https://github.com/kevin-ssy/LUMix)]
-   <details close>
-   <summary>LUMix Framework</summary>
-   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/205531445-dc4b7790-e0b7-4c41-b9d2-708efa5e4198.png" /></p>
-   </details>
-
-* **MixupE: Understanding and Improving Mixup from Directional Derivative Perspective**<br>
-*Vikas Verma, Sarthak Mittal, Wai Hoh Tang, Hieu Pham, Juho Kannala, Yoshua Bengio, Arno Solin, Kenji Kawaguchi*<br>
-UAI'2023 [[Paper](https://arxiv.org/abs/2212.13381)]
-[[Code](https://github.com/onehuster/mixupe)]
-   <details close>
-   <summary>MixupE Framework</summary>
-   <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/209991074-3dd41cdf-4e64-42e2-8bf4-ebc60e8212d0.png" /></p>
-   </details>
 
 * **Infinite Class Mixup**<br>
 *Thomas Mensink, Pascal Mettes*<br>
