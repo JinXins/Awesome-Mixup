@@ -41,6 +41,10 @@ The list of awesome mixup augmentation methods is summarized in chronological or
       - [**Masked Image Modeling**](#masked-image-modeling)
   - [Semi-Supervised Learning](#semi-supervised-learning)
   - [CV Downstream Tasks](#cv-downstream-task)
+      - [**Regression**](#regression)
+      - [**Long tail distribution**](#long-tail-distribution)
+      - [**Segmentation**](#segmentation)
+      - [**Object Detection**](#object-detection)
   - [Training Paradigms](#training-paradigms)
   - [Beyond Vision](#beyond-vision)
   - [Analysis and Theorem](#analysis-and-theorem)
@@ -1208,6 +1212,63 @@ ArXiv'2024 [[Paper](https://arxiv.org/abs/2405.06288)]
    </details>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+## CV Downstream Tasks
+
+### **Regression**
+
+* **RegMix: Data Mixing Augmentation for Regression**<br>
+*Seong-Hyeon Hwang, Steven Euijong Whang*<br>
+ArXiv'2021 [[Paper](https://arxiv.org/abs/2106.03374)]
+
+* **C-Mixup: Improving Generalization in Regression**<br>
+*Huaxiu Yao, Yiping Wang, Linjun Zhang, James Zou, Chelsea Finn*<br>
+NeurIPS'2022 [[Paper](https://arxiv.org/abs/2210.05775)]
+[[Code](https://github.com/huaxiuyao/C-Mixup)]
+   <details close>
+   <summary>SupReMix Framework</summary>
+   <p align="center"><img width="90%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/283530899-d69f9dca-04ee-487f-bef0-4d16f63d38f8.png" /></p>
+   </details>
+
+* **Anchor Data Augmentation**<br>
+*Nora Schneider, Shirin Goshtasbpour, Fernando Perez-Cruz*<br>
+NeurIPS'2023 [[Paper](https://arxiv.org/abs/2311.06965)]
+
+* **ExtraMix: Extrapolatable Data Augmentation for Regression using Generative Models**<br>
+*Kisoo Kwon, Kuhwan Jeong, Sanghyun Park, Sangha Park, Hoshik Lee, Seung-Yeon Kwak, Sungmin Kim, Kyunghyun Cho*<br>
+OpenReview'2022 [[Paper](https://openreview.net/forum?id=NgEuFT-SIgI)]
+
+* **Rank-N-Contrast: Learning Continuous Representations for Regression**<br>
+*Kaiwen Zha, Peng Cao, Jeany Son, Yuzhe Yang, Dina Katabi*<br>
+NeurIPS'2023 [[Paper](https://arxiv.org/abs/2210.01189)]
+[[Code](https://github.com/kaiwenzha/Rank-N-Contrast)]
+
+* **Mixup Your Own Pairs**<br>
+*Yilei Wu, Zijian Dong, Chongyao Chen, Wangchunshu Zhou, Juan Helen Zhou*<br>
+ArXiv'2023 [[Paper](https://arxiv.org/abs/2309.16633)]
+[[Code](https://github.com/yilei-wu/supremix)]
+   <details close>
+   <summary>SupReMix Framework</summary>
+   <p align="center"><img width="90%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/283530899-d69f9dca-04ee-487f-bef0-4d16f63d38f8.png" /></p>
+   </details>
+
+* **Tailoring Mixup to Data using Kernel Warping functions**<br>
+*Quentin Bouniot, Pavlo Mozharovskyi, Florence d'Alché-Buc*<br>
+ArXiv'2023 [[Paper](https://arxiv.org/abs/2311.01434)]
+[[Code](https://github.com/ENSTA-U2IS/torch-uncertainty)]
+   <details close>
+   <summary>Warped Mixup Framework</summary>
+   <p align="center"><img width="90%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/285024114-9e741976-bd59-46dc-bd57-dc498079a6bb.png" /></p>
+   </details>
+
+* **OmniMixup: Generalize Mixup with Mixing-Pair Sampling Distribution**<br>
+*Anonymous*<br>
+Openreview'2023 [[Paper](https://openreview.net/forum?id=6Uc7Fgwrsm)]
+
+* **Augment on Manifold: Mixup Regularization with UMAP**<br>
+*Yousef El-Laham, Elizabeth Fons, Dillon Daudert, Svitlana Vyetrenko*<br>
+ICASSP'2024 [[Paper](https://arxiv.org/abs/2210.01189)]
+
 ####################################################
 
 * **VLMixer: Unpaired Vision-Language Pre-training via Cross-Modal CutMix**<br>
@@ -1294,15 +1355,6 @@ arXiv'2023 [[Paper](https://arxiv.org/abs/2308.06451)]
    <p align="center"><img width="75%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/264147910-bbe70d79-b521-4de2-8c5e-251301cfc6ad.png" /></p>
    </details>
 
-* **RankMixup: Ranking-Based Mixup Training for Network Calibration**<br>
-*Jongyoun Noh, Hyekang Park, Junghyup Lee, Bumsub Ham*<br>
-ICCV'2023 [[Paper](https://arxiv.org/abs/2308.11990)]
-[[Code](https://cvlab.yonsei.ac.kr/projects/RankMixup)]
-   <details close>
-   <summary>RankMixup Framework</summary>
-   <p align="center"><img width="60%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/264144742-051304d2-4f64-4bd7-9e70-12074c2215e4.png" /></p>
-   </details>
-
 * **G-Mix: A Generalized Mixup Learning Framework Towards Flat Minima**<br>
 *Xingyu Li, Bo Tang*<br>
 arXiv'2023 [[Paper](https://arxiv.org/abs/2308.03236)]
@@ -1333,56 +1385,6 @@ ArXiv'2023 [[Paper](https://arxiv.org/abs/2312.02151)]
    </details>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-## Mixup for Regression
-
-* **RegMix: Data Mixing Augmentation for Regression**<br>
-*Seong-Hyeon Hwang, Steven Euijong Whang*<br>
-ArXiv'2021 [[Paper](https://arxiv.org/abs/2106.03374)]
-
-* **C-Mixup: Improving Generalization in Regression**<br>
-*Huaxiu Yao, Yiping Wang, Linjun Zhang, James Zou, Chelsea Finn*<br>
-NeurIPS'2022 [[Paper](https://arxiv.org/abs/2210.05775)]
-[[Code](https://github.com/huaxiuyao/C-Mixup)]
-
-* **ExtraMix: Extrapolatable Data Augmentation for Regression using Generative Models**<br>
-*Kisoo Kwon, Kuhwan Jeong, Sanghyun Park, Sangha Park, Hoshik Lee, Seung-Yeon Kwak, Sungmin Kim, Kyunghyun Cho*<br>
-OpenReview'2022 [[Paper](https://openreview.net/forum?id=NgEuFT-SIgI)]
-
-* **Anchor Data Augmentation**<br>
-*Nora Schneider, Shirin Goshtasbpour, Fernando Perez-Cruz*<br>
-NeurIPS'2023 [[Paper](https://arxiv.org/abs/2311.06965)]
-
-* **Rank-N-Contrast: Learning Continuous Representations for Regression**<br>
-*Kaiwen Zha, Peng Cao, Jeany Son, Yuzhe Yang, Dina Katabi*<br>
-NeurIPS'2023 [[Paper](https://arxiv.org/abs/2210.01189)]
-[[Code](https://github.com/kaiwenzha/Rank-N-Contrast)]
-
-* **Mixup Your Own Pairs**<br>
-*Yilei Wu, Zijian Dong, Chongyao Chen, Wangchunshu Zhou, Juan Helen Zhou*<br>
-ArXiv'2023 [[Paper](https://arxiv.org/abs/2309.16633)]
-[[Code](https://github.com/yilei-wu/supremix)]
-   <details close>
-   <summary>SupReMix Framework</summary>
-   <p align="center"><img width="90%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/283530899-d69f9dca-04ee-487f-bef0-4d16f63d38f8.png" /></p>
-   </details>
-
-* **Tailoring Mixup to Data using Kernel Warping functions**<br>
-*Quentin Bouniot, Pavlo Mozharovskyi, Florence d'Alché-Buc*<br>
-ArXiv'2023 [[Paper](https://arxiv.org/abs/2311.01434)]
-[[Code](https://github.com/ENSTA-U2IS/torch-uncertainty)]
-   <details close>
-   <summary>SupReMix Framework</summary>
-   <p align="center"><img width="90%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/285024114-9e741976-bd59-46dc-bd57-dc498079a6bb.png" /></p>
-   </details>
-
-* **OmniMixup: Generalize Mixup with Mixing-Pair Sampling Distribution**<br>
-*Anonymous*<br>
-Openreview'2023 [[Paper](https://openreview.net/forum?id=6Uc7Fgwrsm)]
-
-* **Augment on Manifold: Mixup Regularization with UMAP**<br>
-*Yousef El-Laham, Elizabeth Fons, Dillon Daudert, Svitlana Vyetrenko*<br>
-ICASSP'2024 [[Paper](https://arxiv.org/abs/2210.01189)]
 
 ## Mixup for Robustness
 
