@@ -880,15 +880,6 @@ ICLR'2021 [[Paper](https://arxiv.org/abs/2010.08887)]
    <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/204581084-5460bd37-4adb-4f01-b7af-fc88ceb2683e.png" /></p>
    </details>
 
-* **Un-Mix: Rethinking Image Mixtures for Unsupervised Visual Representation**<br>
-*Zhiqiang Shen, Zechun Liu, Zhuang Liu, Marios Savvides, Trevor Darrell, Eric Xing*<br>
-AAAI'2022 [[Paper](https://arxiv.org/abs/2003.05438)]
-[[Code](https://github.com/szq0214/Un-Mix)]
-   <details close>
-   <summary>Un-Mix Framework</summary>
-   <p align="center"><img width="75%" src="https://user-images.githubusercontent.com/44519745/204581434-dfbc11f8-e300-4dd7-bc84-adbe5a53dbf4.png" /></p>
-   </details>
-
 * **Beyond Single Instance Multi-view Unsupervised Representation Learning**<br>
 *Xiangxiang Chu, Xiaohang Zhan, Xiaolin Wei*<br>
 BMVC'2022 [[Paper](https://arxiv.org/abs/2011.13356)]
@@ -906,21 +897,37 @@ ICCV'2021 [[Paper](https://arxiv.org/abs/2108.02982)]
    <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/204582514-426efca3-4e8b-48b8-b69a-ecebb94b7fa8.png" /></p>
    </details>
 
+* **Mix-up Self-Supervised Learning for Contrast-agnostic Applications**<br>
+*Yichen Zhang, Yifang Yin, Ying Zhang, Roger Zimmermann*<br>
+ICME'2021 [[Paper](https://arxiv.org/abs/2204.00901)]
+   <details close>
+   <summary>MixSSL Framework</summary>
+   <p align="center"><img width="75%" src="https://user-images.githubusercontent.com/44519745/204583625-58632669-05f0-445b-bd41-60aa37b515d4.png" /></p>
+   </details>
+
+* **Unleashing the Power of Contrastive Self-Supervised Visual Models via Contrast-Regularized Fine-Tuning**<br>
+*Yifan Zhang, Bryan Hooi, Dapeng Hu, Jian Liang, Jiashi Feng*<br>
+NIPS'2021 [[Paper](https://arxiv.org/abs/2102.06605)]
+[[Code](https://github.com/Vanint/Core-tuning)]
+   <details close>
+   <summary>Co-Tuning Framework</summary>
+   <p align="center"><img width="75%" src="https://github.com/user-attachments/assets/4f43b519-4781-4e4b-b57f-47ae96af7d80" /></p>
+   </details>
+
+* **Center-wise Local Image Mixture For Contrastive Representation Learning**<br>
+*Hao Li, Xiaopeng Zhang, Hongkai Xiong*<br>
+BMVC'2021 [[Paper](https://arxiv.org/abs/2011.02697)]
+   <details close>
+   <summary>CLIM Framework</summary>
+   <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/204583930-15ab3916-9d8b-4adf-9a79-e40eabbbc255.png" /></p>
+   </details>
+
 * **Piecing and Chipping: An effective solution for the information-erasing view generation in Self-supervised Learning**<br>
 *Jingwei Liu, Yi Gu, Shentong Mo, Zhun Sun, Shumin Han, Jiafeng Guo, Xueqi Cheng*<br>
 OpenReview'2021 [[Paper](https://openreview.net/forum?id=DnG8f7gweH4)]
    <details close>
    <summary>PCEA Framework</summary>
    <p align="center"><img width="75%" src="https://user-images.githubusercontent.com/44519745/204582781-b54c4472-67eb-4e78-9362-44b990bbafa3.png" /></p>
-   </details>
-
-* **Contrast and Mix: Temporal Contrastive Video Domain Adaptation with Background Mixing**<br>
-*Aadarsh Sahoo, Rutav Shah, Rameswar Panda, Kate Saenko, Abir Das*<br>
-NIPS'2021 [[Paper](https://arxiv.org/abs/2011.02697)]
-[[Code](https://cvir.github.io/projects/comix)]
-   <details close>
-   <summary>CoMix Framework</summary>
-   <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/204583146-fc363695-6889-46cd-93f1-236bec9d5fb5.png" /></p>
    </details>
 
 * **Boosting Discriminative Visual Representation Learning with Scenario-Agnostic Mixup**<br>
@@ -939,13 +946,58 @@ OpenReview'2021 [[Paper](https://arxiv.org/abs/2111.02679)]
    <summary>MixSiam Framework</summary>
    <p align="center"><img width="60%" src="https://user-images.githubusercontent.com/44519745/204583448-8c1890fd-ce95-488a-9570-f7393a4d140a.png" /></p>
    </details>
-
-* **Mix-up Self-Supervised Learning for Contrast-agnostic Applications**<br>
-*Yichen Zhang, Yifang Yin, Ying Zhang, Roger Zimmermann*<br>
-ICME'2021 [[Paper](https://arxiv.org/abs/2204.00901)]
+ 
+* **Contrast and Mix: Temporal Contrastive Video Domain Adaptation with Background Mixing**<br>
+*Aadarsh Sahoo, Rutav Shah, Rameswar Panda, Kate Saenko, Abir Das*<br>
+NIPS'2021 [[Paper](https://arxiv.org/abs/2011.02697)]
+[[Code](https://cvir.github.io/projects/comix)]
    <details close>
-   <summary>MixSSL Framework</summary>
-   <p align="center"><img width="75%" src="https://user-images.githubusercontent.com/44519745/204583625-58632669-05f0-445b-bd41-60aa37b515d4.png" /></p>
+   <summary>CoMix Framework</summary>
+   <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/204583146-fc363695-6889-46cd-93f1-236bec9d5fb5.png" /></p>
+   </details>
+
+* **Un-Mix: Rethinking Image Mixtures for Unsupervised Visual Representation**<br>
+*Zhiqiang Shen, Zechun Liu, Zhuang Liu, Marios Savvides, Trevor Darrell, Eric Xing*<br>
+AAAI'2022 [[Paper](https://arxiv.org/abs/2003.05438)]
+[[Code](https://github.com/szq0214/Un-Mix)]
+   <details close>
+   <summary>Un-Mix Framework</summary>
+   <p align="center"><img width="75%" src="https://user-images.githubusercontent.com/44519745/204581434-dfbc11f8-e300-4dd7-bc84-adbe5a53dbf4.png" /></p>
+   </details>
+
+* **m-Mix: Generating Hard Negatives via Multi-sample Mixing for Contrastive Learning**<br>
+*Shaofeng Zhang, Meng Liu, Junchi Yan, Hengrui Zhang, Lingxiao Huang, Pinyan Lu, Xiaokang Yang*<br>
+KDD'2022 [[Paper](https://sherrylone.github.io/assets/KDD22_M-Mix.pdf)]
+[[Code](https://github.com/Sherrylone/m-mix)]
+   <details close>
+   <summary>m-Mix Framework</summary>
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204582292-eef1f644-f39f-46ae-98ba-313501bdb515.png" /></p>
+   </details>
+   
+* **A Simple Data Mixing Prior for Improving Self-Supervised Learning**<br>
+*Sucheng Ren, Huiyu Wang, Zhengqi Gao, Shengfeng He, Alan Yuille, Yuyin Zhou, Cihang Xie*<br>
+CVPR'2022 [[Paper](https://arxiv.org/abs/2206.07692)]
+[[Code](https://github.com/oliverrensu/sdmp)]
+   <details close>
+   <summary>SDMP Framework</summary>
+   <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/204585207-6fee3174-224d-44e6-bbd1-514d6697d128.png" /></p>
+   </details>
+
+* **CropMix: Sampling a Rich Input Distribution via Multi-Scale Cropping**<br>
+*Junlin Han, Lars Petersson, Hongdong Li, Ian Reid*<br>
+ArXiv'2022 [[Paper](https://arxiv.org/abs/2205.15955)]
+[[Code](https://github.com/JunlinHan/CropMix)]
+   <details close>
+   <summary>CropMix Framework</summary>
+   <p align="center"><img width="75%" src="https://user-images.githubusercontent.com/44519745/204585732-680295fe-4768-4199-af72-bda10edda644.png" /></p>
+   </details>
+
+* **Mixing up contrastive learning: Self-supervised representation learning for time series**<br>
+*Kristoffer Wickstrøm, Michael Kampffmeyer, Karl Øyvind Mikalsen, Robert Jenssen*<br>
+PR Letter'2022 [[Paper](https://www.sciencedirect.com/science/article/pii/S0167865522000502)]
+   <details close>
+   <summary>MCL Framework</summary>
+   <p align="center"><img width="50%" src="https://github.com/user-attachments/assets/f3a7dc05-e125-4ac4-97c4-81b644e1e97c" /></p>
    </details>
 
 * **Towards Domain-Agnostic Contrastive Learning**<br>
@@ -954,22 +1006,6 @@ ICML'2021 [[Paper](https://arxiv.org/abs/2011.04419)]
    <details close>
    <summary>DACL Framework</summary>
    <p align="center"><img width="50%" src="https://github.com/Westlake-AI/MogaNet/assets/44519745/19c8e3cb-db6f-463f-a765-c243b2f9e45a" /></p>
-   </details>
-
-* **Center-wise Local Image Mixture For Contrastive Representation Learning**<br>
-*Hao Li, Xiaopeng Zhang, Hongkai Xiong*<br>
-BMVC'2021 [[Paper](https://arxiv.org/abs/2011.02697)]
-   <details close>
-   <summary>CLIM Framework</summary>
-   <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/204583930-15ab3916-9d8b-4adf-9a79-e40eabbbc255.png" /></p>
-   </details>
-
-* **Contrastive-mixup Learning for Improved Speaker Verification**<br>
-*Xin Zhang, Minho Jin, Roger Cheng, Ruirui Li, Eunjung Han, Andreas Stolcke*<br>
-ICASSP'2022 [[Paper](https://arxiv.org/abs/2202.10672)]
-   <details close>
-   <summary>Mixup Framework</summary>
-   <p align="center"><img width="75%" src="https://user-images.githubusercontent.com/44519745/204584821-5ef0cdd9-37bf-437a-a139-d21068452be1.png" /></p>
    </details>
 
 * **ProGCL: Rethinking Hard Negative Mining in Graph Contrastive Learning**<br>
@@ -981,22 +1017,12 @@ ICML'2022 [[Paper](https://arxiv.org/abs/2110.02027)]
    <p align="center"><img width="70%" src="https://user-images.githubusercontent.com/44519745/204584450-e31a6c9f-0f1c-4342-b907-1b80cae547ab.png" /></p>
    </details>
 
-* **m-Mix: Generating Hard Negatives via Multi-sample Mixing for Contrastive Learning**<br>
-*Shaofeng Zhang, Meng Liu, Junchi Yan, Hengrui Zhang, Lingxiao Huang, Pinyan Lu, Xiaokang Yang*<br>
-KDD'2022 [[Paper](https://sherrylone.github.io/assets/KDD22_M-Mix.pdf)]
-[[Code](https://github.com/Sherrylone/m-mix)]
+* **Evolving Image Compositions for Feature Representation Learning**<br>
+*Paola Cascante-Bonilla, Arshdeep Sekhon, Yanjun Qi, Vicente Ordonez*<br>
+BMVC'2021 [[Paper](https://arxiv.org/abs/2106.09011)]
    <details close>
-   <summary>m-Mix Framework</summary>
-   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204582292-eef1f644-f39f-46ae-98ba-313501bdb515.png" /></p>
-   </details>
-
-* **A Simple Data Mixing Prior for Improving Self-Supervised Learning**<br>
-*Sucheng Ren, Huiyu Wang, Zhengqi Gao, Shengfeng He, Alan Yuille, Yuyin Zhou, Cihang Xie*<br>
-CVPR'2022 [[Paper](https://arxiv.org/abs/2206.07692)]
-[[Code](https://github.com/oliverrensu/sdmp)]
-   <details close>
-   <summary>SDMP Framework</summary>
-   <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/204585207-6fee3174-224d-44e6-bbd1-514d6697d128.png" /></p>
+   <summary>PatchMix Framework</summary>
+   <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/204574267-8e53783d-ea54-4399-8c32-86c8ac2520bd.png" /></p>
    </details>
 
 * **On the Importance of Asymmetry for Siamese Representation Learning**<br>
@@ -1008,21 +1034,13 @@ CVPR'2022 [[Paper](https://arxiv.org/abs/2204.00613)]
    <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/204585304-03b6aa42-205c-4650-9d90-ecfc0928734e.png" /></p>
    </details>
 
-* **VLMixer: Unpaired Vision-Language Pre-training via Cross-Modal CutMix**<br>
-*Teng Wang, Wenhao Jiang, Zhichao Lu, Feng Zheng, Ran Cheng, Chengguo Yin, Ping Luo*<br>
-ICML'2022 [[Paper](https://arxiv.org/abs/2206.08919)]
+* **Geodesic Multi-Modal Mixup for Robust Fine-Tuning**<br>
+*Changdae Oh, Junhyuk So, Hoyoon Byun, YongTaek Lim, Minchul Shin, Jong-June Jeon, Kyungwoo Song*<br>
+NIPS'2023 [[Paper](https://arxiv.org/abs/2203.03897)]
+[[Code](https://github.com/changdaeoh/multimodal-mixup)]
    <details close>
-   <summary>VLMixer Framework</summary>
-   <p align="center"><img width="60%" src="https://user-images.githubusercontent.com/44519745/204585605-f60ae9af-b7af-4af4-ac46-28bac51c7a02.png" /></p>
-   </details>
-
-* **CropMix: Sampling a Rich Input Distribution via Multi-Scale Cropping**<br>
-*Junlin Han, Lars Petersson, Hongdong Li, Ian Reid*<br>
-ArXiv'2022 [[Paper](https://arxiv.org/abs/2205.15955)]
-[[Code](https://github.com/JunlinHan/CropMix)]
-   <details close>
-   <summary>CropMix Framework</summary>
-   <p align="center"><img width="75%" src="https://user-images.githubusercontent.com/44519745/204585732-680295fe-4768-4199-af72-bda10edda644.png" /></p>
+   <summary>m2-Mix Framework</summary>
+   <p align="center"><img width="95%" src="https://github.com/user-attachments/assets/ad6ca047-f04b-463b-9954-eaa15336d4ce" /></p>
    </details>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -1069,7 +1087,7 @@ NIPS'2019 [[Paper](https://arxiv.org/abs/1905.02249)]
    </details>
 
 * **ReMixMatch: Semi-Supervised Learning with Distribution Matching and Augmentation Anchoring**<br>
-*David Berthelot, dberth@google.com, Nicholas Carlini, Ekin D. Cubuk, Alex Kurakin, Kihyuk Sohn, Han Zhang, Colin Raffel*<br>
+*David Berthelot, Nicholas Carlini, Ekin D. Cubuk, Alex Kurakin, Kihyuk Sohn, Han Zhang, Colin Raffel*<br>
 ICLR'2020 [[Paper](https://openreview.net/forum?id=HklkeR4KPB)]
 [[Code](https://github.com/google-research/remixmatch)]
    <details close>
@@ -1086,6 +1104,23 @@ ICLR'2020 [[Paper](https://arxiv.org/abs/2002.07394)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/230495626-f0f3f52e-9f8a-472d-8ff2-b33356993e09.png" /></p>
    </details>
 
+* **MixPUL: Consistency-based Augmentation for Positive and Unlabeled Learning**<br>
+*Tong Wei, Feng Shi, Hai Wang, Wei-Wei Tu. Yu-Feng Li*<br>
+ArXiv'2020 [[Paper](https://arxiv.org/abs/2004.09388)]
+   <details close>
+   <summary>MixPUL Framework</summary>
+<!--    <p align="center"><img width="50%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/283528510-1f3b643c-0edd-416e-9979-110f3d2be6b6.png" /></p> -->
+   </details>
+
+* **Milking CowMask for Semi-Supervised Image Classification**<br>
+*Geoff French, Avital Oliver, Tim Salimans*<br>
+NIPS'2020 [[Paper](https://arxiv.org/abs/2003.12022)]
+[[Code](https://github.com/google-research/google-research/tree/master/milking_cowmask)]
+   <details close>
+   <summary>CowMask Framework</summary>
+    <p align="center"><img width="50%" src="https://github.com/user-attachments/assets/aa05ab9c-107e-4c3f-bec0-d93ddcd54bb1" /></p>
+   </details>
+
 * **Epsilon Consistent Mixup: Structural Regularization with an Adaptive Consistency-Interpolation Tradeoff**<br>
 *Vincent Pisztora, Yanglan Ou, Xiaolei Huang, Francesca Chiaromonte, Jia Li*<br>
 ArXiv'2021 [[Paper](https://arxiv.org/abs/2104.09452)]
@@ -1094,13 +1129,28 @@ ArXiv'2021 [[Paper](https://arxiv.org/abs/2104.09452)]
    <p align="center"><img width="50%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/283528510-1f3b643c-0edd-416e-9979-110f3d2be6b6.png" /></p>
    </details>
 
-* **Unleashing the Power of Contrastive Self-Supervised Visual Models via Contrast-Regularized Fine-Tuning**<br>
-*Yifan Zhang, Bryan Hooi, Dapeng Hu, Jian Liang, Jiashi Feng*<br>
-NIPS'2021 [[Paper](https://arxiv.org/abs/2102.06605)]
-[[Code](https://github.com/vanint/core-tuning)]
+* **Who Is Your Right Mixup Partner in Positive and Unlabeled Learning**<br>
+*Changchun Li, Ximing Li, Lei Feng, Jihong Ouyang*<br>
+ICLR'2021 [[Paper](https://openreview.net/forum?id=NH29920YEmj)]
    <details close>
-   <summary>Core-Tuning Framework</summary>
-   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204580135-ed6ba8b7-b69c-4683-90f0-9aa9cdd530bc.png" /></p>
+   <summary>P3Mix Framework</summary>
+   <p align="center"><img width="50%" src="https://github.com/user-attachments/assets/472870f9-e6f8-4b63-8c05-040db0e255ef" /></p>
+   </details>
+
+* **Interpolation Consistency Training for Semi-Supervised Learning**<br>
+*Vikas Verma, Kenji Kawaguchi, Alex Lamb, Juho Kannala, Arno Solin, Yoshua Bengio, David Lopez-Paz*<br>
+NN'2022 [[Paper](https://arxiv.org/abs/1903.03825)]
+   <details close>
+   <summary>ICT Framework</summary>
+   <p align="center"><img width="50%" src="https://github.com/user-attachments/assets/912458fa-9631-4746-8ba4-8c57ecad476b" /></p>
+   </details>
+
+* **Dual-Decoder Consistency via Pseudo-Labels Guided Data Augmentation for Semi-Supervised Medical Image Segmentation**<br>
+*Yuanbin Chen, Tao Wang, Hui Tang, Longxuan Zhao, Ruige Zong, Tao Tan, Xinlin Zhang, Tong Tong*<br>
+ArXiv'2023 [[Paper](https://arxiv.org/abs/2308.16573)]
+   <details close>
+   <summary>DCPA Framework</summary>
+   <p align="center"><img width="90%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/268410560-a45c03d9-beb1-4b74-a34b-4d1ecd356de9.png" /></p>
    </details>
 
 * **MUM: Mix Image Tiles and UnMix Feature Tiles for Semi-Supervised Object Detection**<br>
@@ -1139,14 +1189,6 @@ CVPR'2023 [[Paper](https://arxiv.org/abs/2207.00026)]
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/209255964-69cab84b-ae54-4e74-be4f-a23a836c665c.png" /></p>
    </details>
 
-* **Dual-Decoder Consistency via Pseudo-Labels Guided Data Augmentation for Semi-Supervised Medical Image Segmentation**<br>
-*Yuanbin Chen, Tao Wang, Hui Tang, Longxuan Zhao, Ruige Zong, Tao Tan, Xinlin Zhang, Tong Tong*<br>
-ArXiv'2023 [[Paper](https://arxiv.org/abs/2308.16573)]
-   <details close>
-   <summary>DCPA Framework</summary>
-   <p align="center"><img width="90%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/268410560-a45c03d9-beb1-4b74-a34b-4d1ecd356de9.png" /></p>
-   </details>
-
 * **Mixed Pseudo Labels for Semi-Supervised Object Detection**<br>
 *Zeming Chen, Wenwei Zhang, Xinjiang Wang, Kai Chen, Zhi Wang*<br>
 ArXiv'2023 [[Paper](https://arxiv.org/abs/2312.07006)]
@@ -1167,6 +1209,22 @@ ArXiv'2024 [[Paper](https://arxiv.org/abs/2405.06288)]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 ####################################################
+
+* **VLMixer: Unpaired Vision-Language Pre-training via Cross-Modal CutMix**<br>
+*Teng Wang, Wenhao Jiang, Zhichao Lu, Feng Zheng, Ran Cheng, Chengguo Yin, Ping Luo*<br>
+ICML'2022 [[Paper](https://arxiv.org/abs/2206.08919)]
+   <details close>
+   <summary>VLMixer Framework</summary>
+   <p align="center"><img width="60%" src="https://user-images.githubusercontent.com/44519745/204585605-f60ae9af-b7af-4af4-ac46-28bac51c7a02.png" /></p>
+   </details>
+
+* **Contrastive-mixup Learning for Improved Speaker Verification**<br>
+*Xin Zhang, Minho Jin, Roger Cheng, Ruirui Li, Eunjung Han, Andreas Stolcke*<br>
+ICASSP'2022 [[Paper](https://arxiv.org/abs/2202.10672)]
+   <details close>
+   <summary>Mixup Framework</summary>
+   <p align="center"><img width="75%" src="https://user-images.githubusercontent.com/44519745/204584821-5ef0cdd9-37bf-437a-a139-d21068452be1.png" /></p>
+   </details>
 
 * **Guided Interpolation for Adversarial Training**<br>
 *Chen Chen, Jingfeng Zhang, Xilie Xu, Tianlei Hu, Gang Niu, Gang Chen, Masashi Sugiyama*<br>
@@ -1200,14 +1258,6 @@ EAAI'2024 [[Paper](https://arxiv.org/abs/2401.10050)]
    <details close>
    <summary>ConvtextMix Framework</summary>
    <p align="center"><img width="80%" src="https://github.com/Westlake-AI/Awesome-Mixup/assets/44519745/a2b50a9e-ca22-4c1f-9ba9-a3863b84a71a" /></p>
-   </details>
-
-* **Evolving Image Compositions for Feature Representation Learning**<br>
-*Paola Cascante-Bonilla, Arshdeep Sekhon, Yanjun Qi, Vicente Ordonez*<br>
-BMVC'2021 [[Paper](https://arxiv.org/abs/2106.09011)]
-   <details close>
-   <summary>PatchMix Framework</summary>
-   <p align="center"><img width="95%" src="https://user-images.githubusercontent.com/44519745/204574267-8e53783d-ea54-4399-8c32-86c8ac2520bd.png" /></p>
    </details>
 
 * **SalfMix: A Novel Single Image-Based Data Augmentation Technique Using a Saliency Map**<br>
