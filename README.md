@@ -46,7 +46,16 @@ The list of awesome mixup augmentation methods is summarized in chronological or
       - [**Segmentation**](#segmentation)
       - [**Object Detection**](#object-detection)
   - [Training Paradigms](#training-paradigms)
+      - [**Federated Learning**](#federated-learning)
+      - [**Adversarial Attack/Training**](#adversarial-attack-training)
+      - [**Domain Adaption**](#domain-adaption)
+      - [**Knowledge Distillation**](#knowledge-distillation)
+      - [**Multi-Modal**](#multi-modal)
   - [Beyond Vision](#beyond-vision)
+      - [**NLP**](#nlp)
+      - [**GNN**](#gnn)
+      - [**3D Point**](#3d-point)
+      - [**Other**](#other)
   - [Analysis and Theorem](#analysis-and-theorem)
   - [Survey](#survey)
   - [Benchmark](#benchmark)
@@ -1427,7 +1436,60 @@ ArXiv'2024 [[Paper](https://arxiv.org/abs/2401.03989)]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-####################################################
+## Training Paradigms
+
+### **Federated Learning***
+
+* **XOR Mixup: Privacy-Preserving Data Augmentation for One-Shot Federated Learning**<br>
+*MyungJae Shin, Chihoon Hwang, Joongheon Kim, Jihong Park, Mehdi Bennis, Seong-Lyun Kim*<br>
+ICML'2020 [[Paper](https://arxiv.org/abs/2111.05073)]
+[[Code](https://github.com/ihooni/XOR-Mixup)]
+
+* **FedMix: Approximation of Mixup Under Mean augmented Federated Learning**<br>
+*Tehrim Yoon, Sumin Shin, Sung Ju Hwang, Eunho Yang*<br>
+ECCV'2022 [[Paper](https://arxiv.org/abs/2107.00233)]
+[[Code](https://github.com/DevPranjal/fedmix)]
+
+* **Mix2FLD: Downlink Federated Learning After Uplink Federated Distillation With Two-Way Mixup**<br>
+*Seungeun Oh, Jihong Park, Eunjeong Jeong, Hyesung Kim, Mehdi Bennis, Seong-Lyun Kim*<br>
+IEEE Communications Letters'2020 [[Paper](https://ieeexplore.ieee.org/document/9121290)]
+
+* **StatMix: Data augmentation method that relies on image statistics in federated learning**<br>
+*Dominik Lewy, Jacek Mańdziuk, Maria Ganzha, Marcin Paprzycki*<br>
+ICONIP'2022 [[Paper](https://link.springer.com/chapter/10.1007/978-981-99-1639-9_48)]
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### **Adversarial Attack/Training***
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### **Domain Adaption***
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### **Knowledge Distillation***
+
+* **MixACM: Mixup-Based Robustness Transfer via Distillation of Activated Channel Maps**<br>
+*Muhammad Awais, Fengwei Zhou, Chuanlong Xie, Jiawei Li, Sung-Ho Bae, Zhenguo Li*<br>
+NIPS'2021 [[Paper](https://arxiv.org/abs/2111.05073)]
+
+* **MixSKD: Self-Knowledge Distillation from Mixup for Image Recognition**<br>
+*Chuanguang Yang, Zhulin An, Helong Zhou, Linhang Cai, Xiang Zhi, Jiwen Wu, Yongjun Xu, Qian Zhang*<br>
+ECCV'2022 [[Paper](https://arxiv.org/abs/2208.05768)]
+
+* **Understanding the Role of Mixup in Knowledge Distillation: An Empirical Study**<br>
+*Chuanguang Yang, Zhulin An, Helong Zhou, Linhang Cai, Xiang Zhi, Jiwen Wu, Yongjun Xu, Qian Zhang*<br>
+WACV'2023 [[Paper](https://arxiv.org/abs/2211.03946)]
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### **Multi-Modal***
+
+* **MixGen: A New Multi-Modal Data Augmentation**<br>
+*Xiaoshuai Hao, Yi Zhu, Srikar Appalaraju, Aston Zhang, Wanqian Zhang, Bo Li, Mu Li*<br>
+arXiv'2023 [[Paper](https://arxiv.org/abs/2206.08358)]
+[[Code](https://github.com/amazon-research/mix-generation)]
 
 * **VLMixer: Unpaired Vision-Language Pre-training via Cross-Modal CutMix**<br>
 *Teng Wang, Wenhao Jiang, Zhichao Lu, Feng Zheng, Ran Cheng, Chengguo Yin, Ping Luo*<br>
@@ -1436,6 +1498,37 @@ ICML'2022 [[Paper](https://arxiv.org/abs/2206.08919)]
    <summary>VLMixer Framework</summary>
    <p align="center"><img width="60%" src="https://user-images.githubusercontent.com/44519745/204585605-f60ae9af-b7af-4af4-ac46-28bac51c7a02.png" /></p>
    </details>
+
+* **Geodesic Multi-Modal Mixup for Robust Fine-Tuning**<br>
+*Changdae Oh, Junhyuk So, Hoyoon Byun, YongTaek Lim, Minchul Shin, Jong-June Jeon, Kyungwoo Song*<br>
+NeurIPS'2023 [[Paper](https://arxiv.org/abs/2203.03897)]
+[[Code](https://github.com/changdaeoh/multimodal-mixup)]
+
+* **PowMix: A Versatile Regularizer for Multimodal Sentiment Analysis**<br>
+*Efthymios Georgiou, Yannis Avrithis, Alexandros Potamianos*<br>
+arXiv'2023 [[Paper](https://arxiv.org/abs/2312.12334)]
+   <details close>
+   <summary>PowMix Framework</summary>
+   <p align="center"><img width="85%" src="https://github.com/Westlake-AI/openmixup/assets/44519745/272e44b8-1872-4cdf-9a69-71e48cc428cd" /></p>
+   </details>
+   
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Beyond Vision
+
+### **NLP***
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### **GNN***
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### **3D Point***
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### **Other***
 
 * **Contrastive-mixup Learning for Improved Speaker Verification**<br>
 *Xin Zhang, Minho Jin, Roger Cheng, Ruirui Li, Eunjung Han, Andreas Stolcke*<br>
@@ -1462,15 +1555,6 @@ ICLR'2022 [[Paper](https://arxiv.org/abs/2110.02180)]
    <p align="center"><img width="45%" src="https://user-images.githubusercontent.com/44519745/204569704-7de07797-b607-4750-9a46-c4387a539ac0.png" /></p>
    </details>
 
-* **RegMixup: Mixup as a Regularizer Can Surprisingly Improve Accuracy and Out Distribution Robustness**<br>
-*Francesco Pinto, Harry Yang, Ser-Nam Lim, Philip H.S. Torr, Puneet K. Dokania*<br>
-NIPS'2022 [[Paper](https://arxiv.org/abs/2206.14502)]
-[[Code](https://github.com/FrancescoPinto/RegMixup)]
-   <details close>
-   <summary>RegMixup Framework</summary>
-   <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/204571630-e8407bd7-ca27-44de-baca-5d88ca2004a6.png" /></p>
-   </details>
-
 * **ContextMix: A context-aware data augmentation method for industrial visual inspection systems**<br>
 *Hyungmin Kim, Donghun Kim, Pyunghwan Ahn, Sungho Suh, Hansang Cho, Junmo Kim*<br>
 EAAI'2024 [[Paper](https://arxiv.org/abs/2401.10050)]
@@ -1494,8 +1578,6 @@ ICPR'2022 [[Paper](https://arxiv.org/abs/2205.10158)]
    <summary>SciMix Framework</summary>
    <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/204575557-ddc6644e-a5e4-49ae-a95d-59856cc99a25.png" /></p>
    </details>
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 * **Infinite Class Mixup**<br>
 *Thomas Mensink, Pascal Mettes*<br>
@@ -1521,8 +1603,14 @@ arXiv'2023 [[Paper](https://arxiv.org/abs/2308.03236)]
    <p align="center"><img width="70%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/264155347-1a94f3d1-a9d8-46e1-bb32-bed0bfb449ca.png" /></p>
    </details>
 
+* **Robust Image Denoising through Adversarial Frequency Mixup**<br>
+*Donghun Ryou, Inju Ha, Hyewon Yoo, Dongwan Kim, Bohyung Han*<br>
+CVPR'2024 [[Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Ryou_Robust_Image_Denoising_through_Adversarial_Frequency_Mixup_CVPR_2024_paper.pdf)]
+[[Code](https://github.com/dhryougit/AFM)]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+####################################################
 
 * **Inter-Instance Similarity Modeling for Contrastive Learning**<br>
 *Chengchao Shen, Dawei Liu, Hao Tang, Zhe Qu, Jianxin Wang*<br>
@@ -1541,8 +1629,6 @@ ArXiv'2023 [[Paper](https://arxiv.org/abs/2312.02151)]
    <summary>PatchMix Framework</summary>
    <p align="center"><img width="80%" src="https://github.com/Westlake-AI/Awesome-Mixup/assets/44519745/342f7dba-ccff-4b22-99e7-3d1d965ea1ee" /></p>
    </details>
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Mixup for Robustness
 
@@ -1569,46 +1655,10 @@ OpenReview'2021 [[Paper](https://openreview.net/forum?id=xvWZQtxI7qq)]
 CVPR'2020 [[Paper](https://arxiv.org/abs/2003.02484)]
 [[Code](https://github.com/Saehyung-Lee/cifar10_challenge)]
 
-* **MixACM: Mixup-Based Robustness Transfer via Distillation of Activated Channel Maps**<br>
-*Muhammad Awais, Fengwei Zhou, Chuanlong Xie, Jiawei Li, Sung-Ho Bae, Zhenguo Li*<br>
-NeurIPS'2021 [[Paper](https://arxiv.org/abs/2111.05073)]
-
 * **On the benefits of defining vicinal distributions in latent space**<br>
 *Puneet Mangla, Vedant Singh, Shreyas Jayant Havaldar, Vineeth N Balasubramanian*<br>
 CVPRW'2021 [[Paper](https://arxiv.org/abs/2003.06566)]
 
-## Low-level Vision
-
-* **Robust Image Denoising through Adversarial Frequency Mixup**<br>
-*Donghun Ryou, Inju Ha, Hyewon Yoo, Dongwan Kim, Bohyung Han*<br>
-CVPR'2024 [[Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Ryou_Robust_Image_Denoising_through_Adversarial_Frequency_Mixup_CVPR_2024_paper.pdf)]
-[[Code](https://github.com/dhryougit/AFM)]
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-## Mixup for Multi-modality
-
-* **MixGen: A New Multi-Modal Data Augmentation**<br>
-*Xiaoshuai Hao, Yi Zhu, Srikar Appalaraju, Aston Zhang, Wanqian Zhang, Bo Li, Mu Li*<br>
-arXiv'2023 [[Paper](https://arxiv.org/abs/2206.08358)]
-[[Code](https://github.com/amazon-research/mix-generation)]
-
-* **VLMixer: Unpaired Vision-Language Pre-training via Cross-Modal CutMix**<br>
-*Teng Wang, Wenhao Jiang, Zhichao Lu, Feng Zheng, Ran Cheng, Chengguo Yin, Ping Luo*<br>
-arXiv'2022 [[Paper](https://arxiv.org/abs/2206.08919)]
-
-* **Geodesic Multi-Modal Mixup for Robust Fine-Tuning**<br>
-*Changdae Oh, Junhyuk So, Hoyoon Byun, YongTaek Lim, Minchul Shin, Jong-June Jeon, Kyungwoo Song*<br>
-NeurIPS'2023 [[Paper](https://arxiv.org/abs/2203.03897)]
-[[Code](https://github.com/changdaeoh/multimodal-mixup)]
-
-* **PowMix: A Versatile Regularizer for Multimodal Sentiment Analysis**<br>
-*Efthymios Georgiou, Yannis Avrithis, Alexandros Potamianos*<br>
-arXiv'2023 [[Paper](https://arxiv.org/abs/2312.12334)]
-   <details close>
-   <summary>PowMix Framework</summary>
-   <p align="center"><img width="85%" src="https://github.com/Westlake-AI/openmixup/assets/44519745/272e44b8-1872-4cdf-9a69-71e48cc428cd" /></p>
-   </details>
 
 ## Analysis of Mixup
 
