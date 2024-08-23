@@ -1604,6 +1604,91 @@ CVPR'2024 [[Paper](https://arxiv.org/abs/2312.12334)]
 
 ### **NLP**
 
+* **Augmenting Data with Mixup for Sentence Classification: An Empirical Study**<br>
+*Hongyu Guo, Yongyi Mao, Richong Zhang*<br>
+arXiv'2019 [[Paper](https://arxiv.org/abs/1905.08941)]
+[[Code](https://github.com/dsfsi/textaugment)]
+
+* **Adversarial Mixing Policy for Relaxing Locally Linear Constraints in Mixup**<br>
+*Guang Liu, Yuzhao Mao, Hailong Huang, Weiguo Gao, Xuan Li*<br>
+EMNLP'2021 [[Paper](https://arxiv.org/abs/2109.07177)]
+
+* **SeqMix: Augmenting Active Sequence Labeling via Sequence Mixup**<br>
+*Hongyu Guo, Yongyi Mao, Richong Zhang*<br>
+EMNLP'2020 [[Paper](https://aclanthology.org/2020.emnlp-main.691/)]
+[[Code](https://github.com/rz-zhang/SeqMix)]
+
+* **Mixup-Transformer: Dynamic Data Augmentation for NLP Tasks**<br>
+*Lichao Sun, Congying Xia, Wenpeng Yin, Tingting Liang, Philip S. Yu, Lifang He*<br>
+COLING'2020 [[Paper](https://arxiv.org/abs/2010.02394)]
+
+* **Calibrated Language Model Fine-Tuning for In- and Out-of-Distribution Data**<br>
+*Lingkai Kong, Haoming Jiang, Yuchen Zhuang, Jie Lyu, Tuo Zhao, Chao Zhang*<br>
+EMNLP'2020 [[Paper](https://arxiv.org/abs/2010.11506)]
+[[Code](https://github.com/Lingkai-Kong/Calibrated-BERT-Fine-Tuning)]
+
+* **Augmenting NLP Models using Latent Feature Interpolations**<br>
+*Amit Jindal, Arijit Ghosh Chowdhury, Aniket Didolkar, Di Jin, Ramit Sawhney, Rajiv Ratn Shah*<br>
+COLING'2020 [[Paper](https://aclanthology.org/2020.coling-main.611/)]
+
+* **MixText: Linguistically-informed Interpolation of Hidden Space for Semi-Supervised Text Classification**<br>
+*Jiaao Chen, Zichao Yang, Diyi Yang*<br>
+ACL'2020 [[Paper](https://arxiv.org/abs/2004.12239)]
+[[Code](https://github.com/GT-SALT/MixText)]
+
+* **Sequence-Level Mixed Sample Data Augmentation**<br>
+*Jiaao Chen, Zichao Yang, Diyi Yang*<br>
+EMNLP'2020 [[Paper](https://aclanthology.org/2020.emnlp-main.447/)]
+[[Code](https://github.com/dguo98/seqmix)]
+
+* **AdvAug: Robust Adversarial Augmentation for Neural Machine Translation**<br>
+*Yong Cheng, Lu Jiang, Wolfgang Macherey, Jacob Eisenstein*<br>
+ACL'2020 [[Paper](https://aclanthology.org/2020.acl-main.529.pdf)]
+[[Code](https://github.com/dguo98/seqmix)]
+
+* **Local Additivity Based Data Augmentation for Semi-supervised NER**<br>
+*Jiaao Chen, Zhenghui Wang, Ran Tian, Zichao Yang, Diyi Yang*<br>
+ACL'2020 [[Paper](https://aclanthology.org/2020.emnlp-main.95/)]
+[[Code](https://github.com/SALT-NLP/LADA)]
+
+* **Mixup Decoding for Diverse Machine Translation**<br>
+*Jicheng Li, Pengzhi Gao, Xuanfu Wu, Yang Feng, Zhongjun He, Hua Wu, Haifeng Wang*<br>
+ EMNLP'2021 [[Paper](https://arxiv.org/abs/2109.03402)]
+
+* **TreeMix: Compositional Constituency-based Data Augmentation for Natural Language Understanding**<br>
+*Le Zhang, Zichao Yang, Diyi Yang*<br>
+NAALC'2022 [[Paper](https://arxiv.org/abs/2205.06153)]
+[[Code](https://github.com/magiccircuit/treemix)]
+
+* **STEMM: Self-learning with Speech-text Manifold Mixup for Speech Translation**<br>
+*Qingkai Fang, Rong Ye, Lei Li, Yang Feng, Mingxuan Wang*<br>
+ACL'2022 [[Paper](https://arxiv.org/abs/2010.02394)]
+[[Code](https://github.com/ictnlp/STEMM)]
+
+* **AdMix: A Mixed Sample Data Augmentation Method for Neural Machine Translation**<br>
+*Chang Jin, Shigui Qiu, Nini Xiao, Hao Jia*<br>
+IJCAI'2022 [[Paper](https://www.ijcai.org/proceedings/2022/0579.pdf)]
+
+* **Enhancing Cross-lingual Transfer by Manifold Mixup**<br>
+*Huiyun Yang, Huadong Chen, Hao Zhou, Lei Li*<br>
+ICLR'2022 [[Paper](https://arxiv.org/abs/2205.04182)]
+[[Code](https://github.com/yhy1117/x-mixup)]
+
+* **Multilingual Mix: Example Interpolation Improves Multilingual Neural Machine Translation**<br>
+*Yong Cheng, Ankur Bapna, Orhan Firat, Yuan Cao, Pidong Wang, Wolfgang Macherey*<br>
+ACL'2022 [[Paper](https://aclanthology.org/2022.acl-long.282/)]
+
+## Graph Representation Learning
+
+* **Fused Gromov-Wasserstein Graph Mixup for Graph-level Classifications**<br>
+*Xinyu Ma, Xu Chu, Yasha Wang, Yang Lin, Junfeng Zhao, Liantao Ma, Wenwu Zhu*<br>
+NIPS'2023 [[Paper](https://arxiv.org/abs/2306.15963)]
+[[code](https://github.com/ArthurLeoM/FGWMixup)]
+
+* **G-Mixup: Graph Data Augmentation for Graph Classification**<br>
+*Xiaotian Han, Zhimeng Jiang, Ninghao Liu, Xia Hu*<br>
+NIPS'2023 [[Paper](https://arxiv.org/abs/2202.07179)]
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### **GNN**
@@ -1754,32 +1839,22 @@ arXiv'2023 [[Paper](https://arxiv.org/abs/2308.03236)]
    <p align="center"><img width="70%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/264155347-1a94f3d1-a9d8-46e1-bb32-bed0bfb449ca.png" /></p>
    </details>
 
+* **Inter-Instance Similarity Modeling for Contrastive Learning**<br>
+*Chengchao Shen, Dawei Liu, Hao Tang, Zhe Qu, Jianxin Wang*<br>
+arXiv'2023 [[Paper](https://arxiv.org/abs/2306.12243)]
+[[Code](https://github.com/visresearch/patchmix)]
+
+* **Guarding Barlow Twins Against Overfitting with Mixed Samples**<br>
+*Wele Gedara Chaminda Bandara, Celso M. De Melo, Vishal M. Patel*<br>
+arXiv'2023 [[Paper](https://arxiv.org/abs/2312.02151)]
+[[Code](https://github.com/wgcban/mix-bt)]
+
 * **Robust Image Denoising through Adversarial Frequency Mixup**<br>
 *Donghun Ryou, Inju Ha, Hyewon Yoo, Dongwan Kim, Bohyung Han*<br>
 CVPR'2024 [[Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Ryou_Robust_Image_Denoising_through_Adversarial_Frequency_Mixup_CVPR_2024_paper.pdf)]
 [[Code](https://github.com/dhryougit/AFM)]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-####################################################
-
-* **Inter-Instance Similarity Modeling for Contrastive Learning**<br>
-*Chengchao Shen, Dawei Liu, Hao Tang, Zhe Qu, Jianxin Wang*<br>
-arXiv'2023 [[Paper](https://arxiv.org/abs/2306.12243)]
-[[Code](https://github.com/visresearch/patchmix)]
-   <details close>
-   <summary>PatchMix Framework</summary>
-   <p align="center"><img width="50%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/250166870-98280c28-2736-4f08-a418-d28e9ba3a588.png" /></p>
-   </details>
-
-* **Guarding Barlow Twins Against Overfitting with Mixed Samples**<br>
-*Wele Gedara Chaminda Bandara, Celso M. De Melo, Vishal M. Patel*<br>
-arXiv'2023 [[Paper](https://arxiv.org/abs/2312.02151)]
-[[Code](https://github.com/wgcban/mix-bt)]
-   <details close>
-   <summary>PatchMix Framework</summary>
-   <p align="center"><img width="80%" src="https://github.com/Westlake-AI/Awesome-Mixup/assets/44519745/342f7dba-ccff-4b22-99e7-3d1d965ea1ee" /></p>
-   </details>
 
 ## Analysis of Mixup
 
@@ -1853,59 +1928,6 @@ arXiv'2023 [[Paper](https://arxiv.org/abs/2303.14608)]
 * **Selective Mixup Helps with Distribution Shifts, But Not (Only) because of Mixup**<br>
 *Damien Teney, Jindong Wang, Ehsan Abbasnejad*<br>
 arXiv'2023 [[Paper](https://arxiv.org/abs/2305.16817)]
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-## Natural Language Processing
-
-* **Augmenting Data with Mixup for Sentence Classification: An Empirical Study**<br>
-*Hongyu Guo, Yongyi Mao, Richong Zhang*<br>
-arXiv'2019 [[Paper](https://arxiv.org/abs/1905.08941)]
-[[Code](https://github.com/dsfsi/textaugment)]
-
-* **Mixup-Transformer: Dynamic Data Augmentation for NLP Tasks**<br>
-*Lichao Sun, Congying Xia, Wenpeng Yin, Tingting Liang, Philip S. Yu, Lifang He*<br>
-COLING'2020 [[Paper](https://arxiv.org/abs/2010.02394)]
-
-* **Calibrated Language Model Fine-Tuning for In- and Out-of-Distribution Data**<br>
-*Lingkai Kong, Haoming Jiang, Yuchen Zhuang, Jie Lyu, Tuo Zhao, Chao Zhang*<br>
-EMNLP'2020 [[Paper](https://arxiv.org/abs/2010.11506)]
-[[Code](https://github.com/Lingkai-Kong/Calibrated-BERT-Fine-Tuning)]
-
-* **Augmenting NLP Models using Latent Feature Interpolations**<br>
-*Amit Jindal, Arijit Ghosh Chowdhury, Aniket Didolkar, Di Jin, Ramit Sawhney, Rajiv Ratn Shah*<br>
-COLING'2020 [[Paper](https://aclanthology.org/2020.coling-main.611/)]
-
-* **MixText: Linguistically-informed Interpolation of Hidden Space for Semi-Supervised Text Classification**<br>
-*Jiaao Chen, Zichao Yang, Diyi Yang*<br>
-ACL'2020 [[Paper](https://arxiv.org/abs/2004.12239)]
-[[Code](https://github.com/GT-SALT/MixText)]
-
-* **TreeMix: Compositional Constituency-based Data Augmentation for Natural Language Understanding**<br>
-*Le Zhang, Zichao Yang, Diyi Yang*<br>
-NAALC'2022 [[Paper](https://arxiv.org/abs/2205.06153)]
-[[Code](https://github.com/magiccircuit/treemix)]
-
-* **STEMM: Self-learning with Speech-text Manifold Mixup for Speech Translation**<br>
-*Qingkai Fang, Rong Ye, Lei Li, Yang Feng, Mingxuan Wang*<br>
-ACL'2022 [[Paper](https://arxiv.org/abs/2010.02394)]
-[[Code](https://github.com/ictnlp/STEMM)]
-
-* **Enhancing Cross-lingual Transfer by Manifold Mixup**<br>
-*Huiyun Yang, Huadong Chen, Hao Zhou, Lei Li*<br>
-ICLR'2022 [[Paper](https://arxiv.org/abs/2205.04182)]
-[[Code](https://github.com/yhy1117/x-mixup)]
-
-## Graph Representation Learning
-
-* **Fused Gromov-Wasserstein Graph Mixup for Graph-level Classifications**<br>
-*Xinyu Ma, Xu Chu, Yasha Wang, Yang Lin, Junfeng Zhao, Liantao Ma, Wenwu Zhu*<br>
-NIPS'2023 [[Paper](https://arxiv.org/abs/2306.15963)]
-[[code](https://github.com/ArthurLeoM/FGWMixup)]
-
-* **G-Mixup: Graph Data Augmentation for Graph Classification**<br>
-*Xiaotian Han, Zhimeng Jiang, Ninghao Liu, Xia Hu*<br>
-NIPS'2023 [[Paper](https://arxiv.org/abs/2202.07179)]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
