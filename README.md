@@ -1678,17 +1678,6 @@ ICLR'2022 [[Paper](https://arxiv.org/abs/2205.04182)]
 *Yong Cheng, Ankur Bapna, Orhan Firat, Yuan Cao, Pidong Wang, Wolfgang Macherey*<br>
 ACL'2022 [[Paper](https://aclanthology.org/2022.acl-long.282/)]
 
-## Graph Representation Learning
-
-* **Fused Gromov-Wasserstein Graph Mixup for Graph-level Classifications**<br>
-*Xinyu Ma, Xu Chu, Yasha Wang, Yang Lin, Junfeng Zhao, Liantao Ma, Wenwu Zhu*<br>
-NIPS'2023 [[Paper](https://arxiv.org/abs/2306.15963)]
-[[code](https://github.com/ArthurLeoM/FGWMixup)]
-
-* **G-Mixup: Graph Data Augmentation for Graph Classification**<br>
-*Xiaotian Han, Zhimeng Jiang, Ninghao Liu, Xia Hu*<br>
-NIPS'2023 [[Paper](https://arxiv.org/abs/2202.07179)]
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### **GNN**
@@ -1728,6 +1717,11 @@ AAAI'2022 [[Paper](https://arxiv.org/abs/2111.05639)]
 * **G-Mixup: Graph Data Augmentation for Graph Classification**<br>
 *Xiaotian Han, Zhimeng Jiang, Ninghao Liu, Xia Hu*<br>
 ICML'2022 [[Paper](https://arxiv.org/abs/2202.07179)]
+
+* **Fused Gromov-Wasserstein Graph Mixup for Graph-level Classifications**<br>
+*Xinyu Ma, Xu Chu, Yasha Wang, Yang Lin, Junfeng Zhao, Liantao Ma, Wenwu Zhu*<br>
+NIPS'2023 [[Paper](https://arxiv.org/abs/2306.15963)]
+[[code](https://github.com/ArthurLeoM/FGWMixup)]
 
 * **iGraphMix: Input Graph Mixup Method for Node Classification**<br>
 *Jongwon Jeong, Hoyeop Lee, Hyui Geon Yoon, Beomyoung Lee, Junhee Heo, Geonsoo Kim, Kim Jin Seon*<br>
