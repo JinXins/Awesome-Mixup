@@ -105,7 +105,7 @@ ICLR'2020 [[Paper](https://arxiv.org/abs/1912.02781)]
 
 * **DJMix: Unsupervised Task-agnostic Augmentation for Improving Robustness**<br>
 *Ryuichiro Hataya, Hideki Nakayama*<br>
-Arxiv'2021 [[Paper](https://openreview.net/pdf?id=0n3BaVlNsHI)]
+arXiv'2021 [[Paper](https://openreview.net/pdf?id=0n3BaVlNsHI)]
    <details close>
    <summary>DJMix Framework</summary>
    <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/204567516-3d058e8c-4232-4af4-b7a8-efa3a1298a1b.png" /></p>
@@ -113,7 +113,7 @@ Arxiv'2021 [[Paper](https://openreview.net/pdf?id=0n3BaVlNsHI)]
 
 * **PixMix: Dreamlike Pictures Comprehensively Improve Safety Measures**<br>
 *Dan Hendrycks, Andy Zou, Mantas Mazeika, Leonard Tang, Bo Li, Dawn Song, Jacob Steinhardt*<br>
-Arxiv'2021 [[Paper](https://arxiv.org/abs/2112.05135)]
+arXiv'2021 [[Paper](https://arxiv.org/abs/2112.05135)]
 [[Code](https://github.com/andyzoujm/pixmix)]
    <details close>
    <summary>PixMix Framework</summary>
@@ -144,7 +144,7 @@ ICML'2019 [[Paper](https://arxiv.org/abs/1806.05236)]
 
 * **PatchUp: A Regularization Technique for Convolutional Neural Networks**<br>
 *Mojtaba Faramarzi, Mohammad Amini, Akilesh Badrinaaraayanan, Vikas Verma, Sarath Chandar*<br>
-Arxiv'2020 [[Paper](https://arxiv.org/abs/2006.07794)]
+arXiv'2020 [[Paper](https://arxiv.org/abs/2006.07794)]
 [[Code](https://github.com/chandar-lab/PatchUp)]
    <details close>
    <summary>PatchUp Framework</summary>
@@ -192,7 +192,7 @@ WACV'2019 [[Paper](https://arxiv.org/abs/1805.11272)]
 
 * **Patch-level Neighborhood Interpolation: A General and Effective Graph-based Regularization Strategy**<br>
 *Ke Sun, Bing Yu, Zhouchen Lin, Zhanxing Zhu*<br>
-ArXiv'2019 [[Paper](https://arxiv.org/abs/1911.09307)]
+arXiv'2019 [[Paper](https://arxiv.org/abs/1911.09307)]
    <details close>
    <summary>Pani VAT Framework</summary>
    <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/204572993-8b3fa627-8c36-4763-a2a6-c9a90c5f0fc2.png" /></p>
@@ -200,7 +200,7 @@ ArXiv'2019 [[Paper](https://arxiv.org/abs/1911.09307)]
 
 * **FMix: Enhancing Mixed Sample Data Augmentation**<br>
 *Ethan Harris, Antonia Marcu, Matthew Painter, Mahesan Niranjan, Adam Prügel-Bennett, Jonathon Hare*<br>
-Arixv'2020 [[Paper](https://arxiv.org/abs/2002.12047)]
+arXiv'2020 [[Paper](https://arxiv.org/abs/2002.12047)]
 [[Code](https://github.com/ecs-vlc/FMix)]
    <details close>
    <summary>FMix Framework</summary>
@@ -227,7 +227,7 @@ Pattern Recognition'2021 [[Paper](https://www.sciencedirect.com/science/article/
 
 * **ResizeMix: Mixing Data with Preserved Object Information and True Labels**<br>
 *Jie Qin, Jiemin Fang, Qian Zhang, Wenyu Liu, Xingang Wang, Xinggang Wang*<br>
-Arixv'2020 [[Paper](https://arxiv.org/abs/2012.11101)]
+arXiv'2020 [[Paper](https://arxiv.org/abs/2012.11101)]
 [[Code](https://github.com/Westlake-AI/openmixup)]
    <details close>
    <summary>ResizeMix Framework</summary>
@@ -244,7 +244,7 @@ UAI'2022 [[Paper](https://arxiv.org/abs/2011.12618)]
 
 * **SuperpixelGridCut, SuperpixelGridMean and SuperpixelGridMix Data Augmentation**<br>
 *Karim Hammoudi, Adnane Cabani, Bouthaina Slika, Halim Benhabiles, Fadi Dornaika, Mahmoud Melkemi*<br>
-ArXiv'2022 [[Paper](https://arxiv.org/abs/2204.08458)]
+arXiv'2022 [[Paper](https://arxiv.org/abs/2204.08458)]
 [[Code](https://github.com/hammoudiproject/SuperpixelGridMasks)]
    <details close>
    <summary>SuperpixelGridCut Framework</summary>
@@ -271,7 +271,7 @@ ICML'2022 [[Paper](https://arxiv.org/abs/2201.12078)]
 
 * **StarLKNet: Star Mixup with Large Kernel Networks for Palm Vein Identification**<br>
 *Xin Jin, Hongyu Zhu, Mounîm A.El Yacoubi, Hongchao Liao, Huafeng Qin, Yun Jiang*<br>
-ArXiv'2024 [[Paper](https://arxiv.org/abs/2405.12721)]
+arXiv'2024 [[Paper](https://arxiv.org/abs/2405.12721)]
    <details close>
    <summary>StarMix Framework</summary>
    <p align="center"><img width="90%" src="https://github.com/user-attachments/assets/44dbc86b-f7cd-4836-a93e-835f78d21ec8" /></p>
@@ -300,7 +300,7 @@ IEEE TCSVT'2020 [[Paper](https://arxiv.org/abs/1811.09030)]
 
 * **k-Mixup Regularization for Deep Learning via Optimal Transport**<br>
 *Kristjan Greenewald, Anming Gu, Mikhail Yurochkin, Justin Solomon, Edward Chien*<br>
-ArXiv'2021 [[Paper](https://arxiv.org/abs/2106.02933)]
+arXiv'2021 [[Paper](https://arxiv.org/abs/2106.02933)]
    <details close>
    <summary>k-Mixup Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204569488-d4862400-3304-488d-ad24-06eff4e0c0b2.png" /></p>
@@ -337,7 +337,7 @@ ACM MM;2021 [[Paper](https://arxiv.org/abs/2103.05342)]
 
 * **RandomMix: A mixed sample data augmentation method with multiple mixed modes**<br>
 *Xiaoliang Liu, Furao Shen, Jian Zhao, Changhai Nie*<br>
-ArXiv'2022 [[Paper](https://arxiv.org/abs/2205.08728)]
+arXiv'2022 [[Paper](https://arxiv.org/abs/2205.08728)]
    <details close>
    <summary>RandomMix Framework</summary>
    <p align="center"><img width="70%" src="https://user-images.githubusercontent.com/44519745/204570320-2785207c-aced-4d94-a33e-98acfcbbaa3f.png" /></p>
@@ -477,7 +477,7 @@ ECCV'2022 [[Paper](https://arxiv.org/abs/2103.13027)]
 
 * **Boosting Discriminative Visual Representation Learning with Scenario-Agnostic Mixup**<br>
 *Siyuan Li, Zicheng Liu, Di Wu, Zihan Liu, Stan Z. Li*<br>
-Arxiv'2021 [[Paper](https://arxiv.org/abs/2111.15454)]
+arXiv'2021 [[Paper](https://arxiv.org/abs/2111.15454)]
 [[Code](https://github.com/Westlake-AI/openmixup)]
    <details close>
    <summary>SAMix Framework</summary>
@@ -756,7 +756,7 @@ NIPS'2022 [[Paper](https://arxiv.org/abs/2206.14502)]
 
 * **Metamixup: Learning adaptive interpolation policy of mixup with metalearning**<br>
 *Zhijun Mai, Guosheng Hu, Dexiong Chen, Fumin Shen, Heng Tao Shen*<br>
-TNNLS'2021 [[Paper](https://arxiv.org/abs/1908.10059)]
+IEEE TNNLS'2021 [[Paper](https://arxiv.org/abs/1908.10059)]
    <details close>
    <summary>MetaMixup Framework</summary>
    <p align="center"><img width="70%" src="https://user-images.githubusercontent.com/44519745/204576802-4aa83a66-61ac-40fd-8904-3b4f9eda62ef.png" /></p>
@@ -947,7 +947,7 @@ OpenReview'2021 [[Paper](https://openreview.net/forum?id=DnG8f7gweH4)]
 
 * **Boosting Discriminative Visual Representation Learning with Scenario-Agnostic Mixup**<br>
 *Siyuan Li, Zicheng Liu, Di Wu, Zihan Liu, Stan Z. Li*<br>
-Arxiv'2021 [[Paper](https://arxiv.org/abs/2111.15454)]
+arXiv'2021 [[Paper](https://arxiv.org/abs/2111.15454)]
 [[Code](https://github.com/Westlake-AI/openmixup)]
    <details close>
    <summary>SAMix Framework</summary>
@@ -1000,7 +1000,7 @@ CVPR'2022 [[Paper](https://arxiv.org/abs/2206.07692)]
 
 * **CropMix: Sampling a Rich Input Distribution via Multi-Scale Cropping**<br>
 *Junlin Han, Lars Petersson, Hongdong Li, Ian Reid*<br>
-ArXiv'2022 [[Paper](https://arxiv.org/abs/2205.15955)]
+arXiv'2022 [[Paper](https://arxiv.org/abs/2205.15955)]
 [[Code](https://github.com/JunlinHan/CropMix)]
    <details close>
    <summary>CropMix Framework</summary>
@@ -1064,7 +1064,7 @@ NIPS'2023 [[Paper](https://arxiv.org/abs/2203.03897)]
 
 * **i-MAE: Are Latent Representations in Masked Autoencoders Linearly Separable**<br>
 *Kevin Zhang, Zhiqiang Shen*<br>
-ArXiv'2022 [[Paper](https://arxiv.org/abs/2210.11470)]
+arXiv'2022 [[Paper](https://arxiv.org/abs/2210.11470)]
 [[Code](https://github.com/vision-learning-acceleration-lab/i-mae)]
    <details close>
    <summary>i-MAE Framework</summary>
@@ -1121,7 +1121,7 @@ ICLR'2020 [[Paper](https://arxiv.org/abs/2002.07394)]
 
 * **MixPUL: Consistency-based Augmentation for Positive and Unlabeled Learning**<br>
 *Tong Wei, Feng Shi, Hai Wang, Wei-Wei Tu. Yu-Feng Li*<br>
-ArXiv'2020 [[Paper](https://arxiv.org/abs/2004.09388)]
+arXiv'2020 [[Paper](https://arxiv.org/abs/2004.09388)]
    <details close>
    <summary>MixPUL Framework</summary>
 <!--    <p align="center"><img width="50%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/283528510-1f3b643c-0edd-416e-9979-110f3d2be6b6.png" /></p> -->
@@ -1138,7 +1138,7 @@ NIPS'2020 [[Paper](https://arxiv.org/abs/2003.12022)]
 
 * **Epsilon Consistent Mixup: Structural Regularization with an Adaptive Consistency-Interpolation Tradeoff**<br>
 *Vincent Pisztora, Yanglan Ou, Xiaolei Huang, Francesca Chiaromonte, Jia Li*<br>
-ArXiv'2021 [[Paper](https://arxiv.org/abs/2104.09452)]
+arXiv'2021 [[Paper](https://arxiv.org/abs/2104.09452)]
    <details close>
    <summary>Epsilon Consistent Mixup (ϵmu) Framework</summary>
    <p align="center"><img width="50%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/283528510-1f3b643c-0edd-416e-9979-110f3d2be6b6.png" /></p>
@@ -1162,7 +1162,7 @@ NN'2022 [[Paper](https://arxiv.org/abs/1903.03825)]
 
 * **Dual-Decoder Consistency via Pseudo-Labels Guided Data Augmentation for Semi-Supervised Medical Image Segmentation**<br>
 *Yuanbin Chen, Tao Wang, Hui Tang, Longxuan Zhao, Ruige Zong, Tao Tan, Xinlin Zhang, Tong Tong*<br>
-ArXiv'2023 [[Paper](https://arxiv.org/abs/2308.16573)]
+arXiv'2023 [[Paper](https://arxiv.org/abs/2308.16573)]
    <details close>
    <summary>DCPA Framework</summary>
    <p align="center"><img width="90%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/268410560-a45c03d9-beb1-4b74-a34b-4d1ecd356de9.png" /></p>
@@ -1188,7 +1188,7 @@ NIPS'2023 [[Paper](https://arxiv.org/abs/2203.10761)]
 
 * **Manifold DivideMix: A Semi-Supervised Contrastive Learning Framework for Severe Label Noise**<br>
 *Fahimeh Fooladgar, Minh Nguyen Nhat To, Parvin Mousavi, Purang Abolmaesumi*<br>
-Arxiv'2023 [[Paper](https://arxiv.org/abs/2308.06861)]
+arXiv'2023 [[Paper](https://arxiv.org/abs/2308.06861)]
 [[Code](https://github.com/Fahim-F/ManifoldDivideMix)]
    <details close>
    <summary>MixEMatch Framework</summary>
@@ -1206,7 +1206,7 @@ CVPR'2023 [[Paper](https://arxiv.org/abs/2207.00026)]
    
 * **PCLMix: Weakly Supervised Medical Image Segmentation via Pixel-Level Contrastive Learning and Dynamic Mix Augmentation**<br>
 *Yu Lei, Haolun Luo, Lituan Wang, Zhenwei Zhang, Lei Zhang*<br>
-ArXiv'2024 [[Paper](https://arxiv.org/abs/2405.06288)]
+arXiv'2024 [[Paper](https://arxiv.org/abs/2405.06288)]
 [[Code](https://github.com/Torpedo2648/PCLMix)]
    <details close>
    <summary>PCLMix Framework</summary>
@@ -1221,7 +1221,7 @@ ArXiv'2024 [[Paper](https://arxiv.org/abs/2405.06288)]
 
 * **RegMix: Data Mixing Augmentation for Regression**<br>
 *Seong-Hyeon Hwang, Steven Euijong Whang*<br>
-ArXiv'2021 [[Paper](https://arxiv.org/abs/2106.03374)]
+arXiv'2021 [[Paper](https://arxiv.org/abs/2106.03374)]
    <details close>
    <summary>MixRL Framework</summary>
    <p align="center"><img width="90%" src="https://github.com/user-attachments/assets/6849a6a4-a6cf-4bfc-b483-dd84589de6dc" /></p>
@@ -1229,7 +1229,7 @@ ArXiv'2021 [[Paper](https://arxiv.org/abs/2106.03374)]
 
 * **C-Mixup: Improving Generalization in Regression**<br>
 *Huaxiu Yao, Yiping Wang, Linjun Zhang, James Zou, Chelsea Finn*<br>
-NeurIPS'2022 [[Paper](https://arxiv.org/abs/2210.05775)]
+NIPS'2022 [[Paper](https://arxiv.org/abs/2210.05775)]
 [[Code](https://github.com/huaxiuyao/C-Mixup)]
    <details close>
    <summary>C-Mixup Framework</summary>
@@ -1246,16 +1246,16 @@ OpenReview'2022 [[Paper](https://openreview.net/forum?id=NgEuFT-SIgI)]
 
 * **Rank-N-Contrast: Learning Continuous Representations for Regression**<br>
 *Kaiwen Zha, Peng Cao, Jeany Son, Yuzhe Yang, Dina Katabi*<br>
-NeurIPS'2023 [[Paper](https://arxiv.org/abs/2210.01189)]
+NIPS'2023 [[Paper](https://arxiv.org/abs/2210.01189)]
 [[Code](https://github.com/kaiwenzha/Rank-N-Contrast)]
 
 * **Anchor Data Augmentation**<br>
 *Nora Schneider, Shirin Goshtasbpour, Fernando Perez-Cruz*<br>
-NeurIPS'2023 [[Paper](https://arxiv.org/abs/2311.06965)]
+NIPS'2023 [[Paper](https://arxiv.org/abs/2311.06965)]
 
 * **Mixup Your Own Pairs**<br>
 *Yilei Wu, Zijian Dong, Chongyao Chen, Wangchunshu Zhou, Juan Helen Zhou*<br>
-ArXiv'2023 [[Paper](https://arxiv.org/abs/2309.16633)]
+arXiv'2023 [[Paper](https://arxiv.org/abs/2309.16633)]
 [[Code](https://github.com/yilei-wu/supremix)]
    <details close>
    <summary>SupReMix Framework</summary>
@@ -1264,7 +1264,7 @@ ArXiv'2023 [[Paper](https://arxiv.org/abs/2309.16633)]
 
 * **Tailoring Mixup to Data using Kernel Warping functions**<br>
 *Quentin Bouniot, Pavlo Mozharovskyi, Florence d'Alché-Buc*<br>
-ArXiv'2023 [[Paper](https://arxiv.org/abs/2311.01434)]
+arXiv'2023 [[Paper](https://arxiv.org/abs/2311.01434)]
 [[Code](https://github.com/ENSTA-U2IS/torch-uncertainty)]
    <details close>
    <summary>Warped Mixup Framework</summary>
@@ -1366,7 +1366,7 @@ CVPR'2023 [[Paper](https://arxiv.org/abs/2207.00026)]
 
 * **Dual-Decoder Consistency via Pseudo-Labels Guided Data Augmentation for Semi-Supervised Medical Image Segmentation**<br>
 *Yuanbin Chen, Tao Wang, Hui Tang, Longxuan Zhao, Ruige Zong, Tao Tan, Xinlin Zhang, Tong Tong*<br>
-ArXiv'2023 [[Paper](https://arxiv.org/abs/2308.16573)]
+arXiv'2023 [[Paper](https://arxiv.org/abs/2308.16573)]
    <details close>
    <summary>DCPA Framework</summary>
    <p align="center"><img width="90%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/268410560-a45c03d9-beb1-4b74-a34b-4d1ecd356de9.png" /></p>
@@ -1374,7 +1374,7 @@ ArXiv'2023 [[Paper](https://arxiv.org/abs/2308.16573)]
 
 * **SA-MixNet: Structure-aware Mixup and Invariance Learning for Scribble-supervised Road Extraction in Remote Sensing Images**<br>
 *Jie Feng, Hao Huang, Junpeng Zhang, Weisheng Dong, Dingwen Zhang, Licheng Jiao*<br>
-ArXiv'2024 [[Paper](https://arxiv.org/abs/2403.01381)]
+arXiv'2024 [[Paper](https://arxiv.org/abs/2403.01381)]
 [[Code](https://github.com/xdu-jjgs/SA-MixNet-for-Scribble-based-Road-Extraction)]
    <details close>
    <summary>SA-MixNet Framework</summary>
@@ -1418,7 +1418,7 @@ CVPR'2022 [[Paper](https://arxiv.org/abs/2111.10958)]
 
 * **Mixed Pseudo Labels for Semi-Supervised Object Detection**<br>
 *Zeming Chen, Wenwei Zhang, Xinjiang Wang, Kai Chen, Zhi Wang*<br>
-ArXiv'2023 [[Paper](https://arxiv.org/abs/2312.07006)]
+arXiv'2023 [[Paper](https://arxiv.org/abs/2312.07006)]
 [[Code](https://github.com/czm369/mixpl)]
    <details close>
    <summary>MixPL Framework</summary>
@@ -1427,7 +1427,7 @@ ArXiv'2023 [[Paper](https://arxiv.org/abs/2312.07006)]
 
 * **MS-DETR: Efficient DETR Training with Mixed Supervision**<br>
 *Chuyang Zhao, Yifan Sun, Wenhao Wang, Qiang Chen, Errui Ding, Yi Yang, Jingdong Wang*<br>
-ArXiv'2024 [[Paper](https://arxiv.org/abs/2401.03989)]
+arXiv'2024 [[Paper](https://arxiv.org/abs/2401.03989)]
 [[Code](https://github.com/Atten4Vis/MS-DETR)]
    <details close>
    <summary>MS-DETR Framework</summary>
@@ -1482,7 +1482,7 @@ EMNLP'2021 [[Paper](https://arxiv.org/abs/2109.07177)]
 
 * **Adversarially Optimized Mixup for Robust Classification**<br>
 *Jason Bunk, Srinjoy Chattopadhyay, B. S. Manjunath, Shivkumar Chandrasekaran*<br>
-ArXiv'2021 [[Paper](https://arxiv.org/abs/2103.11589)]
+arXiv'2021 [[Paper](https://arxiv.org/abs/2103.11589)]
 
 * **Better Robustness by More Coverage: Adversarial and Mixup Data Augmentation for Robust Finetuning**<br>
 *Guillaume P. Archambault, Yongyi Mao, Hongyu Guo, Richong Zhang*<br>
@@ -1520,12 +1520,12 @@ NIPS'2021 [[Paper](https://arxiv.org/abs/2110.15128)]
 
 * **Virtual Mixup Training for Unsupervised Domain Adaptation**<br>
 *Xudong Mao, Yun Ma, Zhenguo Yang, Yangbin Chen, Qing Li*<br>
-ArXiv'2019 [[Paper](https://arxiv.org/abs/1905.04215)]
+arXiv'2019 [[Paper](https://arxiv.org/abs/1905.04215)]
 [[Code](https://github.com/xudonmao/VMT)]
 
 * **Improve Unsupervised Domain Adaptation with Mixup Training**<br>
 *Shen Yan, Huan Song, Nanxiang Li, Lincan Zou, Liu Ren*<br>
-ArXiv'2020 [[Paper](https://arxiv.org/abs/2001.00677)]
+arXiv'2020 [[Paper](https://arxiv.org/abs/2001.00677)]
 
 * **Adversarial Domain Adaptation with Domain Mixup**<br>
 *Minghao Xu, Jian Zhang, Bingbing Ni, Teng Li, Chengjie Wang, Qi Tian, Wenjun Zhang*<br>
@@ -1582,7 +1582,7 @@ ICML'2022 [[Paper](https://arxiv.org/abs/2206.08919)]
 
 * **Geodesic Multi-Modal Mixup for Robust Fine-Tuning**<br>
 *Changdae Oh, Junhyuk So, Hoyoon Byun, YongTaek Lim, Minchul Shin, Jong-June Jeon, Kyungwoo Song*<br>
-NeurIPS'2023 [[Paper](https://arxiv.org/abs/2203.03897)]
+NIPS'2023 [[Paper](https://arxiv.org/abs/2203.03897)]
 [[Code](https://github.com/changdaeoh/multimodal-mixup)]
 
 * **PowMix: A Versatile Regularizer for Multimodal Sentiment Analysis**<br>
@@ -1592,6 +1592,11 @@ arXiv'2023 [[Paper](https://arxiv.org/abs/2312.12334)]
    <summary>PowMix Framework</summary>
    <p align="center"><img width="85%" src="https://github.com/Westlake-AI/openmixup/assets/44519745/272e44b8-1872-4cdf-9a69-71e48cc428cd" /></p>
    </details>
+
+* **Enhance image classification via inter-class image mixup with diffusion model**<br>
+*Efthymios Georgiou, Yannis Avrithis, Alexandros Potamianos*<br>
+CVPR'2024 [[Paper](https://arxiv.org/abs/2312.12334)]
+[[Code](https://github.com/Zhicaiwww/Diff-Mix)]
    
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -1603,10 +1608,75 @@ arXiv'2023 [[Paper](https://arxiv.org/abs/2312.12334)]
 
 ### **GNN***
 
+* **Node Augmentation Methods for Graph Neural Network based Object Classification**<br>
+*Yifan Xue; Yixuan Liao; Xiaoxin Chen; Jingwei Zhao*<br>
+CDS'2021 [[Paper](https://ieeexplore.ieee.org/document/9463199/authors#authors)]
+
+* **Mixup for Node and Graph Classification**<br>
+*Yiwei Wang, Wei Wang, Yuxuan Liang, Yujun Cai, Bryan Hooi*<br>
+WWW'2021 [[Paper](https://dl.acm.org/doi/10.1145/3442381.3449796)]
+[[Code](https://github.com/vanoracai/MixupForGraph)]
+
+* **Graph Mixed Random Network Based on PageRank**<br>
+*Qianli Ma, Zheng Fan, Chenzhi Wang, Hongye Tan*<br>
+Symmetry'2022 [[Paper](https://www.mdpi.com/2073-8994/14/8/1678)]
+
+* **GraphSMOTE: Imbalanced Node Classification on Graphs with Graph Neural Networks**<br>
+*Tianxiang Zhao, Xiang Zhang, Suhang Wang*<br>
+WSDM'2021 [[Paper](https://arxiv.org/abs/2103.08826)]
+
+* **GraphMix: Improved Training of GNNs for Semi-Supervised Learning**<br>
+*Vikas Verma, Meng Qu, Kenji Kawaguchi, Alex Lamb, Yoshua Bengio, Juho Kannala, Jian Tang*<br>
+AAAI'2021 [[Paper](https://arxiv.org/abs/1909.11715)]
+[[Code](https://github.com/vikasverma1077/GraphMix)]
+
+* **GraphMixup: Improving Class-Imbalanced Node Classification on Graphs by Self-supervised Context Prediction**<br>
+*Lirong Wu, Haitao Lin, Zhangyang Gao, Cheng Tan, Stan.Z.Li*<br>
+ECML-PKDD'2022 [[Paper](https://link.springer.com/chapter/10.1007/978-3-031-19818-2_34)]
+[[Code](https://github.com/LirongWu/GraphMixup)]
+
+* **Graph Transplant: Node Saliency-Guided Graph Mixup with Local Structure Preservation**<br>
+*Joonhyung Park, Hajin Shim, Eunho Yang*<br>
+AAAI'2022 [[Paper](https://arxiv.org/abs/2111.05639)]
+[[Code](https://github.com/shimazing/Graph-Transplant)]
+
+* **G-Mixup: Graph Data Augmentation for Graph Classification**<br>
+*Xiaotian Han, Zhimeng Jiang, Ninghao Liu, Xia Hu*<br>
+ICML'2022 [[Paper](https://arxiv.org/abs/2202.07179)]
+
+* **iGraphMix: Input Graph Mixup Method for Node Classification**<br>
+*Jongwon Jeong, Hoyeop Lee, Hyui Geon Yoon, Beomyoung Lee, Junhee Heo, Geonsoo Kim, Kim Jin Seon*<br>
+ICLR'2024 [[Paper](https://openreview.net/forum?id=a2ljjXeDcE)]
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### **3D Point***
 
+* **PointMixup: Augmentation for Point Clouds**<br>
+*Yunlu Chen, Vincent Tao Hu, Efstratios Gavves, Thomas Mensink, Pascal Mettes, Pengwan Yang, Cees G.M. Snoek*<br>
+ECCV'2020 [[Paper](https://arxiv.org/abs/2008.06374)]
+[[Code](https://github.com/yunlu-chen/PointMixup/)]
+
+* **PointCutMix: Regularization Strategy for Point Cloud Classification**<br>
+*Jinlai Zhang, Lyujie Chen, Bo Ouyang, Binbin Liu, Jihong Zhu, Yujing Chen, Yanmei Meng, Danfeng Wu*<br>
+Neurocomputing'2022 [[Paper](https://arxiv.org/abs/2101.01461)]
+[[Code](https://github.com/cuge1995/PointCutMix)]
+
+* **Regularization Strategy for Point Cloud via Rigidly Mixed Sample**<br>
+*Dogyoon Lee, Jaeha Lee, Junhyeop Lee, Hyeongmin Lee, Minhyeok Lee, Sungmin Woo, Sangyoun Lee*<br>
+CVPR'2021 [[Paper](https://arxiv.org/abs/2102.01929)]
+[[Code](https://github.com/dogyoonlee/RSMix)]
+
+* **Part-Aware Data Augmentation for 3D Object Detection in Point Cloud**<br>
+*Jaeseok Choi, Yeji Song, Nojun Kwak*<br>
+IROS'2021 [[Paper](https://arxiv.org/abs/2007.13373)]
+[[Code](https://github.com/sky77764/pa-aug.pytorch)]
+
+* **Point MixSwap: Attentional Point Cloud Mixing via Swapping Matched Structural Divisions**<br>
+*Ardian Umam, Cheng-Kun Yang, Yung-Yu Chuang, Jen-Hui Chuang, Yen-Yu Lin*<br>
+ECCV'2022 [[Paper](https://link.springer.com/chapter/10.1007/978-3-031-19818-2_34)]
+[[Code](https://github.com/ardianumam/PointMixSwap)]
+   
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### **Other***
@@ -1621,7 +1691,7 @@ ICASSP'2022 [[Paper](https://arxiv.org/abs/2202.10672)]
 
 * **Guided Interpolation for Adversarial Training**<br>
 *Chen Chen, Jingfeng Zhang, Xilie Xu, Tianlei Hu, Gang Niu, Gang Chen, Masashi Sugiyama*<br>
-ArXiv'2021 [[Paper](https://arxiv.org/abs/2102.07327)]
+arXiv'2021 [[Paper](https://arxiv.org/abs/2102.07327)]
    <details close>
    <summary>GIF Framework</summary>
    <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/230494660-e99cf522-8fd7-4aa4-a4e4-d0385f82d032.png" /></p>
@@ -1695,7 +1765,7 @@ CVPR'2024 [[Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Ryou_Ro
 
 * **Inter-Instance Similarity Modeling for Contrastive Learning**<br>
 *Chengchao Shen, Dawei Liu, Hao Tang, Zhe Qu, Jianxin Wang*<br>
-ArXiv'2023 [[Paper](https://arxiv.org/abs/2306.12243)]
+arXiv'2023 [[Paper](https://arxiv.org/abs/2306.12243)]
 [[Code](https://github.com/visresearch/patchmix)]
    <details close>
    <summary>PatchMix Framework</summary>
@@ -1704,7 +1774,7 @@ ArXiv'2023 [[Paper](https://arxiv.org/abs/2306.12243)]
 
 * **Guarding Barlow Twins Against Overfitting with Mixed Samples**<br>
 *Wele Gedara Chaminda Bandara, Celso M. De Melo, Vishal M. Patel*<br>
-ArXiv'2023 [[Paper](https://arxiv.org/abs/2312.02151)]
+arXiv'2023 [[Paper](https://arxiv.org/abs/2312.02151)]
 [[Code](https://github.com/wgcban/mix-bt)]
    <details close>
    <summary>PatchMix Framework</summary>
@@ -1715,7 +1785,7 @@ ArXiv'2023 [[Paper](https://arxiv.org/abs/2312.02151)]
 
 * **On Mixup Training: Improved Calibration and Predictive Uncertainty for Deep Neural Networks**<br>
 *Sunil Thulasidasan, Gopinath Chennupati, Jeff Bilmes, Tanmoy Bhattacharya, Sarah Michalak*<br>
-NeurIPS'2019 [[Paper](https://arxiv.org/abs/1905.11001)]
+NIPS'2019 [[Paper](https://arxiv.org/abs/1905.11001)]
 [[Code](https://github.com/paganpasta/onmixup)]
    <details close>
    <summary>Framework</summary>
@@ -1724,7 +1794,7 @@ NeurIPS'2019 [[Paper](https://arxiv.org/abs/1905.11001)]
 
 * **On Mixup Regularization**<br>
 *Luigi Carratino, Moustapha Cissé, Rodolphe Jenatton, Jean-Philippe Vert*<br>
-ArXiv'2020 [[Paper](https://arxiv.org/abs/2006.06049)]
+arXiv'2020 [[Paper](https://arxiv.org/abs/2006.06049)]
    <details close>
    <summary>Framework</summary>
    <p align="center"><img width="75%" src="https://user-images.githubusercontent.com/44519745/204826066-62a66221-b023-462d-a9b7-89bbd7614425.png" /></p>
@@ -1830,12 +1900,12 @@ ICLR'2022 [[Paper](https://arxiv.org/abs/2205.04182)]
 
 * **Fused Gromov-Wasserstein Graph Mixup for Graph-level Classifications**<br>
 *Xinyu Ma, Xu Chu, Yasha Wang, Yang Lin, Junfeng Zhao, Liantao Ma, Wenwu Zhu*<br>
-NeurIPS'2023 [[Paper](https://arxiv.org/abs/2306.15963)]
+NIPS'2023 [[Paper](https://arxiv.org/abs/2306.15963)]
 [[code](https://github.com/ArthurLeoM/FGWMixup)]
 
 * **G-Mixup: Graph Data Augmentation for Graph Classification**<br>
 *Xiaotian Han, Zhimeng Jiang, Ninghao Liu, Xia Hu*<br>
-NeurIPS'2023 [[Paper](https://arxiv.org/abs/2202.07179)]
+NIPS'2023 [[Paper](https://arxiv.org/abs/2202.07179)]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -1851,26 +1921,26 @@ Artificial Intelligence Review'2022 [[Paper](https://link.springer.com/article/1
 
 * **Image Data Augmentation for Deep Learning: A Survey**<br>
 *Suorong Yang, Weikang Xiao, Mengcheng Zhang, Suhan Guo, Jian Zhao, Furao Shen*<br>
-ArXiv'2022 [[Paper](https://arxiv.org/abs/2204.08610)]
+arXiv'2022 [[Paper](https://arxiv.org/abs/2204.08610)]
 
 * **A Survey of Mix-based Data Augmentation: Taxonomy, Methods, Applications, and Explainability**<br>
 *Chengtai Cao, Fan Zhou, Yurou Dai, Jianping Wang*<br>
-ArXiv'2022 [[Paper](https://arxiv.org/abs/2212.10888)]
+arXiv'2022 [[Paper](https://arxiv.org/abs/2212.10888)]
 [[Code](https://github.com/ChengtaiCao/Awesome-Mix)]
 
 * **A Survey of Automated Data Augmentation for Image Classification: Learning to Compose, Mix, and Generate**<br>
 *Tsz-Him Cheung, Dit-Yan Yeung*<br>
-TNNLS'2023 [[Paper](https://ieeexplore.ieee.org/abstract/document/10158722)]
+IEEE TNNLS'2023 [[Paper](https://ieeexplore.ieee.org/abstract/document/10158722)]
 
 * **Survey: Image Mixing and Deleting for Data Augmentation**<br>
 *Humza Naveed, Saeed Anwar, Munawar Hayat, Kashif Javed, Ajmal Mian*<br>
-Engineering Applications of Artificial Intelligence'2024 [[Paper](https://arxiv.org/abs/2106.07085)]
+EAAI'2024 [[Paper](https://arxiv.org/abs/2106.07085)]
 
 ## Benchmark
 
 * **OpenMixup: A Comprehensive Mixup Benchmark for Visual Classification**<br>
 *Siyuan Li, Zedong Wang, Zicheng Liu, Di Wu, Cheng Tan, Weiyang Jin, Stan Z. Li*<br>
-ArXiv'2022 [[Paper](https://arxiv.org/abs/2209.04851)]
+NIPS'2024 [[Paper](https://arxiv.org/abs/2209.04851)]
 [[Code](https://github.com/Westlake-AI/openmixup)]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
