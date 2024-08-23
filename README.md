@@ -1462,9 +1462,90 @@ ICONIP'2022 [[Paper](https://link.springer.com/chapter/10.1007/978-981-99-1639-9
 
 ### **Adversarial Attack/Training***
 
+* **Addressing Neural Network Robustness with Mixup and Targeted Labeling Adversarial Training**<br>
+*Alfred Laugros, Alice Caplier, Matthieu Ospici*<br>
+ECCV'2020 [[Paper](https://arxiv.org/abs/2008.08384)]
+
+* **Mixup Inference: Better Exploiting Mixup to Defend Adversarial Attacks**<br>
+*Tianyu Pang, Kun Xu, Jun Zhu*<br>
+ICLR'2020 [[Paper](https://arxiv.org/abs/1909.11515)]
+[[Code](https://github.com/P2333/Mixup-Inference)]
+
+* **Adversarial Vertex Mixup: Toward Better Adversarially Robust Generalization**<br>
+*Saehyung Lee, Hyungyu Lee, Sungroh Yoon*<br>
+CVPR'2020 [[Paper](https://arxiv.org/abs/2003.02484)]
+[[Code](https://github.com/Saehyung-Lee/cifar10_challenge)]
+
+* **Adversarial Mixing Policy for Relaxing Locally Linear Constraints in Mixup**<br>
+*Guang Liu, Yuzhao Mao, Hailong Huang, Weiguo Gao, Xuan Li*<br>
+EMNLP'2021 [[Paper](https://arxiv.org/abs/2109.07177)]
+
+* **Adversarially Optimized Mixup for Robust Classification**<br>
+*Jason Bunk, Srinjoy Chattopadhyay, B. S. Manjunath, Shivkumar Chandrasekaran*<br>
+ArXiv'2021 [[Paper](https://arxiv.org/abs/2103.11589)]
+
+* **Better Robustness by More Coverage: Adversarial and Mixup Data Augmentation for Robust Finetuning**<br>
+*Guillaume P. Archambault, Yongyi Mao, Hongyu Guo, Richong Zhang*<br>
+ACL'2021 [[Paper](https://aclanthology.org/2021.findings-acl.137/)]
+
+* **Interpolated Adversarial Training: Achieving Robust Neural Networks without Sacrificing Too Much Accuracy**<br>
+*Alex Lamb, Vikas Verma, Kenji Kawaguchi, Alexander Matyasko, Savya Khosla, Juho Kannala, Yoshua Bengio*<br>
+NN'2021 [[Paper](https://arxiv.org/abs/1906.06784)]
+
+* **Semi-supervised Semantics-guided Adversarial Training for Trajectory Prediction**<br>
+*Ruochen Jiao, Xiangguo Liu, Takami Sato, Qi Alfred Chen, Qi Zhu*<br>
+ICCV'2023 [[Paper](https://ieeexplore.ieee.org/document/10376952)]
+
+* **Mixup as directional adversarial training**<br>
+*Guillaume P. Archambault, Yongyi Mao, Hongyu Guo, Richong Zhang*<br>
+NIPS'2019 [[Paper](https://arxiv.org/abs/1906.06875)]
+[[Code](https://github.com/mixupAsDirectionalAdversarial/mixup_as_dat)]
+
+* **On the benefits of defining vicinal distributions in latent space**<br>
+*Puneet Mangla, Vedant Singh, Shreyas Jayant Havaldar, Vineeth N Balasubramanian*<br>
+CVPRW'2021 [[Paper](https://arxiv.org/abs/2003.06566)]
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### **Domain Adaption***
+
+* **Mix-up Self-Supervised Learning for Contrast-agnostic Applications**<br>
+*Yichen Zhang, Yifang Yin, Ying Zhang, Roger Zimmermann*<br>
+ICDE'2022 [[Paper](https://arxiv.org/abs/2204.00901)]
+
+* **Contrast and Mix: Temporal Contrastive Video Domain Adaptation with Background Mixing**<br>
+*Aadarsh Sahoo, Rutav Shah, Rameswar Panda, Kate Saenko, Abir Das*<br>
+NIPS'2021 [[Paper](https://arxiv.org/abs/2110.15128)]
+[[Code](https://github.com/CVIR/CoMix)]
+
+* **Virtual Mixup Training for Unsupervised Domain Adaptation**<br>
+*Xudong Mao, Yun Ma, Zhenguo Yang, Yangbin Chen, Qing Li*<br>
+ArXiv'2019 [[Paper](https://arxiv.org/abs/1905.04215)]
+[[Code](https://github.com/xudonmao/VMT)]
+
+* **Improve Unsupervised Domain Adaptation with Mixup Training**<br>
+*Shen Yan, Huan Song, Nanxiang Li, Lincan Zou, Liu Ren*<br>
+ArXiv'2020 [[Paper](https://arxiv.org/abs/2001.00677)]
+
+* **Adversarial Domain Adaptation with Domain Mixup**<br>
+*Minghao Xu, Jian Zhang, Bingbing Ni, Teng Li, Chengjie Wang, Qi Tian, Wenjun Zhang*<br>
+AAAI'2020 [[Paper](https://arxiv.org/abs/1912.01805)]
+[[Code](https://github.com/ChrisAllenMing/Mixup_for_UDA)]
+
+* **Dual Mixup Regularized Learning for Adversarial Domain Adaptation**<br>
+*Yuan Wu, Diana Inkpen, Ahmed El-Roby*<br>
+ECCV'2020 [[Paper](https://arxiv.org/abs/2007.03141)]
+[[Code](https://github.com/YuanWu3/Dual-Mixup-Regularized-Learning-for-Adversarial-Domain-Adaptation)]
+
+* **Select, Label, and Mix: Learning Discriminative Invariant Feature Representations for Partial Domain Adaptation**<br>
+*Aadarsh Sahoo, Rameswar Panda, Rogerio Feris, Kate Saenko, Abir Das*<br>
+WACV'2023 [[Paper](https://arxiv.org/abs/2012.03358)]
+[[Code](https://github.com/CVIR/SLM)]
+
+* **Spectral Adversarial MixUp for Few-Shot Unsupervised Domain Adaptation**<br>
+*Jiajin Zhang, Hanqing Chao, Amit Dhurandhar, Pin-Yu Chen, Ali Tajer, Yangyang Xu, Pingkun Yan*<br>
+MICCAI'2023 [[Paper](https://arxiv.org/abs/2309.01207)]
+[[Code](https://github.com/RPIDIAL/SAMix)]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -1629,36 +1710,6 @@ ArXiv'2023 [[Paper](https://arxiv.org/abs/2312.02151)]
    <summary>PatchMix Framework</summary>
    <p align="center"><img width="80%" src="https://github.com/Westlake-AI/Awesome-Mixup/assets/44519745/342f7dba-ccff-4b22-99e7-3d1d965ea1ee" /></p>
    </details>
-
-## Mixup for Robustness
-
-* **Mixup as directional adversarial training**<br>
-*Guillaume P. Archambault, Yongyi Mao, Hongyu Guo, Richong Zhang*<br>
-NeurIPS'2019 [[Paper](https://arxiv.org/abs/1906.06875)]
-[[Code](https://github.com/mixupAsDirectionalAdversarial/mixup_as_dat)]
-
-* **Mixup Inference: Better Exploiting Mixup to Defend Adversarial Attacks**<br>
-*Tianyu Pang, Kun Xu, Jun Zhu*<br>
-ICLR'2020 [[Paper](https://arxiv.org/abs/1909.11515)]
-[[Code](https://github.com/P2333/Mixup-Inference)]
-
-* **Addressing Neural Network Robustness with Mixup and Targeted Labeling Adversarial Training**<br>
-*Alfred Laugros, Alice Caplier, Matthieu Ospici*<br>
-ECCV'2020 [[Paper](https://arxiv.org/abs/2008.08384)]
-
-* **Mixup Training as the Complexity Reduction**<br>
-*Masanari Kimura*<br>
-OpenReview'2021 [[Paper](https://openreview.net/forum?id=xvWZQtxI7qq)]
-
-* **Adversarial Vertex Mixup: Toward Better Adversarially Robust Generalization**<br>
-*Saehyung Lee, Hyungyu Lee, Sungroh Yoon*<br>
-CVPR'2020 [[Paper](https://arxiv.org/abs/2003.02484)]
-[[Code](https://github.com/Saehyung-Lee/cifar10_challenge)]
-
-* **On the benefits of defining vicinal distributions in latent space**<br>
-*Puneet Mangla, Vedant Singh, Shreyas Jayant Havaldar, Vineeth N Balasubramanian*<br>
-CVPRW'2021 [[Paper](https://arxiv.org/abs/2003.06566)]
-
 
 ## Analysis of Mixup
 
