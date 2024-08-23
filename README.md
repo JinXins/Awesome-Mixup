@@ -382,6 +382,8 @@ NIPS'2023 [[Paper](https://arxiv.org/abs/2206.14868)]
    <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/224786198-a85b76b9-0f8b-434d-be59-bbc41438aac9.png" /></p>
    </details>
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 #### **Saliency-based**
 
 * **SaliencyMix: A Saliency Guided Data Augmentation Strategy for Better Regularization**<br>
