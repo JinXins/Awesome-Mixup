@@ -1438,7 +1438,7 @@ arXiv'2024 [[Paper](https://arxiv.org/abs/2401.03989)]
 
 ## Training Paradigms
 
-### **Federated Learning***
+### **Federated Learning**
 
 * **XOR Mixup: Privacy-Preserving Data Augmentation for One-Shot Federated Learning**<br>
 *MyungJae Shin, Chihoon Hwang, Joongheon Kim, Jihong Park, Mehdi Bennis, Seong-Lyun Kim*<br>
@@ -1460,7 +1460,7 @@ ICONIP'2022 [[Paper](https://link.springer.com/chapter/10.1007/978-981-99-1639-9
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-### **Adversarial Attack/Training***
+### **Adversarial Attack/Training**
 
 * **Addressing Neural Network Robustness with Mixup and Targeted Labeling Adversarial Training**<br>
 *Alfred Laugros, Alice Caplier, Matthieu Ospici*<br>
@@ -1507,7 +1507,7 @@ CVPRW'2021 [[Paper](https://arxiv.org/abs/2003.06566)]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-### **Domain Adaption***
+### **Domain Adaption**
 
 * **Mix-up Self-Supervised Learning for Contrast-agnostic Applications**<br>
 *Yichen Zhang, Yifang Yin, Ying Zhang, Roger Zimmermann*<br>
@@ -1565,7 +1565,7 @@ WACV'2023 [[Paper](https://arxiv.org/abs/2211.03946)]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-### **Multi-Modal***
+### **Multi-Modal**
 
 * **MixGen: A New Multi-Modal Data Augmentation**<br>
 *Xiaoshuai Hao, Yi Zhu, Srikar Appalaraju, Aston Zhang, Wanqian Zhang, Bo Li, Mu Li*<br>
@@ -1602,11 +1602,11 @@ CVPR'2024 [[Paper](https://arxiv.org/abs/2312.12334)]
 
 ## Beyond Vision
 
-### **NLP***
+### **NLP**
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-### **GNN***
+### **GNN**
 
 * **Node Augmentation Methods for Graph Neural Network based Object Classification**<br>
 *Yifan Xue; Yixuan Liao; Xiaoxin Chen; Jingwei Zhao*<br>
@@ -1650,7 +1650,7 @@ ICLR'2024 [[Paper](https://openreview.net/forum?id=a2ljjXeDcE)]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-### **3D Point***
+### **3D Point**
 
 * **PointMixup: Augmentation for Point Clouds**<br>
 *Yunlu Chen, Vincent Tao Hu, Efstratios Gavves, Thomas Mensink, Pascal Mettes, Pengwan Yang, Cees G.M. Snoek*<br>
@@ -1679,7 +1679,7 @@ ECCV'2022 [[Paper](https://link.springer.com/chapter/10.1007/978-3-031-19818-2_3
    
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-### **Other***
+### **Other**
 
 * **Contrastive-mixup Learning for Improved Speaker Verification**<br>
 *Xin Zhang, Minho Jin, Roger Cheng, Ruirui Li, Eunjung Han, Andreas Stolcke*<br>
