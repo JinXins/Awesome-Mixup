@@ -1760,88 +1760,94 @@ ECCV'2022 [[Paper](https://link.springer.com/chapter/10.1007/978-3-031-19818-2_3
 
 ### **Other**
 
-* **Contrastive-mixup Learning for Improved Speaker Verification**<br>
-*Xin Zhang, Minho Jin, Roger Cheng, Ruirui Li, Eunjung Han, Andreas Stolcke*<br>
-ICASSP'2022 [[Paper](https://arxiv.org/abs/2202.10672)]
-   <details close>
-   <summary>Mixup Framework</summary>
-   <p align="center"><img width="75%" src="https://user-images.githubusercontent.com/44519745/204584821-5ef0cdd9-37bf-437a-a139-d21068452be1.png" /></p>
-   </details>
+* **Embedding Expansion: Augmentation in Embedding Space for Deep Metric Learning**<br>
+*Byungsoo Ko, Geonmo Gu*<br>
+CVPR'2020 [[Paper](https://arxiv.org/abs/2003.02546)]
+[[Code](https://github.com/clovaai/embedding-expansion)]
+
+* **SalfMix: A Novel Single Image-Based Data Augmentation Technique Using a Saliency Map**<br>
+*Jaehyeop Choi, Chaehyeon Lee, Donggyu Lee, Heechul Jung*<br>
+Sensor'2021 [[Paper](https://pdfs.semanticscholar.org/1db9/c80edeed50858783c69237aeba764750e8b7.pdf?_ga=2.182064935.1813772674.1674154381-1810295069.1625160008)]
+
+* **Octave Mix: Data Augmentation Using Frequency Decomposition for Activity Recognition**<br>
+*Tatsuhito Hasegawa*<br>
+IEEE Access'2021 [[Paper](https://ieeexplore.ieee.org/document/9393911)]
 
 * **Guided Interpolation for Adversarial Training**<br>
 *Chen Chen, Jingfeng Zhang, Xilie Xu, Tianlei Hu, Gang Niu, Gang Chen, Masashi Sugiyama*<br>
 arXiv'2021 [[Paper](https://arxiv.org/abs/2102.07327)]
-   <details close>
-   <summary>GIF Framework</summary>
-   <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/230494660-e99cf522-8fd7-4aa4-a4e4-d0385f82d032.png" /></p>
-   </details>
+
+* **Recall@k Surrogate Loss with Large Batches and Similarity Mixup**<br>
+*Yash Patel, Giorgos Tolias, Jiri Matas*<br>
+CVPR'2022 [[Paper](https://arxiv.org/abs/2108.11179)]
+[[Code](https://github.com/yash0307/RecallatK_surrogate)]
+
+* **Contrastive-mixup Learning for Improved Speaker Verification**<br>
+*Xin Zhang, Minho Jin, Roger Cheng, Ruirui Li, Eunjung Han, Andreas Stolcke*<br>
+ICASSP'2022 [[Paper](https://arxiv.org/abs/2202.10672)]
 
 * **Noisy Feature Mixup**<br>
 *Soon Hoe Lim, N. Benjamin Erichson, Francisco Utrera, Winnie Xu, Michael W. Mahoney*<br>
 ICLR'2022 [[Paper](https://arxiv.org/abs/2110.02180)]
 [[Code](https://github.com/erichson/NFM)]
-   <details close>
-   <summary>NFM Framework</summary>
-   <p align="center"><img width="45%" src="https://user-images.githubusercontent.com/44519745/204569704-7de07797-b607-4750-9a46-c4387a539ac0.png" /></p>
-   </details>
 
-* **ContextMix: A context-aware data augmentation method for industrial visual inspection systems**<br>
-*Hyungmin Kim, Donghun Kim, Pyunghwan Ahn, Sungho Suh, Hansang Cho, Junmo Kim*<br>
-EAAI'2024 [[Paper](https://arxiv.org/abs/2401.10050)]
-   <details close>
-   <summary>ConvtextMix Framework</summary>
-   <p align="center"><img width="80%" src="https://github.com/Westlake-AI/Awesome-Mixup/assets/44519745/a2b50a9e-ca22-4c1f-9ba9-a3863b84a71a" /></p>
-   </details>
+* **It Takes Two to Tango: Mixup for Deep Metric Learning**<br>
+*Shashanka Venkataramanan, Bill Psomas, Ewa Kijak, Laurent Amsaleg, Konstantinos Karantzalos, Yannis Avrithis*<br>
+ICLR'2022 [[Paper](https://arxiv.org/abs/2106.04990)]
+[[Code](https://github.com/billpsomas/metrix)]
 
-* **SalfMix: A Novel Single Image-Based Data Augmentation Technique Using a Saliency Map**<br>
-*Jaehyeop Choi, Chaehyeon Lee, Donggyu Lee, Heechul Jung*<br>
-Sensor'2021 [[Paper](https://pdfs.semanticscholar.org/1db9/c80edeed50858783c69237aeba764750e8b7.pdf?_ga=2.182064935.1813772674.1674154381-1810295069.1625160008)]
-   <details close>
-   <summary>SalfMix Framework</summary>
-   <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/213535188-5255eb4c-83c8-40ca-86b9-44459b84d9a8.png" /></p>
-   </details>
+* **Representational Continuity for Unsupervised Continual Learning**<br>
+*Divyam Madaan, Jaehong Yoon, Yuanchun Li, Yunxin Liu, Sung Ju Hwang*<br>
+ICLR'2022 [[Paper](https://arxiv.org/abs/2110.06976)]
+[[Code](https://github.com/divyam3897/UCL)]
 
 * **Expeditious Saliency-guided Mix-up through Random Gradient Thresholding**<br>
 *Remy Sun, Clement Masson, Gilles Henaff, Nicolas Thome, Matthieu Cord.*<br>
 ICPR'2022 [[Paper](https://arxiv.org/abs/2205.10158)]
-   <details close>
-   <summary>SciMix Framework</summary>
-   <p align="center"><img width="85%" src="https://user-images.githubusercontent.com/44519745/204575557-ddc6644e-a5e4-49ae-a95d-59856cc99a25.png" /></p>
-   </details>
+
+* **Guarding Barlow Twins Against Overfitting with Mixed Samples**<br>
+*Wele Gedara Chaminda Bandara, Celso M. De Melo, Vishal M. Patel*<br>
+arXiv'2023 [[Paper](https://arxiv.org/abs/2312.02151)]
+[[Code](https://github.com/wgcban/mix-bt)]
 
 * **Infinite Class Mixup**<br>
 *Thomas Mensink, Pascal Mettes*<br>
 arXiv'2023 [[Paper](https://arxiv.org/abs/2305.10293)]
-   <details close>
-   <summary>IC-Mixup Framework</summary>
-   <p align="center"><img width="60%" src="https://github.com/Westlake-AI/openmixup/assets/44519745/5082d12b-8cb0-4a3e-8258-c0dbf78e3159" /></p>
-   </details>
 
 * **Semantic Equivariant Mixup**<br>
 *Zongbo Han, Tianchi Xie, Bingzhe Wu, Qinghua Hu, Changqing Zhang*<br>
 arXiv'2023 [[Paper](https://arxiv.org/abs/2308.06451)]
-   <details close>
-   <summary>SEM Framework</summary>
-   <p align="center"><img width="75%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/264147910-bbe70d79-b521-4de2-8c5e-251301cfc6ad.png" /></p>
-   </details>
 
 * **G-Mix: A Generalized Mixup Learning Framework Towards Flat Minima**<br>
 *Xingyu Li, Bo Tang*<br>
 arXiv'2023 [[Paper](https://arxiv.org/abs/2308.03236)]
-   <details close>
-   <summary>G-Mix Framework</summary>
-   <p align="center"><img width="70%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/264155347-1a94f3d1-a9d8-46e1-bb32-bed0bfb449ca.png" /></p>
-   </details>
 
 * **Inter-Instance Similarity Modeling for Contrastive Learning**<br>
 *Chengchao Shen, Dawei Liu, Hao Tang, Zhe Qu, Jianxin Wang*<br>
 arXiv'2023 [[Paper](https://arxiv.org/abs/2306.12243)]
 [[Code](https://github.com/visresearch/patchmix)]
 
-* **Guarding Barlow Twins Against Overfitting with Mixed Samples**<br>
-*Wele Gedara Chaminda Bandara, Celso M. De Melo, Vishal M. Patel*<br>
-arXiv'2023 [[Paper](https://arxiv.org/abs/2312.02151)]
-[[Code](https://github.com/wgcban/mix-bt)]
+* **Single-channel speech enhancement using learnable loss mixup**<br>
+*Oscar Chang, Dung N. Tran, Kazuhito Koishida*<br>
+arXiv'2023 [[Paper](https://arxiv.org/abs/2312.17255)]
+
+* **Selective Volume Mixup for Video Action Recognition**<br>
+*Yi Tan, Zhaofan Qiu, Yanbin Hao, Ting Yao, Xiangnan He, Tao Mei*<br>
+arXiv'2023 [[Paper](https://arxiv.org/abs/2309.09534)]
+
+* **Rethinking Data Augmentation for Image Super-resolution: A Comprehensive Analysis and a New Strategy**<br>
+*Jaejun Yoo, Namhyuk Ahn, Kyung-Ah Sohn*<br>
+CVPR'2020 & IJCV'2024 [[Paper](https://arxiv.org/abs/2110.06976)]
+[[Code](https://github.com/clovaai/cutblur)]
+
+* **DNABERT-S: Learning Species-Aware DNA Embedding with Genome Foundation Models**<br>
+*Zhihan Zhou, Weimin Wu, Harrison Ho, Jiayi Wang, Lizhen Shi, Ramana V Davuluri, Zhong Wang, Han Liu*<br>
+arXiv'2024 [[Paper](https://ieeexplore.ieee.org/document/9156551)]
+[[Code](https://github.com/MAGICS-LAB/DNABERT_S)]
+
+* **ContextMix: A context-aware data augmentation method for industrial visual inspection systems**<br>
+*Hyungmin Kim, Donghun Kim, Pyunghwan Ahn, Sungho Suh, Hansang Cho, Junmo Kim*<br>
+EAAI'2024 [[Paper](https://arxiv.org/abs/2401.10050)]
 
 * **Robust Image Denoising through Adversarial Frequency Mixup**<br>
 *Donghun Ryou, Inju Ha, Hyewon Yoo, Dongwan Kim, Bohyung Han*<br>
@@ -1852,55 +1858,58 @@ CVPR'2024 [[Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Ryou_Ro
 
 ## Analysis of Mixup
 
+* **Understanding Mixup Training Methods**<br>
+*Daojun Liang, Feng Yang, Tian Zhang, Peter Yang*<br>
+NIPS'2019 [[Paper](https://ieeexplore.ieee.org/document/8478159/authors#authors)]
+
+* **MixUp as Locally Linear Out-Of-Manifold Regularization**<br>
+*Hongyu Guo, Yongyi Mao, Richong Zhang*<br>
+AAAI'2019 [[Paper](https://arxiv.org/abs/1809.02499)]
+
+* **MixUp as Directional Adversarial Training**<br>
+*Chanwoo Park, Sangdoo Yun, Sanghyuk Chun*<br>
+NIPS'2019 [[Paper](https://arxiv.org/abs/1906.06875)]
+
 * **On Mixup Training: Improved Calibration and Predictive Uncertainty for Deep Neural Networks**<br>
 *Sunil Thulasidasan, Gopinath Chennupati, Jeff Bilmes, Tanmoy Bhattacharya, Sarah Michalak*<br>
 NIPS'2019 [[Paper](https://arxiv.org/abs/1905.11001)]
 [[Code](https://github.com/paganpasta/onmixup)]
-   <details close>
-   <summary>Framework</summary>
-   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/204825679-ee39834f-7346-4465-b58e-c4909dec767f.png" /></p>
-   </details>
 
 * **On Mixup Regularization**<br>
 *Luigi Carratino, Moustapha Cissé, Rodolphe Jenatton, Jean-Philippe Vert*<br>
 arXiv'2020 [[Paper](https://arxiv.org/abs/2006.06049)]
-   <details close>
-   <summary>Framework</summary>
-   <p align="center"><img width="75%" src="https://user-images.githubusercontent.com/44519745/204826066-62a66221-b023-462d-a9b7-89bbd7614425.png" /></p>
-   </details>
+
+* **Mixup Training as the Complexity Reduction**<br>
+*Masanari Kimura*<br>
+arXiv'2021 [[Paper](https://arxiv.org/abs/1906.06875)]
 
 * **How Does Mixup Help With Robustness and Generalization**<br>
 *Linjun Zhang, Zhun Deng, Kenji Kawaguchi, Amirata Ghorbani, James Zou*<br>
 ICLR'2021 [[Paper](https://arxiv.org/abs/2010.04819)]
-   <details close>
-   <summary>Framework</summary>
-   <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/204826319-9ae701af-ad99-4780-85a6-492839c5bcbf.png" /></p>
-   </details>
+
+* **Mixup Without Hesitation**<br>
+*Hao Yu, Huanyu Wang, Jianxin Wu*<br>
+ICIG'2022 [[Paper](https://arxiv.org/abs/2101.04342)]
+[[Code](https://github.com/yuhao318/mwh)]
+
+* **RegMixup: Mixup as a Regularizer Can Surprisingly Improve Accuracy and Out Distribution Robustness**<br>
+*Francesco Pinto, Harry Yang, Ser-Nam Lim, Philip H.S. Torr, Puneet K. Dokania*<br>
+NIPS'2022 [[Paper](https://arxiv.org/abs/2206.14502)]
+[[Code](https://github.com/FrancescoPinto/RegMixup)]
+
+* **A Unified Analysis of Mixed Sample Data Augmentation: A Loss Function Perspective**<br>
+*Chanwoo Park, Sangdoo Yun, Sanghyuk Chun*<br>
+NIPS'2022 [[Paper](https://arxiv.org/abs/2208.09913)]
+[[Code](https://github.com/naver-ai/hmix-gmix)]
 
 * **Towards Understanding the Data Dependency of Mixup-style Training**<br>
 *Muthu Chidambaram, Xiang Wang, Yuzheng Hu, Chenwei Wu, Rong Ge*<br>
 ICLR'2022 [[Paper](https://openreview.net/pdf?id=ieNJYujcGDO)]
 [[Code](https://github.com/2014mchidamb/Mixup-Data-Dependency)]
-   <details close>
-   <summary>Framework</summary>
-   <p align="center"><img width="65%" src="https://user-images.githubusercontent.com/44519745/204826671-e012b918-5a14-4b5f-929b-b2f079b79d3f.png" /></p>
-   </details>
 
 * **When and How Mixup Improves Calibration**<br>
 *Linjun Zhang, Zhun Deng, Kenji Kawaguchi, James Zou*<br>
 ICML'2022 [[Paper](https://arxiv.org/abs/2102.06289)]
-   <details close>
-   <summary>Framework</summary>
-   <p align="center"><img width="50%" src="https://user-images.githubusercontent.com/44519745/204827323-b854f0a0-803f-46f8-9b74-44970998b311.png" /></p>
-   </details>
-
-* **Over-Training with Mixup May Hurt Generalization**<br>
-*Zixuan Liu, Ziqiao Wang, Hongyu Guo, Yongyi Mao*<br>
-ICLR'2023 [[Paper](https://openreview.net/forum?id=JmkjrlVE-DG)]
-   <details close>
-   <summary>Framework</summary>
-   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/216831436-704b0427-61a0-42ff-b4e6-ab361be8b634.png" /></p>
-   </details>
 
 * **Provable Benefit of Mixup for Finding Optimal Decision Boundaries**<br>
 *Junsoo Oh, Chulhee Yun*<br>
@@ -1915,13 +1924,21 @@ CVPR'2023 [[Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_On
 WACV'2023 [[Paper](https://arxiv.org/abs/2211.03946)]
 [[Code](https://github.com/hchoi71/mix-kd)]
 
+* **Over-Training with Mixup May Hurt Generalization**<br>
+*Zixuan Liu, Ziqiao Wang, Hongyu Guo, Yongyi Mao*<br>
+ICLR'2023 [[Paper](https://openreview.net/forum?id=JmkjrlVE-DG)]
+
 * **Analyzing Effects of Mixed Sample Data Augmentation on Model Interpretability**<br>
 *Soyoun Won, Sung-Ho Bae, Seong Tae Kim*<br>
 arXiv'2023 [[Paper](https://arxiv.org/abs/2303.14608)]
 
 * **Selective Mixup Helps with Distribution Shifts, But Not (Only) because of Mixup**<br>
 *Damien Teney, Jindong Wang, Ehsan Abbasnejad*<br>
-arXiv'2023 [[Paper](https://arxiv.org/abs/2305.16817)]
+ICML'2024 [[Paper](https://arxiv.org/abs/2305.16817)]
+
+* **Pushing Boundaries: Mixup's Influence on Neural Collapse**<br>
+*Quinn Fisher, Haoming Meng, Vardan Papyan*<br>
+ICLR'2024 [[Paper](https://arxiv.org/abs/2402.06171)]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -1975,7 +1992,7 @@ PUBLISH'YEAR [[Paper](link)] [[Code](link)]
    </details>
 ```
 
-Current contributors include: Siyuan Li ([@Lupin1998](https://github.com/Lupin1998)), Zicheng Liu ([@pone7](https://github.com/pone7)), and Zedong Wang ([@Jacky1128](https://github.com/Jacky1128)). We thank all contributors for `Awesome-Mixup`!
+Current contributors include: Siyuan Li ([@Lupin1998](https://github.com/Lupin1998)), Xin Jin ([@JinXins](https://github.com/JinXins)), Zicheng Liu ([@pone7](https://github.com/pone7)), and Zedong Wang ([@Jacky1128](https://github.com/Jacky1128)). We thank all contributors for `Awesome-Mixup`!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
