@@ -1192,16 +1192,7 @@ CVPR'2023 [[Paper](https://arxiv.org/abs/2207.00026)]
    <summary>LaserMix Framework</summary>
    <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/209255964-69cab84b-ae54-4e74-be4f-a23a836c665c.png" /></p>
    </details>
-
-* **Mixed Pseudo Labels for Semi-Supervised Object Detection**<br>
-*Zeming Chen, Wenwei Zhang, Xinjiang Wang, Kai Chen, Zhi Wang*<br>
-ArXiv'2023 [[Paper](https://arxiv.org/abs/2312.07006)]
-[[Code](https://github.com/czm369/mixpl)]
-   <details close>
-   <summary>MixPL Framework</summary>
-   <p align="center"><img width="90%" src="https://github.com/Westlake-AI/Awesome-Mixup/assets/44519745/c1ac594f-18bb-465b-b0e7-e96249231e2c" /></p>
-   </details>
-
+   
 * **PCLMix: Weakly Supervised Medical Image Segmentation via Pixel-Level Contrastive Learning and Dynamic Mix Augmentation**<br>
 *Yu Lei, Haolun Luo, Lituan Wang, Zhenwei Zhang, Lei Zhang*<br>
 ArXiv'2024 [[Paper](https://arxiv.org/abs/2405.06288)]
@@ -1276,6 +1267,161 @@ Openreview'2023 [[Paper](https://openreview.net/forum?id=6Uc7Fgwrsm)]
 * **Augment on Manifold: Mixup Regularization with UMAP**<br>
 *Yousef El-Laham, Elizabeth Fons, Dillon Daudert, Svitlana Vyetrenko*<br>
 ICASSP'2024 [[Paper](https://arxiv.org/abs/2210.01189)]
+
+### **Long tail distribution**
+
+* **Remix: Rebalanced Mixup**<br>
+*Hsin-Ping Chou, Shih-Chieh Chang, Jia-Yu Pan, Wei Wei, Da-Cheng Juan*<br>
+ECCVW'2020 [[Paper](https://arxiv.org/abs/2007.03943)]
+   <details close>
+   <summary>Remix Framework</summary>
+   <p align="center"><img width="85%" src="https://github.com/user-attachments/assets/c776fc89-559f-4e7b-b43a-3e154f3b87c6" /></p>
+   </details>
+
+* **Towards Calibrated Model for Long-Tailed Visual Recognition from Prior Perspective**<br>
+*Zhengzhuo Xu, Zenghao Chai, Chun Yuan*<br>
+NIPS'2021 [[Paper](https://arxiv.org/abs/2111.03874)]
+[[Code](https://github.com/XuZhengzhuo/Prior-LT)]
+   <details close>
+   <summary>UniMix Framework</summary>
+   <p align="center"><img width="85%" src="https://github.com/user-attachments/assets/3d7819d1-c2b8-488f-8a6d-8583a66c7f00" /></p>
+   </details>
+
+* **Label-Occurrence-Balanced Mixup for Long-tailed Recognition**<br>
+*Shaoyu Zhang, Chen Chen, Xiujuan Zhang, Silong Peng*<br>
+ICASSP'2022 [[Paper](https://arxiv.org/abs/2110.04964)]
+   <details close>
+   <summary>OBMix Framework</summary>
+   <p align="center"><img width="85%" src="https://github.com/user-attachments/assets/89ce6cd5-8f4a-442f-ab05-4549b04e4cb9" /></p>
+   </details>
+
+* **DBN-Mix: Training Dual Branch Network Using Bilateral Mixup Augmentation for Long-Tailed Visual Recognition**<br>
+*Jae Soon Baik, In Young Yoon, Jun Won Choi*<br>
+PR'2024 [[Paper](https://arxiv.org/abs/2110.04964)]
+   <details close>
+   <summary>DBN-Mix Framework</summary>
+   <p align="center"><img width="85%" src="https://github.com/user-attachments/assets/ee7988d0-022e-4155-ac69-5e3feaad4ed9" /></p>
+   </details>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### **Segmentation**
+
+* **ClassMix: Segmentation-Based Data Augmentation for Semi-Supervised Learning**<br>
+*Viktor Olsson, Wilhelm Tranheden, Juliano Pinto, Lennart Svensson*<br>
+WACV'2021 [[Paper](https://arxiv.org/abs/2007.07936)]
+[[Code](https://github.com/WilhelmT/ClassMix)]
+   <details close>
+   <summary>ClassMix Framework</summary>
+   <p align="center"><img width="80%" src="https://github.com/user-attachments/assets/a87397e1-c730-4ef6-a48a-3b2189462582" /></p>
+   </details>
+
+* **ChessMix: Spatial Context Data Augmentation for Remote Sensing Semantic Segmentation**<br>
+*Matheus Barros Pereira, Jefersson Alex dos Santos*<br>
+SIBGRAPI'2021 [[Paper](https://arxiv.org/abs/2108.11535)]
+   <details close>
+   <summary>ChessMix Framework</summary>
+   <p align="center"><img width="80%" src="https://github.com/user-attachments/assets/07b0d09d-8d38-4f1a-bb1c-bd5b54dfe770" /></p>
+   </details>
+
+* **CycleMix: A Holistic Strategy for Medical Image Segmentation from Scribble Supervision**<br>
+*Ke Zhang, Xiahai Zhuang*<br>
+CVPR'2022 [[Paper](https://arxiv.org/abs/2203.01475)]
+[[Code](https://github.com/BWGZK/CycleMix)]
+   <details close>
+   <summary>CyclesMix Framework</summary>
+   <p align="center"><img width="80%" src="https://github.com/user-attachments/assets/21ee4b1f-255b-4888-a2ec-fb46b7e69122" /></p>
+   </details>
+
+* **InsMix: Towards Realistic Generative Data Augmentation for Nuclei Instance Segmentation**<br>
+*Yi Lin, Zeyu Wang, Kwang-Ting Cheng, Hao Chen*<br>
+MICCAI'2022 [[Paper](https://arxiv.org/abs/2206.15134)]
+[[Code](https://github.com/hust-linyi/insmix)]
+   <details close>
+   <summary>InsMix Framework</summary>
+   <p align="center"><img width="80%" src="https://github.com/user-attachments/assets/4dc23fe3-9bf3-4a83-94fc-b03770e414d5" /></p>
+   </details>
+
+* **LaserMix for Semi-Supervised LiDAR Semantic Segmentation**<br>
+*Lingdong Kong, Jiawei Ren, Liang Pan, Ziwei Liu*<br>
+CVPR'2023 [[Paper](https://arxiv.org/abs/2207.00026)]
+[[Code](https://github.com/ldkong1205/LaserMix)] [[project](https://ldkong.com/LaserMix)]
+   <details close>
+   <summary>LaserMix Framework</summary>
+   <p align="center"><img width="90%" src="https://user-images.githubusercontent.com/44519745/209255964-69cab84b-ae54-4e74-be4f-a23a836c665c.png" /></p>
+   </details>
+
+* **Dual-Decoder Consistency via Pseudo-Labels Guided Data Augmentation for Semi-Supervised Medical Image Segmentation**<br>
+*Yuanbin Chen, Tao Wang, Hui Tang, Longxuan Zhao, Ruige Zong, Tao Tan, Xinlin Zhang, Tong Tong*<br>
+ArXiv'2023 [[Paper](https://arxiv.org/abs/2308.16573)]
+   <details close>
+   <summary>DCPA Framework</summary>
+   <p align="center"><img width="90%" src="https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/268410560-a45c03d9-beb1-4b74-a34b-4d1ecd356de9.png" /></p>
+   </details>
+
+* **SA-MixNet: Structure-aware Mixup and Invariance Learning for Scribble-supervised Road Extraction in Remote Sensing Images**<br>
+*Jie Feng, Hao Huang, Junpeng Zhang, Weisheng Dong, Dingwen Zhang, Licheng Jiao*<br>
+ArXiv'2024 [[Paper](https://arxiv.org/abs/2403.01381)]
+[[Code](https://github.com/xdu-jjgs/SA-MixNet-for-Scribble-based-Road-Extraction)]
+   <details close>
+   <summary>SA-MixNet Framework</summary>
+   <p align="center"><img width="80%" src="https://github.com/user-attachments/assets/a4a564f0-9032-4605-9eee-6f2a4337a94b" /></p>
+   </details>
+
+* **Constructing and Exploring Intermediate Domains in Mixed Domain Semi-supervised Medical Image Segmentation**<br>
+*Qinghe Ma, Jian Zhang, Lei Qi, Qian Yu, Yinghuan Shi, Yang Gao*<br>
+CVPR'2024 [[Paper](https://arxiv.org/abs/2404.08951)]
+[[Code](https://github.com/MQinghe/MiDSS)]
+   <details close>
+   <summary>MiDSS Framework</summary>
+   <p align="center"><img width="80%" src="https://github.com/user-attachments/assets/1080c789-5dc0-43eb-8e66-61c5eeba2c2f" /></p>
+   </details>
+
+* **UniMix: Towards Domain Adaptive and Generalizable LiDAR Semantic Segmentation in Adverse Weather**<br>
+*Haimei Zhao, Jing Zhang, Zhuo Chen, Shanshan Zhao, Dacheng Tao*<br>
+CVPR'2024 [[Paper](https://arxiv.org/abs/2404.05145)]
+[[Code](https://github.com/sunnyHelen/UniMix)]
+
+* **ModelMix: A Holistic Strategy for Medical Image Segmentation from Scribble Supervision**<br>
+*Ke Zhang, Vishal M. Patel*<br>
+MICCAI'2024 [[Paper](https://arxiv.org/abs/2406.13237)]
+   <details close>
+   <summary>ModelMix Framework</summary>
+   <p align="center"><img width="80%" src="https://github.com/user-attachments/assets/9b7a31eb-ddd1-4cad-b15b-52dffb6b52c3" /></p>
+   </details>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### **Object Detection**
+
+* **MUM: Mix Image Tiles and UnMix Feature Tiles for Semi-Supervised Object Detection**<br>
+*JongMok Kim, Jooyoung Jang, Seunghyeon Seo, Jisoo Jeong, Jongkeun Na, Nojun Kwak*<br>
+CVPR'2022 [[Paper](https://arxiv.org/abs/2111.10958)]
+[[Code](https://github.com/jongmokkim/mix-unmix)]
+   <details close>
+   <summary>MUM Framework</summary>
+   <p align="center"><img width="80%" src="https://user-images.githubusercontent.com/44519745/225082975-4143e7f5-8873-433c-ab6f-6caa615f7120.png" /></p>
+   </details>
+
+* **Mixed Pseudo Labels for Semi-Supervised Object Detection**<br>
+*Zeming Chen, Wenwei Zhang, Xinjiang Wang, Kai Chen, Zhi Wang*<br>
+ArXiv'2023 [[Paper](https://arxiv.org/abs/2312.07006)]
+[[Code](https://github.com/czm369/mixpl)]
+   <details close>
+   <summary>MixPL Framework</summary>
+   <p align="center"><img width="80%" src="https://github.com/Westlake-AI/Awesome-Mixup/assets/44519745/c1ac594f-18bb-465b-b0e7-e96249231e2c" /></p>
+   </details>
+
+* **MS-DETR: Efficient DETR Training with Mixed Supervision**<br>
+*Chuyang Zhao, Yifan Sun, Wenhao Wang, Qiang Chen, Errui Ding, Yi Yang, Jingdong Wang*<br>
+ArXiv'2024 [[Paper](https://arxiv.org/abs/2401.03989)]
+[[Code](https://github.com/Atten4Vis/MS-DETR)]
+   <details close>
+   <summary>MS-DETR Framework</summary>
+   <p align="center"><img width="80%" src="https://github.com/user-attachments/assets/5efea70c-d4f6-4ff8-819b-f68b99fa3c08" /></p>
+   </details>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ####################################################
 
@@ -1479,7 +1625,7 @@ ArXiv'2020 [[Paper](https://arxiv.org/abs/2006.06049)]
    <p align="center"><img width="75%" src="https://user-images.githubusercontent.com/44519745/204826066-62a66221-b023-462d-a9b7-89bbd7614425.png" /></p>
    </details>
 
-* **How Does Mixup Help With Robustness and Generalization?**<br>
+* **How Does Mixup Help With Robustness and Generalization**<br>
 *Linjun Zhang, Zhun Deng, Kenji Kawaguchi, Amirata Ghorbani, James Zou*<br>
 ICLR'2021 [[Paper](https://arxiv.org/abs/2010.04819)]
    <details close>
