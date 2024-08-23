@@ -1268,6 +1268,8 @@ Openreview'2023 [[Paper](https://openreview.net/forum?id=6Uc7Fgwrsm)]
 *Yousef El-Laham, Elizabeth Fons, Dillon Daudert, Svitlana Vyetrenko*<br>
 ICASSP'2024 [[Paper](https://arxiv.org/abs/2210.01189)]
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ### **Long tail distribution**
 
 * **Remix: Rebalanced Mixup**<br>
